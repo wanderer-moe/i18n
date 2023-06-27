@@ -78,7 +78,7 @@
     "faq": {
         "title": "FAQ",
         "purpose": "サイトの目的は何？",
-        "purposeAnswer": "wanderer.moe is a website that hosts a collection of assets from various games. The assets are organized by game and asset type. The sake of this website is to provide a centralized location for people to download assets from.",
+        "purposeAnswer": "wanderer.moeはあの色々なビデオゲームアセットのコレクションがあるのサイトです。アセットがゲームとアセットタイプで分類します。このサイトの目的は､人々はアセットをダウンロードのように一元なの場所が与えれます。",
         "downloadMultipleOrAll": "全てか多くのアセットダウンロードはどうやってか？",
         "downloadMultipleOrAllAnswer": "To download multiple assets, select the assets you want to download by clicking/tapping on them. Then click the 'Download Selected' button. To download all assets, click the 'Download All' button. This will save as a ZIP file in your Downloads folder.",
         "downloadOnMobile": "スマホでアセットダウンロードはどうやってか？",
