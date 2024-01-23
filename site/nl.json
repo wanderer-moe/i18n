@@ -1,98 +1,392 @@
 {
-    "home": {
-        "description": "Gecentraliseerde databank van meerdere spel asset",
-        "github": {
-            "desc": "Voor transparantie, wanderer.moe is nu een open bron op GiftHub. De code is toegankelijk voor iedereen om te zien en bijdragen! ",
-            "shortDesc": "Website bron code",
-            "webBtn": "Website Bron Code",
-            "apiBtn": "API Bron Code"
+    "collection": {
+        "name": "Collection Name",
+        "description": "Collection Description",
+        "visibility": {
+            "title": "Visibility",
+            "public": "Public",
+            "private": "Private"
         },
-        "donate": {
-            "title": "Doneer",
-            "shortDesc": "Steun de website",
-            "desc": "wanderer.moe is advertentie vrij en zal altijd gratis zijn om te gebruiken. Als je de website leuk vindt en wilt helpen met server kosten, onderhoud en ontwikkeling, overweeg doneren! "
+        "create": {
+            "title": "Create Collection",
+            "help": "Enter the name and description of the collection you want to create",
+            "placeholder": "Enter name",
+            "button": "Create Collection",
+            "success": "Successfully created collection",
+            "error": "Error creating collection"
         },
-        "discord": {
-            "desc": "Kom bij de Discord server voor updates, assets buiten de website, en meer! ",
-            "shortDesc": "{onlineCount} gebruikers momenteel online",
-            "btn": "Kom Bij De Server"
+        "modify": {
+            "title": "Modify Collection",
+            "help": "Enter the name and description of the collection you want to modify",
+            "placeholder": "Enter name",
+            "button": "Modify Collection",
+            "success": "Successfully modified collection",
+            "error": "Error modifying collection"
         },
-        "ocGen": {
-            "title": "OC Generators",
-            "shortDesc": "Willekeurig Gegenereerde OCs",
-            "desc": "Genereer spel-gerelateerde informatie over jouw originele karakter (bv karakter eigenschappen en uiterlijk)!"
+        "delete": {
+            "title": "Delete Collection",
+            "button": "Delete Collection",
+            "confirm": "Are you sure you want to delete {collectionName}?",
+            "success": "Successfully deleted collection",
+            "error": "Error deleting collection"
+        },
+        "details": {
+            "title": "Collection Details",
+            "name": "Name",
+            "description": "Description",
+            "visibility": "Visibility",
+            "createdAt": "Created at {date} by {username}",
+            "updatedAt": "Last updated at {date} by {username}"
+        },
+        "assets": {
+            "assets": "Assets",
+            "add": {
+                "title": "Add Asset",
+                "button": "Add Asset",
+                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
+                "success": "Successfully added asset",
+                "error": "Error adding asset"
+            },
+            "remove": {
+                "title": "Remove Asset",
+                "button": "Remove Asset",
+                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
+                "success": "Successfully removed asset",
+                "error": "Error removing asset"
+            }
+        },
+        "collaborators": {
+            "collaborators": "Collaborators",
+            "add": {
+                "title": "Add Collaborator",
+                "help": "Enter the username of the user you want to add as a collaborator",
+                "placeholder": "Enter username",
+                "confirm": "Are you sure you want to add {username} as a collection {role}?",
+                "button": "Add Collaborator",
+                "success": "Successfully added collaborator",
+                "error": "Error adding collaborator"
+            },
+            "remove": {
+                "title": "Remove Collaborator",
+                "button": "Remove Collaborator",
+                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
+                "success": "Successfully removed collaborator",
+                "error": "Error removing collaborator"
+            },
+            "permissions": {
+                "permissions": "Permissions",
+                "editor": {
+                    "title": "Editor",
+                    "desc": "Can add and remove assets from the collection and change collection details"
+                },
+                "collaborator": {
+                    "title": "Collaborator",
+                    "desc": "Can add and remove assets from the collection"
+                },
+                "viewer": {
+                    "title": "Viewer",
+                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                },
+                "owner": {
+                    "title": "Owner",
+                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                }
+            }
         }
     },
-    "nav": {
-        "discord": "Discord Server",
-        "giOCGen": "Genshin OC Generator",
-        "giFiles": "Genshin Bestanden"
-    },
-    "footer": {
-        "fanmadeNotice": "wanderer.moe is een door fans gemaakte website. Alle bestanden zijn eigendommen van hun beheerders.",
-        "assetRequestForm": "Asset Aanvraag Formulier"
-    },
-    "contributors": {
-        "title": "Bijdragers",
-        "desc": "Heel erg bedankt aan alle geweldige mensen die hebben bijgedragen aan de website!"
+    "asset": {
+        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "upload": {
+            "confirm": "Are you sure you want to upload {assetName}?",
+            "success": "Successfully uploaded {assetName} for review",
+            "error": "Error uploading {assetName}",
+            "dropzone": "Drag or click here to upload asset",
+            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
+            "uploading": "Uploading {assetName}..."
+        },
+        "modify": {
+            "confirm": "Are you sure you want to modify {assetName}?",
+            "success": "Successfully modified {assetName}",
+            "error": "Error modifying {assetName}",
+            "uploading": "Uploading {assetName}..."
+        },
+        "delete": {
+            "confirm": "Are you sure you want to delete {assetName}?",
+            "success": "Successfully deleted {assetName}",
+            "error": "Error deleting {assetName}"
+        },
+        "details": {
+            "uploadedBy": "Uploaded by {username}",
+            "extension": "File Type",
+            "uploadedOn": "Uploaded on {date}",
+            "status": {
+                "pending": "Pending",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            },
+            "viewCount": "{count} views",
+            "downloadCount": "{count} downloads",
+            "download": "Download",
+            "width": "Width",
+            "height": "Height"
+        },
+        "like": {
+            "like": {
+                "like": "Like",
+                "liked": "Liked",
+                "likes": "{count} likes",
+                "error": "Error liking asset",
+                "alreadyLiked": "You already liked this asset"
+            },
+            "unlike": {
+                "unlike": "Unlike",
+                "unliked": "Unliked",
+                "likes": "{count} likes",
+                "error": "Error unliking asset",
+                "notLiked": "You haven't liked this asset"
+            }
+        },
+        "favourite": {
+            "favourite": {
+                "favourite": "Favourite",
+                "favourited": "Favourited",
+                "favourites": "{count} favourites",
+                "error": "Error favouriting asset",
+                "alreadyFavourited": "You already favourited this asset"
+            },
+            "unfavourite": {
+                "unfavourite": "Unfavourite",
+                "unfavourited": "Unfavourited",
+                "favourites": "{count} favourites",
+                "error": "Error unfavouriting asset",
+                "notFavourited": "You haven't favourited this asset"
+            }
+        }
     },
     "game": {
-        "main": "{availableCategories} categorieën gevonden voor {game}",
-        "info": "Klik op een sectie om de inhoud te bekijken.",
-        "other": "{fileCount} Bestanden ({fileSize})"
+        "game": "Game",
+        "lastUpdated": "Last updated {date}",
+        "possibleSuggestiveContent": "This game has assets that may contain suggestive or triggering content.",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking game",
+            "alreadyLiked": "You already liked this game"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking game",
+            "notLiked": "You haven't liked this game"
+        }
     },
-    "asset": {
-        "main": "{filteredImagesCount}/{imagesCount} assets getoond, {selectedItemsCount} geselecteerd",
-        "info": "Klik op een asset om het te selecteren. Dubbel klik een afbeelding op het te vergroten. ",
-        "downloadAll": "Installeer Alles",
-        "downloadAllSize": "Installeer Alles ({size})",
-        "downloadSelected": "Download Geselecteerd",
-        "downloadSelectedSize": "Download Geselecteerd ({size})",
-        "download": "Installeer",
-        "downloadSize": "Installeer ({size})",
-        "officialAsset": "Officiële Asset",
-        "fanmadeAsset": "Door Fans Gemaakte Asset",
-        "searchBar": "Zoek voor een asset...",
-        "nothingFound": "Niks gevonden voor {query}",
-        "nothingFoundSuggestions": "Als er een asset is waarvoor je zoekt dat je toegevoegd wilt hebben, vul in de asset aanvraagformulier!",
-        "onMobile": "Als je problemen hebt met het installeren, lees de FAQ door te klikken op het info symbool naast de naam van het spel."
+    "assetCategory": {
+        "assetCategory": "Asset Category",
+        "lastUpdated": "Last updated {date}",
+        "possibleSuggestiveContent": "This asset category has assets that may contain suggestive or triggering content.",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking asset category",
+            "alreadyLiked": "You already liked this asset category"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking asset category",
+            "notLiked": "You haven't liked this asset category"
+        }
     },
-    "details": {
-        "lastUpdated": "Laatst Bijgewerkt: {date}",
-        "sortBy": "Sorteer Op",
-        "dateUploaded": "Bijgewerkt: {date}",
-        "sortByAlphabetical": "Alfabetisch (A-Z)",
-        "sortByAlphabeticalReverse": "Alfabetisch (Z-A)",
-        "sortByUploaded": "Bijgewerkt (Nieuwste)",
-        "sortByUploadedReverse": "Bijgewerkt (Oudste)",
-        "sortBySize": "Bestandsgrootte (Kleinste)",
-        "sortBySizeReverse": "Bestandsgrootte (Grootste)"
+    "tags": {
+        "tags": "Tags",
+        "noTags": "No tags",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking tag",
+            "alreadyLiked": "You already liked this tag"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking tag",
+            "notLiked": "You haven't liked this tag"
+        }
     },
-    "globalSearch": {
-        "searchBar": "Zoek voor een spel of asset..."
+    "search": {
+        "assets": {
+            "noResults": "No assets found",
+            "noResultsDesc": "Try changing your search query or filters",
+            "sideBar": {
+                "filters": "Filters",
+                "sort": {
+                    "sort": "Sort",
+                    "newest": "Newest",
+                    "oldest": "Oldest",
+                    "views": "Most Views",
+                    "downloads": "Most Downloads"
+                }
+            }
+        }
     },
-    "viewImage": {
-        "closeText": "Klik ergens om te sluiten",
-        "resolution": "Oplossing: {resolution}"
+    "account": {
+        "account": {
+            "account": "Account"
+        },
+        "follow": {
+            "status": {
+                "following": "Following",
+                "notFollowing": "Not Following",
+                "followsYou": "Follows You",
+                "mutual": "Mutual"
+            },
+            "count": {
+                "following": "{count} Following",
+                "followers": "{count} Followers"
+            },
+            "follow": {
+                "follow": "Follow",
+                "followed": "Followed",
+                "error": "Error following user",
+                "alreadyFollowed": "You already follow this user"
+            },
+            "unfollow": {
+                "unfollow": "Unfollow",
+                "unfollowed": "Unfollowed",
+                "error": "Error unfollowing user",
+                "notFollowed": "You don't follow this user"
+            }
+        },
+        "settings": {
+            "settings": "Settings",
+            "username": {
+                "title": "Username",
+                "help": "Your username is used to identify you on the site and is unique to you.",
+                "placeholder": "Enter username",
+                "button": "Change Username",
+                "success": "Successfully changed username",
+                "error": "Error changing username"
+            },
+            "email": {
+                "title": "Email",
+                "help": "Your email is used to identify you on the site and is unique to you. It must be a valid email address.",
+                "placeholder": "Enter email",
+                "button": "Change Email",
+                "success": "Successfully changed email",
+                "error": "Error changing email"
+            },
+            "providers": {
+                "discord": {
+                    "title": "Discord",
+                    "help": "Your Discord account is used to authenticate you on the site."
+                },
+                "google": {
+                    "title": "Google",
+                    "help": "Your Google account is used to authenticate you on the site."
+                },
+                "github": {
+                    "title": "GitHub",
+                    "help": "Your GitHub account is used to authenticate you on the site."
+                },
+                "twitter": {
+                    "title": "Twitter/X",
+                    "help": "Your Twitter/X account is used to authenticate you on the site."
+                },
+                "visibility": {
+                    "title": "Visibility",
+                    "public": "Public",
+                    "private": "Private"
+                }
+            },
+            "viewSuggestiveContent": {
+                "title": "View Suggestive Content",
+                "help": "This setting allows you to view suggestive/triggering content, this is stored locally on your device.",
+                "button": "Change View Suggestive Content",
+                "success": "Successfully changed view suggestive content",
+                "error": "Error changing view suggestive content"
+            },
+            "password": {
+                "title": "Password",
+                "help": "Your password is used to authenticate you on the site.",
+                "placeholder": "Enter password",
+                "button": "Change Password",
+                "success": "Successfully changed password",
+                "error": "Error changing password"
+            },
+            "delete": {
+                "title": "Delete Account",
+                "help": "Deleting your account will delete everything, including assets. You will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
+                "button": "Delete Account",
+                "confirm": "Are you sure you want to delete your account?",
+                "success": "Successfully disabled account, redirecting to home page...",
+                "error": "Error deleting account. Contact us at {email} for help."
+            }
+        }
     },
-    "faq": {
-        "title": "Vaak Gevraagde Vragen",
-        "purpose": "Wat is het doel van deze website?",
-        "purposeAnswer": "wanderer.moe is een website dat een collectie van assets beschikt van meerdere spellen.",
-        "downloadMultipleOrAll": "Hoe installeer ik meerdere of alle assets?",
-        "downloadMultipleOrAllAnswer": "Om meerdere assets te installeren, selecteer de assets die je wilt installeren door erop te klikken. Daarna klik je de 'Download Geselecteerd' knop. Om alle assets te installeren, klik op de 'Installeer Alles' knop. Dit zal het bewaren als een ZIP bestand in jouw Downloads folder.",
-        "downloadOnMobile": "Hoe installeer ik assets op mobiel?",
-        "downloadOnMobileAnswer": "Zorg ervoor dat je niet de website bekijkt via sociale media applicaties en dat je gebruik maakt van een toegewijde browser. Als je een iPhone gebruikt, adviseer ik om gebruik te maken van Safari. ",
-        "howToExtract": "Hoe extract ik een ZIP bestand na het installeren?",
-        "howToExtractAnswer": "Als je gebruik maakt van Windows, kun je 7zip gebruiken om het bestand te extraheren. Als je gebruik je gebruik maakt van Mac, kun je de ingebouwde Archief Utility gebruiken. Als je gebruik maakt van iPhone, klik op het ZIP bestand, open de folder dat het creëert, selecteer de afbeeldingen en klik op 'Bewaar in Foto's'. Als je gebruik maakt van Android, kan je gebruik maken van de bestand manager app om de bestanden te extraheren. ",
-        "issueNotFound": "Ik heb een probleem dat hier niet is vermeld!",
-        "issueNotFoundAnswer": "Als je een probleem hebt dat hier niet is vermeld, kan je bij de Discord server komen en daar om hulp vragen!"
+    "support": {
+        "support": {
+            "support": "Support"
+        },
+        "report": {
+            "general": {
+                "title": "Report",
+                "help": "If you find any bugs or issues with the site, please report them here.",
+                "placeholder": "Enter report",
+                "button": "Report",
+                "success": "Successfully reported issue",
+                "error": "Error reporting issue"
+            },
+            "ugc": {
+                "user": {
+                    "title": "Report User",
+                    "help": "If you find any users breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report User",
+                    "success": "Successfully reported user",
+                    "error": "Error reporting user"
+                },
+                "asset": {
+                    "title": "Report Asset",
+                    "help": "If you find any assets breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report Asset",
+                    "success": "Successfully reported asset",
+                    "error": "Error reporting asset"
+                },
+                "collection": {
+                    "title": "Report Collection",
+                    "help": "If you find any collections breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report Collection",
+                    "success": "Successfully reported collection",
+                    "error": "Error reporting collection"
+                }
+            }
+        },
+        "feedback": {
+            "title": "Feedback",
+            "help": "If you have any feedback or suggestions for the site, please let us know here.",
+            "placeholder": "Enter feedback",
+            "button": "Send Feedback",
+            "success": "Successfully sent feedback",
+            "error": "Error sending feedback"
+        }
     },
     "errors": {
         "404": "Pagina Niet Gevonden",
         "500": "Internal Server Fout",
+        "401": "Unauthorized",
+        "403": "Forbidden",
+        "back": "Go Back",
         "refresh": "Probeer de pagina te verversen of ga terug naar de startpagina",
-        "apiError": "Een probleem vindt plaats tijdens het maken van een verzoek naar de API, probeer opnieuw of ververs de pagina."
+        "api": "Error connecting to the API. Please try again later"
     },
+    "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
 }
