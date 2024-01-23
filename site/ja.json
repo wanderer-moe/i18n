@@ -1,98 +1,392 @@
 {
-    "home": {
-        "description": "様々のゲームアセットのデータベース",
-        "github": {
-            "desc": "透明度のために､wanderer.moeがGitHubでオーペンソースです. コードが誰でも見えると資するんだ．",
-            "shortDesc": "サイトのソースコード",
-            "webBtn": "サイトのソースコード",
-            "apiBtn": "APIのソースコード"
+    "collection": {
+        "name": "Collection Name",
+        "description": "Collection Description",
+        "visibility": {
+            "title": "Visibility",
+            "public": "Public",
+            "private": "Private"
         },
-        "donate": {
-            "title": "恵めて",
-            "shortDesc": "サイトを裏づけて",
-            "desc": "wanderer.moeがアドフリーと常に使用料不要. サイトを楽しむからサーバコスト､保守､制作などに裏づけたいすれば、サイトに寄付を考えてください．"
+        "create": {
+            "title": "Create Collection",
+            "help": "Enter the name and description of the collection you want to create",
+            "placeholder": "Enter name",
+            "button": "Create Collection",
+            "success": "Successfully created collection",
+            "error": "Error creating collection"
         },
-        "discord": {
-            "desc": "ニュース､サイトにあれないのアセットなどのため、Discordサーバーに参加してください！",
-            "shortDesc": "今､{onlineCount}がオンラインです．",
-            "btn": "Discordサーバに参加して"
+        "modify": {
+            "title": "Modify Collection",
+            "help": "Enter the name and description of the collection you want to modify",
+            "placeholder": "Enter name",
+            "button": "Modify Collection",
+            "success": "Successfully modified collection",
+            "error": "Error modifying collection"
         },
-        "ocGen": {
-            "title": "オリキャラメーカー",
-            "shortDesc": "ランダム生成なオリキャラ",
-            "desc": "オリキャラのゲーム関連なインフォをジェネレートする！(例えば人物下知とか人相風体など)"
+        "delete": {
+            "title": "Delete Collection",
+            "button": "Delete Collection",
+            "confirm": "Are you sure you want to delete {collectionName}?",
+            "success": "Successfully deleted collection",
+            "error": "Error deleting collection"
+        },
+        "details": {
+            "title": "Collection Details",
+            "name": "Name",
+            "description": "Description",
+            "visibility": "Visibility",
+            "createdAt": "Created at {date} by {username}",
+            "updatedAt": "Last updated at {date} by {username}"
+        },
+        "assets": {
+            "assets": "Assets",
+            "add": {
+                "title": "Add Asset",
+                "button": "Add Asset",
+                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
+                "success": "Successfully added asset",
+                "error": "Error adding asset"
+            },
+            "remove": {
+                "title": "Remove Asset",
+                "button": "Remove Asset",
+                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
+                "success": "Successfully removed asset",
+                "error": "Error removing asset"
+            }
+        },
+        "collaborators": {
+            "collaborators": "Collaborators",
+            "add": {
+                "title": "Add Collaborator",
+                "help": "Enter the username of the user you want to add as a collaborator",
+                "placeholder": "Enter username",
+                "confirm": "Are you sure you want to add {username} as a collection {role}?",
+                "button": "Add Collaborator",
+                "success": "Successfully added collaborator",
+                "error": "Error adding collaborator"
+            },
+            "remove": {
+                "title": "Remove Collaborator",
+                "button": "Remove Collaborator",
+                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
+                "success": "Successfully removed collaborator",
+                "error": "Error removing collaborator"
+            },
+            "permissions": {
+                "permissions": "Permissions",
+                "editor": {
+                    "title": "Editor",
+                    "desc": "Can add and remove assets from the collection and change collection details"
+                },
+                "collaborator": {
+                    "title": "Collaborator",
+                    "desc": "Can add and remove assets from the collection"
+                },
+                "viewer": {
+                    "title": "Viewer",
+                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                },
+                "owner": {
+                    "title": "Owner",
+                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                }
+            }
         }
     },
-    "nav": {
-        "discord": "Discordサーバ",
-        "giOCGen": "原神OCジェネレータ",
-        "giFiles": "原神ファイル"
-    },
-    "footer": {
-        "fanmadeNotice": "wanderer.moeはファンサイトです. 全てのファイルはそれぞれの著作権者を所有したんです．",
-        "assetRequestForm": "アセットリクエストフォーム"
-    },
-    "contributors": {
-        "title": "支持者",
-        "desc": "サイトを助っ人にありがとうございました！"
+    "asset": {
+        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "upload": {
+            "confirm": "Are you sure you want to upload {assetName}?",
+            "success": "Successfully uploaded {assetName} for review",
+            "error": "Error uploading {assetName}",
+            "dropzone": "Drag or click here to upload asset",
+            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
+            "uploading": "Uploading {assetName}..."
+        },
+        "modify": {
+            "confirm": "Are you sure you want to modify {assetName}?",
+            "success": "Successfully modified {assetName}",
+            "error": "Error modifying {assetName}",
+            "uploading": "Uploading {assetName}..."
+        },
+        "delete": {
+            "confirm": "Are you sure you want to delete {assetName}?",
+            "success": "Successfully deleted {assetName}",
+            "error": "Error deleting {assetName}"
+        },
+        "details": {
+            "uploadedBy": "Uploaded by {username}",
+            "extension": "File Type",
+            "uploadedOn": "Uploaded on {date}",
+            "status": {
+                "pending": "Pending",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            },
+            "viewCount": "{count} views",
+            "downloadCount": "{count} downloads",
+            "download": "Download",
+            "width": "Width",
+            "height": "Height"
+        },
+        "like": {
+            "like": {
+                "like": "Like",
+                "liked": "Liked",
+                "likes": "{count} likes",
+                "error": "Error liking asset",
+                "alreadyLiked": "You already liked this asset"
+            },
+            "unlike": {
+                "unlike": "Unlike",
+                "unliked": "Unliked",
+                "likes": "{count} likes",
+                "error": "Error unliking asset",
+                "notLiked": "You haven't liked this asset"
+            }
+        },
+        "favourite": {
+            "favourite": {
+                "favourite": "Favourite",
+                "favourited": "Favourited",
+                "favourites": "{count} favourites",
+                "error": "Error favouriting asset",
+                "alreadyFavourited": "You already favourited this asset"
+            },
+            "unfavourite": {
+                "unfavourite": "Unfavourite",
+                "unfavourited": "Unfavourited",
+                "favourites": "{count} favourites",
+                "error": "Error unfavouriting asset",
+                "notFavourited": "You haven't favourited this asset"
+            }
+        }
     },
     "game": {
-        "main": "「{game} 」は{availableCategories} 件見つかりました",
-        "info": "セクションをクリックと中身を見たになる.",
-        "other": "{fileCount} 個ファイル ({fileSize})"
+        "game": "Game",
+        "lastUpdated": "Last updated {date}",
+        "possibleSuggestiveContent": "This game has assets that may contain suggestive or triggering content.",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking game",
+            "alreadyLiked": "You already liked this game"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking game",
+            "notLiked": "You haven't liked this game"
+        }
     },
-    "asset": {
-        "main": "{filteredImagesCount}/{imagesCount} 個アセットは見えるんです． {selectedItemsCount} 個はセレクトしたんです.",
-        "info": "アセットをタップして選択します。イメジをダブルタップして拡大します．",
-        "downloadAll": "全てダウンロード",
-        "downloadAllSize": "全てダウンロード ({size})",
-        "downloadSelected": "セレクトダウンロード",
-        "downloadSelectedSize": "セレクトダウンロード ({size})",
-        "download": "ダウンロード",
-        "downloadSize": "ダウンロード ({size})",
-        "officialAsset": "公式ゲームアセット",
-        "fanmadeAsset": "ファンメイドゲームアセット",
-        "searchBar": "アセットを検索...",
-        "nothingFound": "{query} に一致する情報は見つかりませんだった．",
-        "nothingFoundSuggestions": "何かお探しのアセットがあれば､アセットリクエストフォームをしてきください．",
-        "onMobile": "ダウンロードしてのができないから､ゲームの名と隣にインフォアイコンをタップしてでFAQを見てください．"
+    "assetCategory": {
+        "assetCategory": "Asset Category",
+        "lastUpdated": "Last updated {date}",
+        "possibleSuggestiveContent": "This asset category has assets that may contain suggestive or triggering content.",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking asset category",
+            "alreadyLiked": "You already liked this asset category"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking asset category",
+            "notLiked": "You haven't liked this asset category"
+        }
     },
-    "details": {
-        "lastUpdated": "最新のアップデートは{date}",
-        "sortBy": "順にソート",
-        "dateUploaded": "直近アップデート: {date}",
-        "sortByAlphabetical": "欧字で順 (A-Z)",
-        "sortByAlphabeticalReverse": "逆欧字で順 (Z-A)",
-        "sortByUploaded": "直近アップデート順",
-        "sortByUploadedReverse": "最古アップデート順",
-        "sortBySize": "ファイルサイズ（最小が上）",
-        "sortBySizeReverse": "ファイルサイズ（最大が上）"
+    "tags": {
+        "tags": "Tags",
+        "noTags": "No tags",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking tag",
+            "alreadyLiked": "You already liked this tag"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking tag",
+            "notLiked": "You haven't liked this tag"
+        }
     },
-    "globalSearch": {
-        "searchBar": "アセットやゲームを検索..."
+    "search": {
+        "assets": {
+            "noResults": "No assets found",
+            "noResultsDesc": "Try changing your search query or filters",
+            "sideBar": {
+                "filters": "Filters",
+                "sort": {
+                    "sort": "Sort",
+                    "newest": "Newest",
+                    "oldest": "Oldest",
+                    "views": "Most Views",
+                    "downloads": "Most Downloads"
+                }
+            }
+        }
     },
-    "viewImage": {
-        "closeText": "何こをクリックでクロースください.",
-        "resolution": "解像度: {resolution}"
+    "account": {
+        "account": {
+            "account": "Account"
+        },
+        "follow": {
+            "status": {
+                "following": "Following",
+                "notFollowing": "Not Following",
+                "followsYou": "Follows You",
+                "mutual": "Mutual"
+            },
+            "count": {
+                "following": "{count} Following",
+                "followers": "{count} Followers"
+            },
+            "follow": {
+                "follow": "Follow",
+                "followed": "Followed",
+                "error": "Error following user",
+                "alreadyFollowed": "You already follow this user"
+            },
+            "unfollow": {
+                "unfollow": "Unfollow",
+                "unfollowed": "Unfollowed",
+                "error": "Error unfollowing user",
+                "notFollowed": "You don't follow this user"
+            }
+        },
+        "settings": {
+            "settings": "Settings",
+            "username": {
+                "title": "Username",
+                "help": "Your username is used to identify you on the site and is unique to you.",
+                "placeholder": "Enter username",
+                "button": "Change Username",
+                "success": "Successfully changed username",
+                "error": "Error changing username"
+            },
+            "email": {
+                "title": "Email",
+                "help": "Your email is used to identify you on the site and is unique to you. It must be a valid email address.",
+                "placeholder": "Enter email",
+                "button": "Change Email",
+                "success": "Successfully changed email",
+                "error": "Error changing email"
+            },
+            "providers": {
+                "discord": {
+                    "title": "Discord",
+                    "help": "Your Discord account is used to authenticate you on the site."
+                },
+                "google": {
+                    "title": "Google",
+                    "help": "Your Google account is used to authenticate you on the site."
+                },
+                "github": {
+                    "title": "GitHub",
+                    "help": "Your GitHub account is used to authenticate you on the site."
+                },
+                "twitter": {
+                    "title": "Twitter/X",
+                    "help": "Your Twitter/X account is used to authenticate you on the site."
+                },
+                "visibility": {
+                    "title": "Visibility",
+                    "public": "Public",
+                    "private": "Private"
+                }
+            },
+            "viewSuggestiveContent": {
+                "title": "View Suggestive Content",
+                "help": "This setting allows you to view suggestive/triggering content, this is stored locally on your device.",
+                "button": "Change View Suggestive Content",
+                "success": "Successfully changed view suggestive content",
+                "error": "Error changing view suggestive content"
+            },
+            "password": {
+                "title": "Password",
+                "help": "Your password is used to authenticate you on the site.",
+                "placeholder": "Enter password",
+                "button": "Change Password",
+                "success": "Successfully changed password",
+                "error": "Error changing password"
+            },
+            "delete": {
+                "title": "Delete Account",
+                "help": "Deleting your account will delete everything, including assets. You will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
+                "button": "Delete Account",
+                "confirm": "Are you sure you want to delete your account?",
+                "success": "Successfully disabled account, redirecting to home page...",
+                "error": "Error deleting account. Contact us at {email} for help."
+            }
+        }
     },
-    "faq": {
-        "title": "FAQ",
-        "purpose": "サイトの目的は何？",
-        "purposeAnswer": "wanderer.moeはあの色々なビデオゲームアセットのコレクションがあるのサイトです。アセットがゲームとアセットタイプで分類します。このサイトの目的は､人々はアセットをダウンロードのように一元なの場所が与えれます。",
-        "downloadMultipleOrAll": "全てか多くのアセットダウンロードはどうやってか？",
-        "downloadMultipleOrAllAnswer": "多重のアセットをダウンロードしたいならば、クリックして/タップしてでダウンロードが欲しいのアセットをセレクトしてください｡今から､「セレクトダウンロード」ってのバッタンをタップしてください｡\n全てのアセットがダウンロードしたいならば､「全てダウンロード」ってのバッタンをタップしてください。その方でZIPファイルがあなたのダウンロードフォルダにセーブした｡",
-        "downloadOnMobile": "スマホでアセットダウンロードはどうやってか？",
-        "downloadOnMobileAnswer": "SNSアプリにサイトを見ているがないが確かめますください。ブラウザアプリだけでサイトを見ていますください｡ たとえば､iPhoneが使ているあれば､Safariを使ってはいい｡",
-        "howToExtract": "ダウンロードした後に､どうし方でZIPファイルを解凍するの？",
-        "howToExtractAnswer": "Windowsが使ってれば､7ZIPでZIPファイルを開きますがいいです｡Macパソコンが使ってれば､開くのよにファイルをダブルクリックしてください｡ iPhoneが使ってれば､ファイルアプリの中にZIPファイルをタップしてください｡そこから､作ったのフォルダを開く､ではイメジをセレクトしてとフォトにダウンロードしてください。Androidが使ってれば､ファイル開くのアプリを使ってがいい。",
-        "issueNotFound": "私の課題がここにありません！",
-        "issueNotFoundAnswer": "あなたの心配がここに見ませんでした､助けを求めるのよにサイトたちのDiscordサーバに来てください！"
+    "support": {
+        "support": {
+            "support": "Support"
+        },
+        "report": {
+            "general": {
+                "title": "Report",
+                "help": "If you find any bugs or issues with the site, please report them here.",
+                "placeholder": "Enter report",
+                "button": "Report",
+                "success": "Successfully reported issue",
+                "error": "Error reporting issue"
+            },
+            "ugc": {
+                "user": {
+                    "title": "Report User",
+                    "help": "If you find any users breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report User",
+                    "success": "Successfully reported user",
+                    "error": "Error reporting user"
+                },
+                "asset": {
+                    "title": "Report Asset",
+                    "help": "If you find any assets breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report Asset",
+                    "success": "Successfully reported asset",
+                    "error": "Error reporting asset"
+                },
+                "collection": {
+                    "title": "Report Collection",
+                    "help": "If you find any collections breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report Collection",
+                    "success": "Successfully reported collection",
+                    "error": "Error reporting collection"
+                }
+            }
+        },
+        "feedback": {
+            "title": "Feedback",
+            "help": "If you have any feedback or suggestions for the site, please let us know here.",
+            "placeholder": "Enter feedback",
+            "button": "Send Feedback",
+            "success": "Successfully sent feedback",
+            "error": "Error sending feedback"
+        }
     },
     "errors": {
         "404": "ページがありませんだ．",
         "500": "中にサーバエラー",
+        "401": "Unauthorized",
+        "403": "Forbidden",
+        "back": "Go Back",
         "refresh": "ページを更新しようにか､ホームに戻ってください．",
-        "apiError": "APIまでリクエストしてでエラーを出す．一回してでページを更新ください．"
+        "api": "Error connecting to the API. Please try again later"
     },
+    "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
 }
