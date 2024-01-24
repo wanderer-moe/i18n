@@ -10,15 +10,15 @@
         "create": {
             "title": "Créer une collection",
             "help": "Entrez le nom et la description de la collection que vous souhaitez créer",
-            "placeholder": "Saisir un nom",
+            "placeholder": "Entrez un nom",
             "button": "Créer une collection",
             "success": "Collection créée avec succès",
             "error": "Erreur de création de la collection"
         },
         "modify": {
             "title": "Modifier la collection",
-            "help": "Entrez le nom et la description de la collection que vous souhaitez créer",
-            "placeholder": "Saisir un nom",
+            "help": "Entrez le nom et la description de la collection que vous souhaitez modifier",
+            "placeholder": "Entrez un nom",
             "button": "Modifier la collection",
             "success": "Collection modifiée avec succès",
             "error": "Erreur de modification de la collection"
@@ -42,7 +42,7 @@
             "assets": "Fichiers",
             "add": {
                 "title": "Ajouter un fichier",
-                "button": "Ajouter un fichier",
+                "button": "Ajouter le fichier",
                 "confirm": "Êtes-vous sûr de vouloir ajouter {assetName} à la collection {collectionName}?",
                 "success": "Fichier ajouté avec succès",
                 "error": "Erreur lors de l'ajout du fichier"
@@ -60,312 +60,312 @@
             "add": {
                 "title": "Ajouter un collaborateur",
                 "help": "Entrez le nom d'utilisateur de la personne que vous souhaitez ajouter en tant que collaborateur",
-                "placeholder": "Entrer un nom d’utilisateur",
+                "placeholder": "Entrez un nom d'utilisateur",
                 "confirm": "Êtes-vous sûr de vouloir ajouter {username} à la collection {role} ?",
-                "button": "Ajouter un collaborateur",
+                "button": "Ajouter le collaborateur",
                 "success": "Collaborateur ajouté avec succès",
                 "error": "Erreur lors de l'ajout du collaborateur"
             },
             "remove": {
                 "title": "Supprimer un collaborateur",
-                "button": "Supprimer un collaborateur",
-                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
-                "success": "Successfully removed collaborator",
-                "error": "Error removing collaborator"
+                "button": "Supprimer le collaborateur",
+                "confirm": "Êtes-vous sûr de vouloir supprimer {username} à la collection {role} ?",
+                "success": "Collaborateur supprimé avec succès",
+                "error": "Erreur lors de la suppression du collaborateur"
             },
             "permissions": {
                 "permissions": "Permissions",
                 "editor": {
-                    "title": "Editor",
-                    "desc": "Can add and remove assets from the collection and change collection details"
+                    "title": "Éditeur",
+                    "desc": "Peut ajouter et supprimer des ressources de la collection et modifier ses détails"
                 },
                 "collaborator": {
-                    "title": "Collaborator",
-                    "desc": "Can add and remove assets from the collection"
+                    "title": "Collaborateur",
+                    "desc": "Peut ajouter et supprimer des fichiers de la collection"
                 },
                 "viewer": {
-                    "title": "Viewer",
-                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                    "title": "Spectateur",
+                    "desc": "Peut voir la collection peu importe la visibilité, mais ne peut rien modifier"
                 },
                 "owner": {
-                    "title": "Owner",
-                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                    "title": "Propriétaire",
+                    "desc": "Peut ajouter et supprimer des fichiers de la collection, modifier ses détails et la supprimer"
                 }
             }
         }
     },
     "asset": {
-        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "suggestiveContent": "Ce fichier peut contenir des contenus qui peuvent choquer ou mettre mal à l'aise.",
         "upload": {
-            "confirm": "Are you sure you want to upload {assetName}?",
-            "success": "Successfully uploaded {assetName} for review",
-            "error": "Error uploading {assetName}",
-            "dropzone": "Drag or click here to upload asset",
-            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "Êtes-vous sûr de vouloir envoyer {assetName} ?",
+            "success": "{assetName} envoyé avec succès pour vérification",
+            "error": "Erreur lors du chargement de {assetName}",
+            "dropzone": "Glissez ou cliquez ici pour envoyer un fichier",
+            "conflict": "Un fichier avec le même nom existe déjà. Voulez-vous modifier le fichier existant ?",
+            "uploading": "Envoi de {assetName}..."
         },
         "modify": {
-            "confirm": "Are you sure you want to modify {assetName}?",
-            "success": "Successfully modified {assetName}",
-            "error": "Error modifying {assetName}",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "Êtes-vous sûr de vouloir modifier {assetName} ?",
+            "success": "{assetName} modifié avec succès",
+            "error": "Erreur lors de la modification de {assetName}",
+            "uploading": "Envoi de {assetName}..."
         },
         "delete": {
-            "confirm": "Are you sure you want to delete {assetName}?",
-            "success": "Successfully deleted {assetName}",
-            "error": "Error deleting {assetName}"
+            "confirm": "Êtes-vous sûr de vouloir supprimer {assetName} ?",
+            "success": "{assetName} supprimé avec succès",
+            "error": "Erreur lors de la suppression de {assetName}"
         },
         "details": {
-            "uploadedBy": "Uploaded by {username}",
-            "extension": "File Type",
-            "uploadedOn": "Uploaded on {date}",
+            "uploadedBy": "Ajouté par {username}",
+            "extension": "Type de fichier",
+            "uploadedOn": "Ajouté le {date}",
             "status": {
-                "pending": "Pending",
-                "approved": "Approved",
-                "rejected": "Rejected"
+                "pending": "En attente",
+                "approved": "Approuvé",
+                "rejected": "Rejeté"
             },
-            "viewCount": "{count} views",
-            "downloadCount": "{count} downloads",
-            "download": "Download",
-            "width": "Width",
-            "height": "Height"
+            "viewCount": "{count} vues",
+            "downloadCount": "{count} téléchargements",
+            "download": "Télécharger",
+            "width": "Largeur",
+            "height": "Hauteur"
         },
         "like": {
             "like": {
-                "like": "Like",
-                "liked": "Liked",
+                "like": "J’aime",
+                "liked": "Aimé",
                 "likes": "{count} likes",
-                "error": "Error liking asset",
-                "alreadyLiked": "You already liked this asset"
+                "error": "Erreur lors du like du fichier",
+                "alreadyLiked": "Vous avez déjà aimé ce commentaire"
             },
             "unlike": {
-                "unlike": "Unlike",
-                "unliked": "Unliked",
+                "unlike": "Ne plus aimer",
+                "unliked": "Plus aimé",
                 "likes": "{count} likes",
-                "error": "Error unliking asset",
-                "notLiked": "You haven't liked this asset"
+                "error": "Erreur lors de la suppression du like du fichier",
+                "notLiked": "Vous n'avez pas aimé ce commentaire"
             }
         },
         "favourite": {
             "favourite": {
-                "favourite": "Favourite",
-                "favourited": "Favourited",
-                "favourites": "{count} favourites",
-                "error": "Error favouriting asset",
-                "alreadyFavourited": "You already favourited this asset"
+                "favourite": "Favori",
+                "favourited": "Dans les favoris",
+                "favourites": "{count} favoris",
+                "error": "Erreur lors de la mise en favori du fichier",
+                "alreadyFavourited": "Vous avez déjà mis ce fichier en favori"
             },
             "unfavourite": {
-                "unfavourite": "Unfavourite",
-                "unfavourited": "Unfavourited",
-                "favourites": "{count} favourites",
-                "error": "Error unfavouriting asset",
-                "notFavourited": "You haven't favourited this asset"
+                "unfavourite": "Supprimer des favoris",
+                "unfavourited": "Supprimé des favoris",
+                "favourites": "{count} favoris",
+                "error": "Erreur lors de la suppression du fichier dans les favoris",
+                "notFavourited": "Vous n'avez pas mis ce fichier dans les favoris"
             }
         }
     },
     "game": {
-        "game": "Game",
-        "lastUpdated": "Last updated {date}",
-        "possibleSuggestiveContent": "This game has assets that may contain suggestive or triggering content.",
+        "game": "Jeu",
+        "lastUpdated": "Dernière mise à jour : {date}",
+        "possibleSuggestiveContent": "Ce fichier peut contenir des contenus qui peuvent choquer ou mettre mal à l'aise.",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
+            "like": "J’aime",
+            "liked": "Aimé",
             "likes": "{count} likes",
-            "error": "Error liking game",
-            "alreadyLiked": "You already liked this game"
+            "error": "Erreur lors du like du jeu",
+            "alreadyLiked": "Vous avez déjà aimé ce jeu"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
+            "unlike": "Ne plus aimer",
+            "unliked": "Plus aimé",
             "likes": "{count} likes",
-            "error": "Error unliking game",
-            "notLiked": "You haven't liked this game"
+            "error": "Erreur lors de la suppression du like du jeu",
+            "notLiked": "Vous n'avez pas aimé ce jeu"
         }
     },
     "assetCategory": {
-        "assetCategory": "Asset Category",
-        "lastUpdated": "Last updated {date}",
-        "possibleSuggestiveContent": "This asset category has assets that may contain suggestive or triggering content.",
+        "assetCategory": "Catégorie de fichiers",
+        "lastUpdated": "Dernière mise à jour : {date}",
+        "possibleSuggestiveContent": "Cette catégorie de fichiers peut contenir des contenus qui peuvent choquer ou mettre mal à l'aise.",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
+            "like": "J’aime",
+            "liked": "Aimé",
             "likes": "{count} likes",
-            "error": "Error liking asset category",
-            "alreadyLiked": "You already liked this asset category"
+            "error": "Erreur lors du like de la catégorie de fichiers",
+            "alreadyLiked": "Vous avez déjà aimé cette catégorie de fichiers"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
+            "unlike": "Ne plus aimer",
+            "unliked": "Plus aimé",
             "likes": "{count} likes",
-            "error": "Error unliking asset category",
-            "notLiked": "You haven't liked this asset category"
+            "error": "Erreur lors de la suppression du like de cette catégorie de fichiers",
+            "notLiked": "Vous n'avez pas aimé cette catégorie de fichiers"
         }
     },
     "tags": {
         "tags": "Tags",
-        "noTags": "No tags",
+        "noTags": "Aucun tag",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
+            "like": "J’aime",
+            "liked": "Aimé",
             "likes": "{count} likes",
-            "error": "Error liking tag",
-            "alreadyLiked": "You already liked this tag"
+            "error": "Erreur lors du like du tag",
+            "alreadyLiked": "Vous avez déjà aimé ce tag"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
+            "unlike": "Ne plus aimer",
+            "unliked": "Plus aimé",
             "likes": "{count} likes",
-            "error": "Error unliking tag",
-            "notLiked": "You haven't liked this tag"
+            "error": "Erreur lors de la suppression du like du tag",
+            "notLiked": "Vous n'avez pas aimé ce tag"
         }
     },
     "search": {
         "assets": {
-            "noResults": "No assets found",
-            "noResultsDesc": "Try changing your search query or filters",
+            "noResults": "Aucun fichier n'a été trouvé",
+            "noResultsDesc": "Essayez de modifier votre recherche ou vos filtres",
             "sideBar": {
-                "filters": "Filters",
+                "filters": "Filtres",
                 "sort": {
-                    "sort": "Sort",
-                    "newest": "Newest",
-                    "oldest": "Oldest",
-                    "views": "Most Views",
-                    "downloads": "Most Downloads"
+                    "sort": "Trier",
+                    "newest": "Plus récent",
+                    "oldest": "Plus anciens",
+                    "views": "Les plus vus",
+                    "downloads": "Les plus téléchargés"
                 }
             }
         }
     },
     "account": {
         "roles": {
-            "contributor": "Contributor",
-            "collaborator": "Collaborator",
-            "partner": "Partner",
-            "contentCreator": "Content Creator",
-            "moderator": "Moderator",
-            "developer": "Developer",
-            "creator": "Creator"
+            "contributor": "Contributeur",
+            "collaborator": "Collaborateur",
+            "partner": "Partenaire",
+            "contentCreator": "Créateur de contenu",
+            "moderator": "Modérateur",
+            "developer": "Développeur",
+            "creator": "Créateur"
         },
         "account": {
-            "account": "Account"
+            "account": "Compte"
         },
         "follow": {
             "status": {
-                "following": "Following",
-                "notFollowing": "Not Following",
-                "followsYou": "Follows You",
-                "mutual": "Mutual"
+                "following": "Suivi",
+                "notFollowing": "Non suivi",
+                "followsYou": "Vous suit",
+                "mutual": "Mutuel"
             },
             "count": {
-                "following": "{count} Following",
-                "followers": "{count} Followers"
+                "following": "{count} abonnement(s)",
+                "followers": "{count} Abonné(s)"
             },
             "follow": {
-                "follow": "Follow",
-                "followed": "Followed",
-                "error": "Error following user",
-                "alreadyFollowed": "You already follow this user"
+                "follow": "Suivre",
+                "followed": "Suivi",
+                "error": "Erreur d'abonnement à l'utilisateur",
+                "alreadyFollowed": "Vous suivez déjà cet utilisateur"
             },
             "unfollow": {
-                "unfollow": "Unfollow",
-                "unfollowed": "Unfollowed",
-                "error": "Error unfollowing user",
-                "notFollowed": "You don't follow this user"
+                "unfollow": "Ne plus suivre",
+                "unfollowed": "Vous êtes désabonné",
+                "error": "Erreur de désabonnement à l'utilisateur",
+                "notFollowed": "Vous ne suivez pas cet utilisateur"
             }
         },
         "settings": {
-            "settings": "Settings",
+            "settings": "Paramètres",
             "username": {
-                "title": "Username",
-                "help": "Your username is used to identify you on the site and is unique to you.",
-                "placeholder": "Enter username",
-                "button": "Change Username",
-                "success": "Successfully changed username",
-                "error": "Error changing username"
+                "title": "Nom d’utilisateur",
+                "help": "Votre nom d'utilisateur est utilisé pour vous identifier sur le site et est unique.",
+                "placeholder": "Entrez un nom d’utilisateur",
+                "button": "Changer le nom d'utilisateur",
+                "success": "Nom d'utilisateur modifié avec succès",
+                "error": "Erreur lors du changement de nom d'utilisateur"
             },
             "email": {
-                "title": "Email",
-                "help": "Your email is used to identify you on the site and is unique to you. It must be a valid email address.",
-                "placeholder": "Enter email",
-                "button": "Change Email",
-                "success": "Successfully changed email",
-                "error": "Error changing email"
+                "title": "E-mail",
+                "help": "Votre E-mail est utilisé pour vous identifier sur le site et est unique. Ce doit être une adresse E-mail valide.",
+                "placeholder": "Entrez votre E-mail",
+                "button": "Changer l'E-mail",
+                "success": "E-mail modifié avec succès",
+                "error": "Erreur lors du changement d'E-mail"
             },
             "usernameColour": {
-                "title": "Username Colour",
-                "help": "Have a unique username colour on the site. This is visible to everyone.",
-                "placeholder": "Enter username colour",
-                "button": "Change Username Colour",
-                "success": "Successfully changed username colour",
-                "error": "Error changing username colour"
+                "title": "Couleur du nom d'utilisateur",
+                "help": "Utilisez une couleur unique pour votre nom d'utilisateur sur le site, elle est visible par tout le monde.",
+                "placeholder": "Entrez la couleur du nom d'utilisateur",
+                "button": "Changer la couleur du nom d'utilisateur",
+                "success": "Couleur du nom d'utilisateur modifiée avec succès",
+                "error": "Erreur lors du changement de couleur du nom d'utilisateur"
             },
             "profilePicture": {
-                "title": "Profile Picture",
-                "help": "Your profile picture is visible to everyone. All images are ran through multiple AI moderation filters to prevent misuse.",
-                "button": "Change Profile Picture",
-                "success": "Successfully changed profile picture",
-                "error": "Error changing profile picture"
+                "title": "Photo de profil",
+                "help": "Votre photo de profil est visible par tout le monde. Toutes les images sont examinées par plusieurs filtres d'IA pour éviter tout abus.",
+                "button": "Changer la photo de profil",
+                "success": "Photo de profil modifiée avec succès",
+                "error": "Erreur lors de la modification de la photo de profil"
             },
             "pronouns": {
-                "pronouns": "Pronouns",
+                "pronouns": "Pronoms",
                 "set": {
-                    "title": "Set Pronouns",
-                    "help": "Enter the pronouns you want to set, your current pronouns are {subject}/{object}/{possessive}",
-                    "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
-                    "placeholder": "Enter pronouns",
-                    "button": "Set Pronouns",
-                    "success": "Successfully set pronouns",
-                    "error": "Error setting pronouns"
+                    "title": "Définir les pronoms",
+                    "help": "Entrez les pronoms que vous voulez utiliser. Vos pronoms actuels sont : {subject}/{object}/{possessive}",
+                    "disclaimer": "Nous ne fournissons qu'une liste de pronoms définis, afin d'éviter les abus.",
+                    "placeholder": "Entrez les pronoms",
+                    "button": "Définir les pronoms",
+                    "success": "Pronoms définis avec succès",
+                    "error": "Erreur lors du réglage des pronoms"
                 },
                 "poweredBy": {
-                    "title": "Powered by",
-                    "desc": "Our pronouns list is powered by pronouns.page, who were kind enough to give us permission to use their API. Please check them out at {link}!"
+                    "title": "Produit par",
+                    "desc": "Notre liste de pronoms est produite par pronouns.page, qui ont eu la gentillesse de nous donner la permission d'utiliser leur API. Visitez leur site sur {link}!"
                 }
             },
             "providers": {
                 "discord": {
                     "title": "Discord",
-                    "help": "Your Discord account is used to authenticate you on the site."
+                    "help": "Votre compte Discord est utilisé pour vous authentifier sur le site."
                 },
                 "google": {
                     "title": "Google",
-                    "help": "Your Google account is used to authenticate you on the site."
+                    "help": "Votre compte Google est utilisé pour vous authentifier sur le site."
                 },
                 "github": {
                     "title": "GitHub",
-                    "help": "Your GitHub account is used to authenticate you on the site."
+                    "help": "Votre compte GitHub est utilisé pour vous authentifier sur le site."
                 },
                 "twitter": {
                     "title": "Twitter/X",
-                    "help": "Your Twitter/X account is used to authenticate you on the site."
+                    "help": "Votre compte Twitter/X est utilisé pour vous authentifier sur le site."
                 },
                 "visibility": {
-                    "title": "Visibility",
+                    "title": "Visibilité",
                     "public": "Public",
-                    "private": "Private"
+                    "private": "Privé"
                 }
             },
             "viewSuggestiveContent": {
-                "title": "View Suggestive Content",
-                "help": "This setting allows you to view suggestive/triggering content, this is stored locally on your device.",
-                "button": "Change View Suggestive Content",
-                "success": "Successfully changed view suggestive content",
-                "error": "Error changing view suggestive content"
+                "title": "Afficher le contenu pouvant choquer",
+                "help": "Ce paramètre vous permet de voir le contenu qui peut choquer/mettre mal à l'aise. Il est stocké localement sur votre appareil.",
+                "button": "Modifier les réglages de l'affichage du contenu choquant",
+                "success": "Réglages sur l'affichage du contenu choquant modifié",
+                "error": "Erreur lors de la modification du réglage sur l'affichage du contenu choquant"
             },
             "password": {
-                "title": "Password",
-                "help": "Your password is used to authenticate you on the site.",
-                "placeholder": "Enter password",
-                "button": "Change Password",
-                "success": "Successfully changed password",
-                "error": "Error changing password"
+                "title": "Mot de passe",
+                "help": "Votre mot de passe est utilisé pour vous authentifier sur le site.",
+                "placeholder": "Entrez le mot de passe",
+                "button": "Modifier le mot de passe",
+                "success": "Mot de passe modifié avec succès",
+                "error": "Erreur lors de la modification du mot de passe"
             },
             "delete": {
-                "title": "Delete Account",
-                "help": "Deleting your account will delete everything, including assets. You will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
-                "button": "Delete Account",
-                "confirm": "Are you sure you want to delete your account?",
-                "success": "Successfully disabled account, redirecting to home page...",
-                "error": "Error deleting account. Contact us at {email} for help."
+                "title": "Supprimer le compte",
+                "help": "La suppression de votre compte supprimera tout, y compris les fichiers. Votre compte sera désactivé et vous serez redirigé vers la page d'accueil. Après 14 jours, votre compte sera définitivement supprimé. Récupérez-en l'accès à tout moment en nous envoyant un e-mail à {email}.",
+                "button": "Supprimer le compte",
+                "confirm": "Êtes-vous sûr(e) de vouloir supprimer votre compte ?",
+                "success": "Compte désactivé, redirection vers la page d'accueil...",
+                "error": "Erreur lors de la suppression du compte. Contactez-nous à {email} pour obtenir de l'aide."
             }
         }
     },
@@ -375,57 +375,57 @@
         },
         "report": {
             "general": {
-                "title": "Report",
-                "help": "If you find any bugs or issues with the site, please report them here.",
-                "placeholder": "Enter report",
-                "button": "Report",
-                "success": "Successfully reported issue",
-                "error": "Error reporting issue"
+                "title": "Signaler",
+                "help": "Si vous trouvez des bugs ou des problèmes avec le site, veuillez les signaler ici.",
+                "placeholder": "Entrez le signalement",
+                "button": "Signaler",
+                "success": "Problème signalé avec succès",
+                "error": "Erreur lors du signalement du problème"
             },
             "ugc": {
                 "user": {
-                    "title": "Report User",
-                    "help": "If you find any users breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report User",
-                    "success": "Successfully reported user",
-                    "error": "Error reporting user"
+                    "title": "Signaler un utilisateur",
+                    "help": "Si vous remarquez des utilisateurs qui enfreignent les règles, veuillez les signaler ici.",
+                    "placeholder": "Entrez le signalement",
+                    "button": "Signaler l'utilisateur",
+                    "success": "Utilisateur signalé avec succès",
+                    "error": "Erreur lors du signalement de l'utilisateur"
                 },
                 "asset": {
-                    "title": "Report Asset",
-                    "help": "If you find any assets breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report Asset",
-                    "success": "Successfully reported asset",
-                    "error": "Error reporting asset"
+                    "title": "Signaler un fichier",
+                    "help": "Si vous remarquez des fichiers qui enfreignent les règles, veuillez les signaler ici.",
+                    "placeholder": "Entrez le signalement",
+                    "button": "Signaler le fichier",
+                    "success": "Fichier signalé avec succès",
+                    "error": "Erreur lors du signalement du fichier"
                 },
                 "collection": {
-                    "title": "Report Collection",
-                    "help": "If you find any collections breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report Collection",
-                    "success": "Successfully reported collection",
-                    "error": "Error reporting collection"
+                    "title": "Signaler la collection",
+                    "help": "Si vous remarquez des collections enfreignant les règles, veuillez les signaler ici.",
+                    "placeholder": "Entrez le signalement",
+                    "button": "Signaler la collection",
+                    "success": "Collection signalée avec succès",
+                    "error": "Erreur lors du signalement de la collection"
                 }
             }
         },
         "feedback": {
-            "title": "Feedback",
-            "help": "If you have any feedback or suggestions for the site, please let us know here.",
-            "placeholder": "Enter feedback",
-            "button": "Send Feedback",
-            "success": "Successfully sent feedback",
-            "error": "Error sending feedback"
+            "title": "Retours",
+            "help": "Si vous avez des commentaires ou des suggestions pour le site, veuillez nous en faire part ici.",
+            "placeholder": "Entrez votre commentaire",
+            "button": "Envoyer le commentaire",
+            "success": "Commentaire envoyé avec succès",
+            "error": "Erreur lors de l'envoi du commentaire"
         }
     },
     "errors": {
-        "404": "Page Not Found",
-        "500": "Internal Server Error",
-        "401": "Unauthorized",
-        "403": "Forbidden",
-        "back": "Go Back",
-        "refresh": "Try refreshing the page or go back to the home page",
-        "api": "Error connecting to the API. Please try again later"
+        "404": "Page introuvable",
+        "500": "Erreur interne du serveur",
+        "401": "Non autorisé",
+        "403": "Accès interdit",
+        "back": "Retour",
+        "refresh": "Essayez d’actualiser cette page ou de revenir à celle de l'accueil",
+        "api": "Erreur de connexion à l'API. Veuillez réessayer plus tard"
     },
     "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
