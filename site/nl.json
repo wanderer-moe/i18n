@@ -1,75 +1,75 @@
 {
     "collection": {
-        "name": "Collection Name",
-        "description": "Collection Description",
+        "name": "Verzamelingsnaam",
+        "description": "Collectie Beschrijving",
         "visibility": {
-            "title": "Visibility",
-            "public": "Public",
-            "private": "Private"
+            "title": "Zichtbaarheid",
+            "public": "Openbaar",
+            "private": "Privé"
         },
         "create": {
-            "title": "Create Collection",
-            "help": "Enter the name and description of the collection you want to create",
-            "placeholder": "Enter name",
-            "button": "Create Collection",
-            "success": "Successfully created collection",
-            "error": "Error creating collection"
+            "title": "Collectie Creëren",
+            "help": "Voer de naam en beschrijving in van de collectie die je wilt maken",
+            "placeholder": "Naam invoeren",
+            "button": "Collectie Creëren",
+            "success": "Collectie succesvol aangemaakt",
+            "error": "Fout bij het maken van de collectie"
         },
         "modify": {
-            "title": "Modify Collection",
-            "help": "Enter the name and description of the collection you want to modify",
-            "placeholder": "Enter name",
-            "button": "Modify Collection",
-            "success": "Successfully modified collection",
-            "error": "Error modifying collection"
+            "title": "Collectie Wijzigen",
+            "help": "Voer de naam en beschrijving in van de collectie die je wilt maken",
+            "placeholder": "Naam invoeren",
+            "button": "Collectie Wijzigen",
+            "success": "Collectie succesvol gewijzigd",
+            "error": "Fout bij het wijzigen van de collectie"
         },
         "delete": {
-            "title": "Delete Collection",
-            "button": "Delete Collection",
-            "confirm": "Are you sure you want to delete {collectionName}?",
-            "success": "Successfully deleted collection",
-            "error": "Error deleting collection"
+            "title": "Collectie Verwijderen",
+            "button": "Collectie Verwijderen",
+            "confirm": "Weet u zeker dat u {collectionName} wilt verwijderen?",
+            "success": "Collectie succesvol verwijderd",
+            "error": "Fout bij het verwijderen van de collectie"
         },
         "details": {
-            "title": "Collection Details",
-            "name": "Name",
-            "description": "Description",
-            "visibility": "Visibility",
-            "createdAt": "Created at {date} by {username}",
-            "updatedAt": "Last updated at {date} by {username}"
+            "title": "Verzamelingsinformatie",
+            "name": "Naam",
+            "description": "Beschrijving",
+            "visibility": "Zichtbaarheid",
+            "createdAt": "Aangemaakt op {date} door {username}",
+            "updatedAt": "Laatst bijgewerkt op {date} door {username}"
         },
         "assets": {
             "assets": "Assets",
             "add": {
-                "title": "Add Asset",
-                "button": "Add Asset",
-                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
-                "success": "Successfully added asset",
-                "error": "Error adding asset"
+                "title": "Asset toevoegen",
+                "button": "Asset toevoegen",
+                "confirm": "Weet u zeker dat u {assetName} wilt toevoegen aan de collectie {collectionName}?",
+                "success": "Asset succesvol toegevoegd",
+                "error": "Fout tijdens het toevoegen van de asset"
             },
             "remove": {
-                "title": "Remove Asset",
-                "button": "Remove Asset",
-                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
-                "success": "Successfully removed asset",
-                "error": "Error removing asset"
+                "title": "Verwijder Asset",
+                "button": "Verwijder Asset",
+                "confirm": "Weet u zeker dat u {assetName} wilt verwijderen van de collectie {collectionName}?",
+                "success": "Asset succesvol verwijderd",
+                "error": "Fout bij het verwijderen van de asset"
             }
         },
         "collaborators": {
-            "collaborators": "Collaborators",
+            "collaborators": "Bijdragers",
             "add": {
-                "title": "Add Collaborator",
-                "help": "Enter the username of the user you want to add as a collaborator",
-                "placeholder": "Enter username",
-                "confirm": "Are you sure you want to add {username} as a collection {role}?",
-                "button": "Add Collaborator",
-                "success": "Successfully added collaborator",
-                "error": "Error adding collaborator"
+                "title": "Bijdragers Toevoegen",
+                "help": "Voer de gebruikersnaam in van de gebruiker die u wilt toevoegen als bijdrager",
+                "placeholder": "Voer gebruikersnaam in",
+                "confirm": "Weet u zeker dat u {username} wilt toevoegen als een collectie {role}?",
+                "button": "Bijdrager Toevoegen",
+                "success": "Bijdrager succesvol toegevoegd",
+                "error": "Fout bij het toevoegen van bijdrager"
             },
             "remove": {
-                "title": "Remove Collaborator",
-                "button": "Remove Collaborator",
-                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
+                "title": "Verwijder Bijdrager",
+                "button": "Verwijder Bijdrager",
+                "confirm": "Weet u zeker dat u {username} wilt verwijderen als een collectie {role}?",
                 "success": "Successfully removed collaborator",
                 "error": "Error removing collaborator"
             },
@@ -152,12 +152,12 @@
                 "favourited": "Favourited",
                 "favourites": "{count} favourites",
                 "error": "Error favouriting asset",
-                "alreadyFavourited": "You already favourited this asset"
+                "alreadyFavourited": "U heeft deze asset al als favoriet gemarkeerd"
             },
             "unfavourite": {
-                "unfavourite": "Unfavourite",
-                "unfavourited": "Unfavourited",
-                "favourites": "{count} favourites",
+                "unfavourite": "Verwijderen als favoriet",
+                "unfavourited": "Verwijderd als favoriet",
+                "favourites": "{count} favorieten",
                 "error": "Error unfavouriting asset",
                 "notFavourited": "You haven't favourited this asset"
             }
