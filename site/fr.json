@@ -1,74 +1,74 @@
 {
     "collection": {
-        "name": "Collection Name",
-        "description": "Collection Description",
+        "name": "Nom de la collection",
+        "description": "Description de la collection",
         "visibility": {
-            "title": "Visibility",
+            "title": "Visibilité",
             "public": "Public",
-            "private": "Private"
+            "private": "Privé"
         },
         "create": {
-            "title": "Create Collection",
-            "help": "Enter the name and description of the collection you want to create",
-            "placeholder": "Enter name",
-            "button": "Create Collection",
-            "success": "Successfully created collection",
-            "error": "Error creating collection"
+            "title": "Créer une collection",
+            "help": "Entrez le nom et la description de la collection que vous souhaitez créer",
+            "placeholder": "Saisir un nom",
+            "button": "Créer une collection",
+            "success": "Collection créée avec succès",
+            "error": "Erreur de création de la collection"
         },
         "modify": {
-            "title": "Modify Collection",
-            "help": "Enter the name and description of the collection you want to modify",
-            "placeholder": "Enter name",
-            "button": "Modify Collection",
-            "success": "Successfully modified collection",
-            "error": "Error modifying collection"
+            "title": "Modifier la collection",
+            "help": "Entrez le nom et la description de la collection que vous souhaitez créer",
+            "placeholder": "Saisir un nom",
+            "button": "Modifier la collection",
+            "success": "Collection modifiée avec succès",
+            "error": "Erreur de modification de la collection"
         },
         "delete": {
-            "title": "Delete Collection",
-            "button": "Delete Collection",
-            "confirm": "Are you sure you want to delete {collectionName}?",
-            "success": "Successfully deleted collection",
-            "error": "Error deleting collection"
+            "title": "Supprimer la collection",
+            "button": "Supprimer la collection",
+            "confirm": "Êtes-vous sûr de vouloir supprimer {collectionName} ?",
+            "success": "Collection supprimée avec succès",
+            "error": "Erreur lors de la suppression de la collection"
         },
         "details": {
-            "title": "Collection Details",
-            "name": "Name",
+            "title": "Détails de la collection",
+            "name": "Nom",
             "description": "Description",
-            "visibility": "Visibility",
-            "createdAt": "Created at {date} by {username}",
-            "updatedAt": "Last updated at {date} by {username}"
+            "visibility": "Visibilité",
+            "createdAt": "Créé le {date} par {username}",
+            "updatedAt": "Dernière mise à jour le {date} par {username}"
         },
         "assets": {
-            "assets": "Assets",
+            "assets": "Fichiers",
             "add": {
-                "title": "Add Asset",
-                "button": "Add Asset",
-                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
-                "success": "Successfully added asset",
-                "error": "Error adding asset"
+                "title": "Ajouter un fichier",
+                "button": "Ajouter un fichier",
+                "confirm": "Êtes-vous sûr de vouloir ajouter {assetName} à la collection {collectionName}?",
+                "success": "Fichier ajouté avec succès",
+                "error": "Erreur lors de l'ajout du fichier"
             },
             "remove": {
-                "title": "Remove Asset",
-                "button": "Remove Asset",
-                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
-                "success": "Successfully removed asset",
-                "error": "Error removing asset"
+                "title": "Supprimer le fichier",
+                "button": "Supprimer le fichier",
+                "confirm": "Êtes-vous sûr de vouloir ajouter {assetName} à la collection {collectionName} ?",
+                "success": "Fichier supprimé avec succès",
+                "error": "Erreur lors de la suppression du fichier"
             }
         },
         "collaborators": {
-            "collaborators": "Collaborators",
+            "collaborators": "Collaborateurs",
             "add": {
-                "title": "Add Collaborator",
-                "help": "Enter the username of the user you want to add as a collaborator",
-                "placeholder": "Enter username",
-                "confirm": "Are you sure you want to add {username} as a collection {role}?",
-                "button": "Add Collaborator",
-                "success": "Successfully added collaborator",
-                "error": "Error adding collaborator"
+                "title": "Ajouter un collaborateur",
+                "help": "Entrez le nom d'utilisateur de la personne que vous souhaitez ajouter en tant que collaborateur",
+                "placeholder": "Entrer un nom d’utilisateur",
+                "confirm": "Êtes-vous sûr de vouloir ajouter {username} à la collection {role} ?",
+                "button": "Ajouter un collaborateur",
+                "success": "Collaborateur ajouté avec succès",
+                "error": "Erreur lors de l'ajout du collaborateur"
             },
             "remove": {
-                "title": "Remove Collaborator",
-                "button": "Remove Collaborator",
+                "title": "Supprimer un collaborateur",
+                "button": "Supprimer un collaborateur",
                 "confirm": "Are you sure you want to remove {username} as a collection {role}?",
                 "success": "Successfully removed collaborator",
                 "error": "Error removing collaborator"
