@@ -19,7 +19,7 @@
             "title": "Modifică colecția",
             "help": "Introdu numele și descrierea colecției ce dorești s-o modifici",
             "placeholder": "Introdu numele",
-            "button": "Modifică colecția",
+            "button": "Modifică această colecție",
             "success": "Colecția a fost modificată cu succes",
             "error": "Eroare la crearea colecției"
         },
@@ -71,10 +71,10 @@
                 "button": "Elimină colaboratorul",
                 "confirm": "Ești sigur că vrei să ștergi pe {username} din colecția {role}?",
                 "success": "Colaborator adăugat cu succes",
-                "error": "Error removing collaborator"
+                "error": "Eroare la eliminarea colaboratorului"
             },
             "permissions": {
-                "permissions": "Permissions",
+                "permissions": "Permisiuni",
                 "editor": {
                     "title": "Editor",
                     "desc": "Poți adăuga și șterge asset-uri și schimba detaliile colecției"
@@ -112,7 +112,7 @@
         },
         "delete": {
             "confirm": "Ești sigur că vrei să ștergi {assetName}?",
-            "success": "Successfully deleted {assetName}",
+            "success": "Șters cu succes {assetName}",
             "error": "Eroare la ștergerea {assetName}"
         },
         "details": {
@@ -171,12 +171,12 @@
             "like": "Like",
             "liked": "Liked",
             "likes": "{count} favorite",
-            "error": "Error liking game",
+            "error": "Eroare la aprecierea jocului",
             "alreadyLiked": "Deja ai apreciat acest joc"
         },
         "unlike": {
             "unlike": "Defavorizează",
-            "unliked": "Unliked",
+            "unliked": "Defavorizat",
             "likes": "{count} favorite",
             "error": "Eroare la defavorizarea jocului",
             "notLiked": "Nu ai apreciat acest joc încă"
@@ -299,7 +299,7 @@
                 "error": "Eroare la schimbarea numelui de utilizator"
             },
             "profilePicture": {
-                "title": "Profile Picture",
+                "title": "Poză de profil",
                 "help": "Poza ta de profil este vizibilă tuturor. Toate imaginile sunt trecute prin multiple filtre de moderare AI pentru a preveni utilizarea greșită.",
                 "button": "Schimbă poza de profil",
                 "success": "Poza de profil schimbată cu succes",
@@ -318,7 +318,7 @@
                 },
                 "poweredBy": {
                     "title": "Provine de la",
-                    "desc": "Our pronouns list is powered by pronouns.page, who were kind enough to give us permission to use their API. Please check them out at {link}!"
+                    "desc": "Lista nostră de pronume provine de la pronouns.page, care au fost amabili încât să ne permită să le folosim API. Vă rugăm să-i vizitați pe {link}!"
                 }
             },
             "providers": {
@@ -339,7 +339,7 @@
                     "help": "Contul tău Twitter/X este folosit pentru a te autentifica pe site."
                 },
                 "visibility": {
-                    "title": "Visibility",
+                    "title": "Vizibilitate",
                     "public": "Public",
                     "private": "Privat"
                 }
@@ -349,7 +349,7 @@
                 "help": "Această setare îți va permite să vizualizezi conținutul provocator/sugestiv, stocat local pe device-ul tău.",
                 "button": "Schimbă vizibilitatea pentru conținutul sugestiv",
                 "success": "S-a modificat cu succes vizualizarea conținutului sugestiv",
-                "error": "Error changing view suggestive content"
+                "error": "Eroare la schimbarea vizualizării conținutului sugestiv"
             },
             "password": {
                 "title": "Parolă",
@@ -357,10 +357,10 @@
                 "placeholder": "Introdu parola",
                 "button": "Modificare parola",
                 "success": "Parolă schimbată cu succes",
-                "error": "Error changing password"
+                "error": "Eroare la modificare parolei"
             },
             "delete": {
-                "title": "Delete Account",
+                "title": "Ștergere contul",
                 "help": "Ștergerea contului va șterge tot, incluzând asset-urile. Vei fi imediat dezactivat și redirecționat la pagina principală. După 14 zile, contul tău va fi șters de a binelea. Reia acces oricând, scriindu-ne un {email}.",
                 "button": "Șterge contul",
                 "confirm": "Sigur dorești să-ți ștergi contul?",
@@ -427,6 +427,6 @@
         "refresh": "Încearcă reîncărcarea paginii sau revino la pagina principală",
         "api": "Eroare la conectate către API. Încercați mai târziu"
     },
-    "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
-    "direction": "ltr"
+    "directionComment": "",
+    "direction": ""
 }
