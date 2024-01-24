@@ -63,12 +63,12 @@
                 "placeholder": "ユーザーネームを入力して",
                 "confirm": "{username} を {role} に追加しますよろしいですか？",
                 "button": "コラボレーターを追加",
-                "success": "Successfully added collaborator",
-                "error": "Error adding collaborator"
+                "success": "コラボレーター追加完了",
+                "error": "コラボレーター追加エラー"
             },
             "remove": {
-                "title": "Remove Collaborator",
-                "button": "Remove Collaborator",
+                "title": "コラボレーターを削除",
+                "button": "コラボレーターを削除",
                 "confirm": "Are you sure you want to remove {username} as a collection {role}?",
                 "success": "Successfully removed collaborator",
                 "error": "Error removing collaborator"
