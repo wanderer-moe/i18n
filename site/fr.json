@@ -13,7 +13,7 @@
             "placeholder": "Entrez un nom",
             "button": "Créer une collection",
             "success": "Collection créée avec succès",
-            "error": "Erreur de création de la collection"
+            "error": "Erreur à la création de la collection"
         },
         "modify": {
             "title": "Modifier la collection",
@@ -21,7 +21,7 @@
             "placeholder": "Entrez un nom",
             "button": "Modifier la collection",
             "success": "Collection modifiée avec succès",
-            "error": "Erreur de modification de la collection"
+            "error": "Erreur à la modification de la collection"
         },
         "delete": {
             "title": "Supprimer la collection",
@@ -52,7 +52,7 @@
                 "button": "Supprimer le fichier",
                 "confirm": "Êtes-vous sûr de vouloir ajouter {assetName} à la collection {collectionName} ?",
                 "success": "Fichier supprimé avec succès",
-                "error": "Erreur de suppression du fichier"
+                "error": "Erreur à la suppression du fichier"
             }
         },
         "collaborators": {
@@ -71,7 +71,7 @@
                 "button": "Supprimer le collaborateur",
                 "confirm": "Êtes-vous sûr de vouloir supprimer {username} à la collection {role} ?",
                 "success": "Collaborateur supprimé avec succès",
-                "error": "Erreur de suppression du collaborateur"
+                "error": "Erreur à la suppression du collaborateur"
             },
             "permissions": {
                 "permissions": "Permissions",
@@ -107,7 +107,7 @@
         "modify": {
             "confirm": "Êtes-vous sûr de vouloir modifier {assetName} ?",
             "success": "{assetName} modifié avec succès",
-            "error": "Erreur lors de la modification de {assetName}",
+            "error": "Erreur à la modification de {assetName}",
             "uploading": "Envoi de {assetName}..."
         },
         "delete": {
@@ -135,7 +135,7 @@
                 "like": "J’aime",
                 "liked": "Aimé",
                 "likes": "{count} likes",
-                "error": "Erreur du like du fichier",
+                "error": "Erreur lors du like du fichier",
                 "alreadyLiked": "Vous avez déjà aimé ce commentaire"
             },
             "unlike": {
@@ -151,14 +151,14 @@
                 "favourite": "Favori",
                 "favourited": "Dans les favoris",
                 "favourites": "{count} favoris",
-                "error": "Erreur lors de la mise en favori du fichier",
+                "error": "Erreur de la mise en favori du fichier",
                 "alreadyFavourited": "Vous avez déjà mis ce fichier en favori"
             },
             "unfavourite": {
                 "unfavourite": "Supprimer des favoris",
                 "unfavourited": "Supprimé des favoris",
                 "favourites": "{count} favoris",
-                "error": "Erreur lors de la suppression du fichier dans les favoris",
+                "error": "Erreur de suppression du fichier dans les favoris",
                 "notFavourited": "Vous n'avez pas mis ce fichier dans les favoris"
             }
         }
@@ -178,7 +178,7 @@
             "unlike": "Ne plus aimer",
             "unliked": "Plus aimé",
             "likes": "{count} likes",
-            "error": "Erreur lors de la suppression du like du jeu",
+            "error": "Erreur de suppression du like du jeu",
             "notLiked": "Vous n'avez pas aimé ce jeu"
         }
     },
@@ -197,7 +197,7 @@
             "unlike": "Ne plus aimer",
             "unliked": "Plus aimé",
             "likes": "{count} likes",
-            "error": "Erreur lors de la suppression du like de cette catégorie de fichiers",
+            "error": "Erreur de la suppression du like de catégorie de fichiers",
             "notLiked": "Vous n'avez pas aimé cette catégorie de fichiers"
         }
     },
