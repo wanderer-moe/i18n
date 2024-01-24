@@ -28,7 +28,7 @@
             "button": "Supprimer la collection",
             "confirm": "Êtes-vous sûr de vouloir supprimer {collectionName} ?",
             "success": "Collection supprimée avec succès",
-            "error": "Erreur lors de la suppression de la collection"
+            "error": "Erreur de suppression de la collection"
         },
         "details": {
             "title": "Détails de la collection",
@@ -45,14 +45,14 @@
                 "button": "Ajouter le fichier",
                 "confirm": "Êtes-vous sûr de vouloir ajouter {assetName} à la collection {collectionName}?",
                 "success": "Fichier ajouté avec succès",
-                "error": "Erreur lors de l'ajout du fichier"
+                "error": "Erreur d'ajout du fichier"
             },
             "remove": {
                 "title": "Supprimer le fichier",
                 "button": "Supprimer le fichier",
                 "confirm": "Êtes-vous sûr de vouloir ajouter {assetName} à la collection {collectionName} ?",
                 "success": "Fichier supprimé avec succès",
-                "error": "Erreur lors de la suppression du fichier"
+                "error": "Erreur de suppression du fichier"
             }
         },
         "collaborators": {
@@ -64,14 +64,14 @@
                 "confirm": "Êtes-vous sûr de vouloir ajouter {username} à la collection {role} ?",
                 "button": "Ajouter le collaborateur",
                 "success": "Collaborateur ajouté avec succès",
-                "error": "Erreur lors de l'ajout du collaborateur"
+                "error": "Erreur d'ajout du collaborateur"
             },
             "remove": {
                 "title": "Supprimer un collaborateur",
                 "button": "Supprimer le collaborateur",
                 "confirm": "Êtes-vous sûr de vouloir supprimer {username} à la collection {role} ?",
                 "success": "Collaborateur supprimé avec succès",
-                "error": "Erreur lors de la suppression du collaborateur"
+                "error": "Erreur de suppression du collaborateur"
             },
             "permissions": {
                 "permissions": "Permissions",
@@ -99,7 +99,7 @@
         "upload": {
             "confirm": "Êtes-vous sûr de vouloir envoyer {assetName} ?",
             "success": "{assetName} envoyé avec succès pour vérification",
-            "error": "Erreur lors du chargement de {assetName}",
+            "error": "Erreur du chargement de {assetName}",
             "dropzone": "Glissez ou cliquez ici pour envoyer un fichier",
             "conflict": "Un fichier avec le même nom existe déjà. Voulez-vous modifier le fichier existant ?",
             "uploading": "Envoi de {assetName}..."
@@ -113,7 +113,7 @@
         "delete": {
             "confirm": "Êtes-vous sûr de vouloir supprimer {assetName} ?",
             "success": "{assetName} supprimé avec succès",
-            "error": "Erreur lors de la suppression de {assetName}"
+            "error": "Erreur de suppression de {assetName}"
         },
         "details": {
             "uploadedBy": "Ajouté par {username}",
@@ -135,14 +135,14 @@
                 "like": "J’aime",
                 "liked": "Aimé",
                 "likes": "{count} likes",
-                "error": "Erreur lors du like du fichier",
+                "error": "Erreur du like du fichier",
                 "alreadyLiked": "Vous avez déjà aimé ce commentaire"
             },
             "unlike": {
                 "unlike": "Ne plus aimer",
                 "unliked": "Plus aimé",
                 "likes": "{count} likes",
-                "error": "Erreur lors de la suppression du like du fichier",
+                "error": "Erreur de suppression du like du fichier",
                 "notLiked": "Vous n'avez pas aimé ce commentaire"
             }
         },
@@ -345,7 +345,7 @@
                 }
             },
             "viewSuggestiveContent": {
-                "title": "Afficher le contenu pouvant choquer",
+                "title": "Affichage du contenu pouvant choquer",
                 "help": "Ce paramètre vous permet de voir le contenu qui peut choquer/mettre mal à l'aise. Il est stocké localement sur votre appareil.",
                 "button": "Modifier les réglages de l'affichage du contenu choquant",
                 "success": "Réglages sur l'affichage du contenu choquant modifié",
