@@ -56,201 +56,201 @@
             }
         },
         "collaborators": {
-            "collaborators": "Collaborators",
+            "collaborators": "Соавторы",
             "add": {
-                "title": "Add Collaborator",
-                "help": "Enter the username of the user you want to add as a collaborator",
-                "placeholder": "Enter username",
-                "confirm": "Are you sure you want to add {username} as a collection {role}?",
-                "button": "Add Collaborator",
-                "success": "Successfully added collaborator",
-                "error": "Error adding collaborator"
+                "title": "Добавить соавтора",
+                "help": "Введите имя пользователя, которого вы хотите добавить в качестве соавтора",
+                "placeholder": "Введите имя пользователя",
+                "confirm": "Вы уверены, что хотите добавить {username} как {role} коллекции?",
+                "button": "Добавить соавтора",
+                "success": "Соавторы успешно добавлены",
+                "error": "Ошибка при добавлении соавтора"
             },
             "remove": {
-                "title": "Remove Collaborator",
-                "button": "Remove Collaborator",
-                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
-                "success": "Successfully removed collaborator",
-                "error": "Error removing collaborator"
+                "title": "Удалить соавтора",
+                "button": "Удалить соавтора",
+                "confirm": "Вы уверены, что хотите удалить {username} как {role} коллекции?",
+                "success": "Соавторы успешно удалены",
+                "error": "Ошибка при удалении соавторов"
             },
             "permissions": {
-                "permissions": "Permissions",
+                "permissions": "Права доступа",
                 "editor": {
-                    "title": "Editor",
-                    "desc": "Can add and remove assets from the collection and change collection details"
+                    "title": "Редактор",
+                    "desc": "Может добавлять и удалять ассеты из коллекции и изменять подробности коллекции"
                 },
                 "collaborator": {
-                    "title": "Collaborator",
-                    "desc": "Can add and remove assets from the collection"
+                    "title": "Соавтор",
+                    "desc": "Может добавлять и удалять ассеты из коллекции"
                 },
                 "viewer": {
-                    "title": "Viewer",
-                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                    "title": "Наблюдатель",
+                    "desc": "Может просматривать коллекцию независимо от доступности, но не вносить изменений"
                 },
                 "owner": {
-                    "title": "Owner",
-                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                    "title": "Владелец",
+                    "desc": "Может добавлять и удалять ассеты из коллекции, изменять подробности коллекции и удалить коллекцию"
                 }
             }
         }
     },
     "asset": {
-        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "suggestiveContent": "Этот ассет может содержать контент сексуального или оскорбительного характера.",
         "upload": {
-            "confirm": "Are you sure you want to upload {assetName}?",
-            "success": "Successfully uploaded {assetName} for review",
-            "error": "Error uploading {assetName}",
-            "dropzone": "Drag or click here to upload asset",
-            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "Вы уверены, что хотите загрузить {assetName}?",
+            "success": "{assetName} Успешно загружено на проверку",
+            "error": "Ошибка при загрузке {assetName}",
+            "dropzone": "Перетащите ассет или нажмите здесь, чтобы загрузить его",
+            "conflict": "Ассет с таким именем уже существует, возможно вы хотите изменить существующий ассет?",
+            "uploading": "Загрузка {assetName}..."
         },
         "modify": {
-            "confirm": "Are you sure you want to modify {assetName}?",
-            "success": "Successfully modified {assetName}",
-            "error": "Error modifying {assetName}",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "Вы уверены, что хотите изменить {assetName}?",
+            "success": "{assetName} Успешно изменено",
+            "error": "Ошибка при изменении {assetName}",
+            "uploading": "Загрузка {assetName}..."
         },
         "delete": {
-            "confirm": "Are you sure you want to delete {assetName}?",
-            "success": "Successfully deleted {assetName}",
-            "error": "Error deleting {assetName}"
+            "confirm": "Вы уверены, что хотите удалить {assetName}?",
+            "success": "{assetName} успешно удалено",
+            "error": "Ошибка при удалении {assetName}"
         },
         "details": {
-            "uploadedBy": "Uploaded by {username}",
-            "extension": "File Type",
-            "uploadedOn": "Uploaded on {date}",
+            "uploadedBy": "Загружено {username}",
+            "extension": "Тип файла",
+            "uploadedOn": "Загружено {date}",
             "status": {
-                "pending": "Pending",
-                "approved": "Approved",
-                "rejected": "Rejected"
+                "pending": "В обработке",
+                "approved": "Одобрено",
+                "rejected": "Отклонено"
             },
-            "viewCount": "{count} views",
-            "downloadCount": "{count} downloads",
-            "download": "Download",
-            "width": "Width",
-            "height": "Height"
+            "viewCount": "{count} просмотров",
+            "downloadCount": "{count} скачиваний",
+            "download": "Скачать",
+            "width": "Ширина",
+            "height": "Высота"
         },
         "like": {
             "like": {
-                "like": "Like",
-                "liked": "Liked",
-                "likes": "{count} likes",
-                "error": "Error liking asset",
-                "alreadyLiked": "You already liked this asset"
+                "like": "Поставить отметку \"Нравится\"",
+                "liked": "Нравится",
+                "likes": "{count} отметок \"Нравится\"",
+                "error": "Ошибка при установке отметки \"Нравится\"",
+                "alreadyLiked": "Вы уже поставили отметку \"Нравится\" этому ассету"
             },
             "unlike": {
-                "unlike": "Unlike",
-                "unliked": "Unliked",
-                "likes": "{count} likes",
-                "error": "Error unliking asset",
-                "notLiked": "You haven't liked this asset"
+                "unlike": "Снять отметку \"Нравится",
+                "unliked": "Отметка \"Нравится\" снята",
+                "likes": "{count} отметок \"Нравится\"",
+                "error": "Ошибка при снятии отметки \"Нравится\"",
+                "notLiked": "Вы не ставили отметку \"Нравится\" этому ассету"
             }
         },
         "favourite": {
             "favourite": {
-                "favourite": "Favourite",
-                "favourited": "Favourited",
-                "favourites": "{count} favourites",
-                "error": "Error favouriting asset",
-                "alreadyFavourited": "You already favourited this asset"
+                "favourite": "В фавориты",
+                "favourited": "Добавлено в фавориты",
+                "favourites": "{count} фаворитов",
+                "error": "Ошибка при добавлении ассета в фавориты",
+                "alreadyFavourited": "Вы уже добавили этот ассет в фавориты"
             },
             "unfavourite": {
-                "unfavourite": "Unfavourite",
-                "unfavourited": "Unfavourited",
-                "favourites": "{count} favourites",
-                "error": "Error unfavouriting asset",
-                "notFavourited": "You haven't favourited this asset"
+                "unfavourite": "Убрать из фаворитов",
+                "unfavourited": "Убрано из фаворитов",
+                "favourites": "{count} фаворитов",
+                "error": "Ошибка при убирании ассета из фаворитов",
+                "notFavourited": "Вы не добавляли этот ассет в фавориты"
             }
         }
     },
     "game": {
-        "game": "Game",
-        "lastUpdated": "Last updated {date}",
-        "possibleSuggestiveContent": "This game has assets that may contain suggestive or triggering content.",
+        "game": "Игра",
+        "lastUpdated": "Дата последнего обновления: {date}",
+        "possibleSuggestiveContent": "Эта игра имеет ассеты, которые могут содержать контент сексуального или оскорбительного характера.",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking game",
-            "alreadyLiked": "You already liked this game"
+            "like": "Поставить отметку \"Нравится\"",
+            "liked": "Нравится",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при установке отметки \"Нравится\"",
+            "alreadyLiked": "Вы уже поставили отметку \"Нравится\" этой игре"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking game",
-            "notLiked": "You haven't liked this game"
+            "unlike": "Снять отметку \"Нравится\"",
+            "unliked": "Отметка \"Нравится\" снята",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при снятии отметки \"Нравится\"",
+            "notLiked": "Вы не ставили отметку \"Нравится\" этой игре"
         }
     },
     "assetCategory": {
-        "assetCategory": "Asset Category",
-        "lastUpdated": "Last updated {date}",
-        "possibleSuggestiveContent": "This asset category has assets that may contain suggestive or triggering content.",
+        "assetCategory": "Категория ассетов",
+        "lastUpdated": "Дата последнего обновления: {date}",
+        "possibleSuggestiveContent": "Эта категория имеет ассеты, которые могут содержать контент сексуального или оскорбительного характера.",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking asset category",
-            "alreadyLiked": "You already liked this asset category"
+            "like": "Поставить отметку \"Нравится\"",
+            "liked": "Нравится",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при установке отметки \"Нравится\"",
+            "alreadyLiked": "Вы уже поставили отметку \"Нравится\" этой категории"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking asset category",
-            "notLiked": "You haven't liked this asset category"
+            "unlike": "Снять отметку \"Нравится\"",
+            "unliked": "Отметка \"Нравится\" снята",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при снятии отметки \"Нравится\"",
+            "notLiked": "Вы не ставили отметку \"Нравится\" этой категории"
         }
     },
     "tags": {
-        "tags": "Tags",
-        "noTags": "No tags",
+        "tags": "Метки",
+        "noTags": "Меток нет",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking tag",
-            "alreadyLiked": "You already liked this tag"
+            "like": "Поставить отметку \"Нравится\"",
+            "liked": "Нравится",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при установке отметки \"Нравится\"",
+            "alreadyLiked": "Вы уже поставили отметку \"Нравится\" этой метке"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking tag",
-            "notLiked": "You haven't liked this tag"
+            "unlike": "Снять отметку \"Нравится\"",
+            "unliked": "Отметка \"Нравится\" снята",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при снятии отметки \"Нравится\"",
+            "notLiked": "Вы не ставили отметку \"Нравится\" этой метке"
         }
     },
     "search": {
         "assets": {
-            "noResults": "No assets found",
-            "noResultsDesc": "Try changing your search query or filters",
+            "noResults": "Ассеты не найдены",
+            "noResultsDesc": "Попробуйте изменить поисковый запрос или фильтры",
             "sideBar": {
-                "filters": "Filters",
+                "filters": "Фильтры",
                 "sort": {
-                    "sort": "Sort",
-                    "newest": "Newest",
-                    "oldest": "Oldest",
-                    "views": "Most Views",
-                    "downloads": "Most Downloads"
+                    "sort": "Сортировка",
+                    "newest": "Самое новое",
+                    "oldest": "Самое старое",
+                    "views": "Самое просматриваемое",
+                    "downloads": "Самое скачиваемое"
                 }
             }
         }
     },
     "account": {
         "roles": {
-            "contributor": "Contributor",
-            "collaborator": "Collaborator",
-            "partner": "Partner",
-            "contentCreator": "Content Creator",
-            "moderator": "Moderator",
-            "developer": "Developer",
-            "creator": "Creator"
+            "contributor": "Помощник",
+            "collaborator": "Соавтор",
+            "partner": "Партнёр",
+            "contentCreator": "Контентмейкер",
+            "moderator": "Модератор",
+            "developer": "Разработчик",
+            "creator": "Создатель"
         },
         "account": {
-            "account": "Account"
+            "account": "Аккаунт"
         },
         "follow": {
             "status": {
-                "following": "Following",
+                "following": "Подписки",
                 "notFollowing": "Not Following",
                 "followsYou": "Follows You",
                 "mutual": "Mutual"
