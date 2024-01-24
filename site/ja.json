@@ -69,88 +69,88 @@
             "remove": {
                 "title": "コラボレーターを削除",
                 "button": "コラボレーターを削除",
-                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
-                "success": "Successfully removed collaborator",
-                "error": "Error removing collaborator"
+                "confirm": "本当に{username} を {role} から削除しますか？",
+                "success": "コラボレーター削除完了",
+                "error": "コラボレーター削除エラー"
             },
             "permissions": {
-                "permissions": "Permissions",
+                "permissions": "お許可",
                 "editor": {
-                    "title": "Editor",
-                    "desc": "Can add and remove assets from the collection and change collection details"
+                    "title": "編集者",
+                    "desc": "お収集からアセットを追加削除するも収集記述を変わるができます"
                 },
                 "collaborator": {
-                    "title": "Collaborator",
-                    "desc": "Can add and remove assets from the collection"
+                    "title": "コラボレーター",
+                    "desc": "お収集からアセットを追加削除ができます"
                 },
                 "viewer": {
-                    "title": "Viewer",
-                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                    "title": "観客",
+                    "desc": "どんな視認性でも収集を見るできますですが変わりはできません"
                 },
                 "owner": {
-                    "title": "Owner",
-                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                    "title": "所有者",
+                    "desc": "お収集からアセットを追加削除するも収集記述を変わるができるも収集削除ができます"
                 }
             }
         }
     },
     "asset": {
-        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "suggestiveContent": "このアセット、示唆的か不愉快な内容を含む場合があります。",
         "upload": {
-            "confirm": "Are you sure you want to upload {assetName}?",
-            "success": "Successfully uploaded {assetName} for review",
-            "error": "Error uploading {assetName}",
-            "dropzone": "Drag or click here to upload asset",
-            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "{assetName} をアップロードしてよろしいですか？",
+            "success": "{assetName} は審査へアップロードしました",
+            "error": "{assetName} アップロードにエラー",
+            "dropzone": "ここにドラグかクリックしてアセットをアップロードする",
+            "conflict": "同じ名前のアセットはもうありますみたい。あの既成アセットを変わりいかがですか？",
+            "uploading": "{assetName} をアップロードしています…"
         },
         "modify": {
-            "confirm": "Are you sure you want to modify {assetName}?",
-            "success": "Successfully modified {assetName}",
-            "error": "Error modifying {assetName}",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "{assetName} を変わってよろしいですか？",
+            "success": "{assetName} 変わり完了",
+            "error": "{assetName} 変わりエラー",
+            "uploading": "{assetName} をアップロードしています…"
         },
         "delete": {
-            "confirm": "Are you sure you want to delete {assetName}?",
-            "success": "Successfully deleted {assetName}",
-            "error": "Error deleting {assetName}"
+            "confirm": "本当に「{assetName}」を削除しますか？",
+            "success": "{assetName} 削除完了",
+            "error": "{assetName} 削除エラー"
         },
         "details": {
-            "uploadedBy": "Uploaded by {username}",
-            "extension": "File Type",
-            "uploadedOn": "Uploaded on {date}",
+            "uploadedBy": "アップロード者は{username}",
+            "extension": "ファイル形式",
+            "uploadedOn": "アップロード日は{date}",
             "status": {
-                "pending": "Pending",
-                "approved": "Approved",
-                "rejected": "Rejected"
+                "pending": "審査中",
+                "approved": "受理しました",
+                "rejected": "却下しました"
             },
-            "viewCount": "{count} views",
-            "downloadCount": "{count} downloads",
-            "download": "Download",
-            "width": "Width",
-            "height": "Height"
+            "viewCount": "{count} 視聴回数",
+            "downloadCount": "{count} ダウンロード回数",
+            "download": "ダウンロードして",
+            "width": "幅",
+            "height": "高さ"
         },
         "like": {
             "like": {
-                "like": "Like",
-                "liked": "Liked",
-                "likes": "{count} likes",
-                "error": "Error liking asset",
-                "alreadyLiked": "You already liked this asset"
+                "like": "いいね！",
+                "liked": "「いいね！」しまった",
+                "likes": "{count} いいね！",
+                "error": "「いいね!」してエラー",
+                "alreadyLiked": "もう「いいね！」がしまった。"
             },
             "unlike": {
-                "unlike": "Unlike",
-                "unliked": "Unliked",
-                "likes": "{count} likes",
-                "error": "Error unliking asset",
-                "notLiked": "You haven't liked this asset"
+                "unlike": "嫌い",
+                "unliked": "「嫌い」しまった",
+                "likes": "{count} いいね！",
+                "error": "「嫌い」にエラー",
+                "notLiked": "このアセットに「いいね!」がありません。"
             }
         },
         "favourite": {
             "favourite": {
-                "favourite": "Favourite",
-                "favourited": "Favourited",
-                "favourites": "{count} favourites",
+                "favourite": "お気に入り",
+                "favourited": "お気に入りに登録した",
+                "favourites": "{count} お気に入り",
                 "error": "Error favouriting asset",
                 "alreadyFavourited": "You already favourited this asset"
             },
@@ -228,54 +228,54 @@
                 "sort": {
                     "sort": "Sort",
                     "newest": "Newest",
-                    "oldest": "Oldest",
-                    "views": "Most Views",
-                    "downloads": "Most Downloads"
+                    "oldest": "古い順",
+                    "views": "視聴回数高さ順",
+                    "downloads": "ダウンロード回数高さ順"
                 }
             }
         }
     },
     "account": {
         "roles": {
-            "contributor": "Contributor",
-            "collaborator": "Collaborator",
-            "partner": "Partner",
-            "contentCreator": "Content Creator",
-            "moderator": "Moderator",
-            "developer": "Developer",
-            "creator": "Creator"
+            "contributor": "支持者",
+            "collaborator": "コラボレーター",
+            "partner": "提携者",
+            "contentCreator": "コンテンツ・クリエーター",
+            "moderator": "モデレーター",
+            "developer": "デベロッパー",
+            "creator": "作成者"
         },
         "account": {
-            "account": "Account"
+            "account": "アカウント"
         },
         "follow": {
             "status": {
-                "following": "Following",
-                "notFollowing": "Not Following",
-                "followsYou": "Follows You",
-                "mutual": "Mutual"
+                "following": "フォローしている",
+                "notFollowing": "フォローしていません",
+                "followsYou": "フォローされています",
+                "mutual": "相互フォロー"
             },
             "count": {
-                "following": "{count} Following",
-                "followers": "{count} Followers"
+                "following": "{count} フォローしている",
+                "followers": "{count} フォロワー"
             },
             "follow": {
-                "follow": "Follow",
-                "followed": "Followed",
-                "error": "Error following user",
-                "alreadyFollowed": "You already follow this user"
+                "follow": "フォロー",
+                "followed": "フォローしている",
+                "error": "フォローしてエラー",
+                "alreadyFollowed": "すでにユーザーをフォローしています"
             },
             "unfollow": {
-                "unfollow": "Unfollow",
-                "unfollowed": "Unfollowed",
-                "error": "Error unfollowing user",
-                "notFollowed": "You don't follow this user"
+                "unfollow": "フォロー解除",
+                "unfollowed": "フォロー解除しまった",
+                "error": "フォロー解除エラー",
+                "notFollowed": "このユーザーをフォローしてはない"
             }
         },
         "settings": {
-            "settings": "Settings",
+            "settings": "設定",
             "username": {
-                "title": "Username",
+                "title": "ユーザーネーム",
                 "help": "Your username is used to identify you on the site and is unique to you.",
                 "placeholder": "Enter username",
                 "button": "Change Username",
