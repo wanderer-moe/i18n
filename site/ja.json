@@ -1,7 +1,7 @@
 {
     "collection": {
-        "name": "Collection Name",
-        "description": "Collection Description",
+        "name": "収集名",
+        "description": "収集記述",
         "visibility": {
             "title": "可視性",
             "public": "公開",
@@ -61,8 +61,8 @@
                 "title": "コラボレーターを追加",
                 "help": "コラボレーターになって追加したいユーザーのユーザーネームを入力してください",
                 "placeholder": "ユーザーネームを入力して",
-                "confirm": "Are you sure you want to add {username} as a collection {role}?",
-                "button": "Add Collaborator",
+                "confirm": "{username} を {role} に追加しますよろしいですか？",
+                "button": "コラボレーターを追加",
                 "success": "Successfully added collaborator",
                 "error": "Error adding collaborator"
             },
