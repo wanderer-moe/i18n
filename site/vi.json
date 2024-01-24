@@ -1,17 +1,17 @@
 {
     "collection": {
-        "name": "Collection Name",
-        "description": "Collection Description",
+        "name": "Tên bộ sưu tập",
+        "description": "",
         "visibility": {
-            "title": "Visibility",
-            "public": "Public",
-            "private": "Private"
+            "title": "Hiển thị",
+            "public": "Công khai",
+            "private": "Bí mật"
         },
         "create": {
-            "title": "Create Collection",
-            "help": "Enter the name and description of the collection you want to create",
-            "placeholder": "Enter name",
-            "button": "Create Collection",
+            "title": "Tạo bộ sưu tập",
+            "help": "Nhập tên và sự tả của bộ sưu tập bạn muốn tạo",
+            "placeholder": "Ghi tên vào",
+            "button": "Tạo bộ sưu tập",
             "success": "Successfully created collection",
             "error": "Error creating collection"
         },
