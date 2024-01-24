@@ -236,6 +236,15 @@
         }
     },
     "account": {
+        "roles": {
+            "contributor": "Contributor",
+            "collaborator": "Collaborator",
+            "partner": "Partner",
+            "contentCreator": "Content Creator",
+            "moderator": "Moderator",
+            "developer": "Developer",
+            "creator": "Creator"
+        },
         "account": {
             "account": "Account"
         },
@@ -280,6 +289,37 @@
                 "button": "Change Email",
                 "success": "Successfully changed email",
                 "error": "Error changing email"
+            },
+            "usernameColour": {
+                "title": "Username Colour",
+                "help": "Have a unique username colour on the site. This is visible to everyone.",
+                "placeholder": "Enter username colour",
+                "button": "Change Username Colour",
+                "success": "Successfully changed username colour",
+                "error": "Error changing username colour"
+            },
+            "profilePicture": {
+                "title": "Profile Picture",
+                "help": "Your profile picture is visible to everyone. All images are ran through multiple AI moderation filters to prevent misuse.",
+                "button": "Change Profile Picture",
+                "success": "Successfully changed profile picture",
+                "error": "Error changing profile picture"
+            },
+            "pronouns": {
+                "pronouns": "Pronouns",
+                "set": {
+                    "title": "Set Pronouns",
+                    "help": "Enter the pronouns you want to set, your current pronouns are {subject}/{object}/{possessive}",
+                    "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
+                    "placeholder": "Enter pronouns",
+                    "button": "Set Pronouns",
+                    "success": "Successfully set pronouns",
+                    "error": "Error setting pronouns"
+                },
+                "poweredBy": {
+                    "title": "Powered by",
+                    "desc": "Our pronouns list is powered by pronouns.page, who were kind enough to give us permission to use their API. Please check them out at {link}!"
+                }
             },
             "providers": {
                 "discord": {
