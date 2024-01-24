@@ -250,9 +250,9 @@
         },
         "follow": {
             "status": {
-                "following": "Подписки",
-                "notFollowing": "Not Following",
-                "followsYou": "Follows You",
+                "following": "Подписан(а)",
+                "notFollowing": "Не подписан(а)",
+                "followsYou": "Подписан(а) на вас",
                 "mutual": "Mutual"
             },
             "count": {
