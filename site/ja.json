@@ -3,64 +3,64 @@
         "name": "Collection Name",
         "description": "Collection Description",
         "visibility": {
-            "title": "Visibility",
-            "public": "Public",
-            "private": "Private"
+            "title": "可視性",
+            "public": "公開",
+            "private": "プライベート"
         },
         "create": {
-            "title": "Create Collection",
-            "help": "Enter the name and description of the collection you want to create",
-            "placeholder": "Enter name",
-            "button": "Create Collection",
-            "success": "Successfully created collection",
-            "error": "Error creating collection"
+            "title": "収集を作る",
+            "help": "作りたい収集の名前と記述を入る",
+            "placeholder": "名前を入る",
+            "button": "収集を作る",
+            "success": "お収集作り完了",
+            "error": "お収集作りエラー"
         },
         "modify": {
-            "title": "Modify Collection",
-            "help": "Enter the name and description of the collection you want to modify",
-            "placeholder": "Enter name",
-            "button": "Modify Collection",
-            "success": "Successfully modified collection",
-            "error": "Error modifying collection"
+            "title": "お収集を変わる",
+            "help": "変わりたい収集の名前と記述を入る",
+            "placeholder": "名前を入る",
+            "button": "お収集を変わる",
+            "success": "お収集変わり完了",
+            "error": "お収集変わりエラー"
         },
         "delete": {
-            "title": "Delete Collection",
-            "button": "Delete Collection",
-            "confirm": "Are you sure you want to delete {collectionName}?",
-            "success": "Successfully deleted collection",
-            "error": "Error deleting collection"
+            "title": "お収集を削除する",
+            "button": "お収集を削除する",
+            "confirm": "本当に「{collectionName}」を削除しますか？",
+            "success": "お収集削除完了",
+            "error": "お収集削除エラー"
         },
         "details": {
-            "title": "Collection Details",
-            "name": "Name",
-            "description": "Description",
-            "visibility": "Visibility",
-            "createdAt": "Created at {date} by {username}",
-            "updatedAt": "Last updated at {date} by {username}"
+            "title": "収集詳細",
+            "name": "名",
+            "description": "記述",
+            "visibility": "可視性",
+            "createdAt": "{username} によって{date} に作り出した",
+            "updatedAt": "{username} によって{date} は最終の更新"
         },
         "assets": {
-            "assets": "Assets",
+            "assets": "アセット",
             "add": {
-                "title": "Add Asset",
-                "button": "Add Asset",
-                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
-                "success": "Successfully added asset",
-                "error": "Error adding asset"
+                "title": "アセットを追加",
+                "button": "アセットを追加",
+                "confirm": "{assetName} を{collectionName} に追加しますよろしいですか？",
+                "success": "アセット追加完了",
+                "error": "アセット追加エラー"
             },
             "remove": {
-                "title": "Remove Asset",
-                "button": "Remove Asset",
-                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
-                "success": "Successfully removed asset",
-                "error": "Error removing asset"
+                "title": "アセットを外して",
+                "button": "アセットを外して",
+                "confirm": "本当に「{assetName}」を{collectionName} から削除しますか？",
+                "success": "アセット削除完了",
+                "error": "アセット削除エラー"
             }
         },
         "collaborators": {
-            "collaborators": "Collaborators",
+            "collaborators": "コラボレーター",
             "add": {
-                "title": "Add Collaborator",
-                "help": "Enter the username of the user you want to add as a collaborator",
-                "placeholder": "Enter username",
+                "title": "コラボレーターを追加",
+                "help": "コラボレーターになって追加したいユーザーのユーザーネームを入力してください",
+                "placeholder": "ユーザーネームを入力して",
                 "confirm": "Are you sure you want to add {username} as a collection {role}?",
                 "button": "Add Collaborator",
                 "success": "Successfully added collaborator",
