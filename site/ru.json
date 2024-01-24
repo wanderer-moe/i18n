@@ -1,58 +1,58 @@
 {
     "collection": {
-        "name": "Collection Name",
-        "description": "Collection Description",
+        "name": "Название коллекции",
+        "description": "Описание коллекции",
         "visibility": {
-            "title": "Visibility",
-            "public": "Public",
-            "private": "Private"
+            "title": "Доступность",
+            "public": "Публично",
+            "private": "Приватно"
         },
         "create": {
-            "title": "Create Collection",
-            "help": "Enter the name and description of the collection you want to create",
-            "placeholder": "Enter name",
-            "button": "Create Collection",
-            "success": "Successfully created collection",
-            "error": "Error creating collection"
+            "title": "Создать коллекцию",
+            "help": "Введите название и описание создаваемой коллекции",
+            "placeholder": "Введите название",
+            "button": "Создать коллекцию",
+            "success": "Коллекция успешно создана",
+            "error": "Ошибка при создании коллекции"
         },
         "modify": {
-            "title": "Modify Collection",
-            "help": "Enter the name and description of the collection you want to modify",
-            "placeholder": "Enter name",
-            "button": "Modify Collection",
-            "success": "Successfully modified collection",
-            "error": "Error modifying collection"
+            "title": "Изменить коллекцию",
+            "help": "Введите название и описание коллекции, которую вы хотите изменить",
+            "placeholder": "Введите название",
+            "button": "Изменить коллекцию",
+            "success": "Коллекция успешно изменена",
+            "error": "Ошибка при изменении коллекции"
         },
         "delete": {
-            "title": "Delete Collection",
-            "button": "Delete Collection",
-            "confirm": "Are you sure you want to delete {collectionName}?",
-            "success": "Successfully deleted collection",
-            "error": "Error deleting collection"
+            "title": "Удалить коллекцию",
+            "button": "Удалить коллекцию",
+            "confirm": "Вы уверены, что хотите удалить {collectionName}?",
+            "success": "Коллекция успешно удалена",
+            "error": "Ошибка при удалении коллекции"
         },
         "details": {
-            "title": "Collection Details",
-            "name": "Name",
-            "description": "Description",
-            "visibility": "Visibility",
-            "createdAt": "Created at {date} by {username}",
-            "updatedAt": "Last updated at {date} by {username}"
+            "title": "Сведения о коллекции",
+            "name": "Название",
+            "description": "Описание",
+            "visibility": "Доступность",
+            "createdAt": "Создано {date} {username}",
+            "updatedAt": "Последнее обновление от {date} от {username}"
         },
         "assets": {
-            "assets": "Assets",
+            "assets": "Ассеты",
             "add": {
-                "title": "Add Asset",
-                "button": "Add Asset",
-                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
-                "success": "Successfully added asset",
-                "error": "Error adding asset"
+                "title": "Добавить Ассет",
+                "button": "Добавить Ассет",
+                "confirm": "Вы уверены, что хотите добавить {assetName} в коллекцию {collectionName}?",
+                "success": "Ассет успешно добавлен",
+                "error": "Ошибка при добавлении ассета"
             },
             "remove": {
-                "title": "Remove Asset",
-                "button": "Remove Asset",
-                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
-                "success": "Successfully removed asset",
-                "error": "Error removing asset"
+                "title": "Удалить ассет",
+                "button": "Удалить ассет",
+                "confirm": "Вы уверены, что хотите удалить {assetName} из коллекции {collectionName}?",
+                "success": "Ассет успешно удалён",
+                "error": "Ошибка при удалении ассета"
             }
         },
         "collaborators": {
