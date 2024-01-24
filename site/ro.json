@@ -1,23 +1,23 @@
 {
     "collection": {
-        "name": "Collection Name",
-        "description": "Collection Description",
+        "name": "Colecție Nume",
+        "description": "Colecție Descriere",
         "visibility": {
-            "title": "Visibility",
+            "title": "Vizibilitate",
             "public": "Public",
-            "private": "Private"
+            "private": "Privat"
         },
         "create": {
-            "title": "Create Collection",
-            "help": "Enter the name and description of the collection you want to create",
-            "placeholder": "Enter name",
-            "button": "Create Collection",
-            "success": "Successfully created collection",
-            "error": "Error creating collection"
+            "title": "Creare Colecție",
+            "help": "Completează cu numele şi descrierea numelui pe care vrei s-o creezi.",
+            "placeholder": "Introdu numele",
+            "button": "Creează Colecție",
+            "success": "Cu success s-a creat colecția",
+            "error": "Eroare la crearea colecției"
         },
         "modify": {
-            "title": "Modify Collection",
-            "help": "Enter the name and description of the collection you want to modify",
+            "title": "Modifică colecția",
+            "help": "Introdu numele și descrierea colecției ce dorești s-o modifici",
             "placeholder": "Enter name",
             "button": "Modify Collection",
             "success": "Successfully modified collection",
