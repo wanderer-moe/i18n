@@ -151,77 +151,77 @@
                 "favourite": "お気に入り",
                 "favourited": "お気に入りに登録した",
                 "favourites": "{count} お気に入り",
-                "error": "Error favouriting asset",
-                "alreadyFavourited": "You already favourited this asset"
+                "error": "お気に入りのエラー",
+                "alreadyFavourited": "このアセットはもうお気に入りがあります"
             },
             "unfavourite": {
-                "unfavourite": "Unfavourite",
-                "unfavourited": "Unfavourited",
-                "favourites": "{count} favourites",
-                "error": "Error unfavouriting asset",
-                "notFavourited": "You haven't favourited this asset"
+                "unfavourite": "お気に入りから削除",
+                "unfavourited": "お気に入りから削除した",
+                "favourites": "{count} お気に入り",
+                "error": "お気に入りから削除エラー",
+                "notFavourited": "このアセットはお気に入りしませんでした"
             }
         }
     },
     "game": {
-        "game": "Game",
-        "lastUpdated": "Last updated {date}",
-        "possibleSuggestiveContent": "This game has assets that may contain suggestive or triggering content.",
+        "game": "ゲーム",
+        "lastUpdated": "最終更新日 {date}",
+        "possibleSuggestiveContent": "このゲームは、示唆的か不愉快な内容を含むアセットがあります。",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking game",
-            "alreadyLiked": "You already liked this game"
+            "like": "いいね！",
+            "liked": "「いいね」しました",
+            "likes": "{count} いいね！",
+            "error": "「いいね!」してエラー",
+            "alreadyLiked": "もう「いいね！」がしまった。"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking game",
-            "notLiked": "You haven't liked this game"
+            "unlike": "嫌い",
+            "unliked": "「嫌い」しまった",
+            "likes": "{count} いいね！",
+            "error": "「嫌い」にエラー",
+            "notLiked": "このゲームに「いいね!」がありません。"
         }
     },
     "assetCategory": {
-        "assetCategory": "Asset Category",
-        "lastUpdated": "Last updated {date}",
-        "possibleSuggestiveContent": "This asset category has assets that may contain suggestive or triggering content.",
+        "assetCategory": "アセットカテゴリ",
+        "lastUpdated": "最終更新日 {date}",
+        "possibleSuggestiveContent": "このカテゴリは、示唆的か不愉快な内容を含むアセットがあります。",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking asset category",
-            "alreadyLiked": "You already liked this asset category"
+            "like": "いいね！",
+            "liked": "「いいね」しました",
+            "likes": "{count} いいね！",
+            "error": "アセットカテゴリのいいね！エラー",
+            "alreadyLiked": "もう「いいね！」がしまった。"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking asset category",
-            "notLiked": "You haven't liked this asset category"
+            "unlike": "嫌い",
+            "unliked": "「嫌い」しまった",
+            "likes": "{count} いいね！",
+            "error": "アセットカテゴリの嫌いエラー",
+            "notLiked": "このアセットに「いいね!」がありません。"
         }
     },
     "tags": {
-        "tags": "Tags",
-        "noTags": "No tags",
+        "tags": "タグ",
+        "noTags": "タグなし",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking tag",
-            "alreadyLiked": "You already liked this tag"
+            "like": "いいね！",
+            "liked": "「いいね」しました",
+            "likes": "{count} いいね！",
+            "error": "「いいね!」してエラー",
+            "alreadyLiked": "もう「いいね！」がしまった。"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking tag",
-            "notLiked": "You haven't liked this tag"
+            "unlike": "嫌い",
+            "unliked": "「嫌い」しまった",
+            "likes": "{count} いいね！",
+            "error": "「嫌い」にエラー",
+            "notLiked": "このタグに「いいね!」がありません。"
         }
     },
     "search": {
         "assets": {
-            "noResults": "No assets found",
+            "noResults": "そんなにアセットが見つかりません",
             "noResultsDesc": "Try changing your search query or filters",
             "sideBar": {
                 "filters": "Filters",
