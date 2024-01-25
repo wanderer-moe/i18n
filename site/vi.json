@@ -19,13 +19,13 @@
             "title": "Biến cải bộ sưu tập",
             "help": "Ghi tên và sự tả của bộ sưu tập bạn muốn chỉnh sửa",
             "placeholder": "Ghi tên vào",
-            "button": "Modify Collection",
-            "success": "Successfully modified collection",
-            "error": "Error modifying collection"
+            "button": "Biến cải bộ sưu tập",
+            "success": "Bộ sưu tập đã sửa đổi được rồi",
+            "error": "Bộ sưu tập không chỉnh sửa được"
         },
         "delete": {
-            "title": "Delete Collection",
-            "button": "Delete Collection",
+            "title": "Xoá Bộ Sưu Tập",
+            "button": "Xoá Bộ Sưu Tập",
             "confirm": "Are you sure you want to delete {collectionName}?",
             "success": "Successfully deleted collection",
             "error": "Error deleting collection"
@@ -336,16 +336,16 @@
                 },
                 "twitter": {
                     "title": "Twitter/X",
-                    "help": "Your Twitter/X account is used to authenticate you on the site."
+                    "help": "Tài khoản Twitter/X của bạn được sử dụng để xác thực bạn trên trang web."
                 },
                 "visibility": {
-                    "title": "Visibility",
-                    "public": "Public",
-                    "private": "Private"
+                    "title": "Hiển thị",
+                    "public": "Công khai",
+                    "private": "Bí mật"
                 }
             },
             "viewSuggestiveContent": {
-                "title": "View Suggestive Content",
+                "title": "Xem nội dung lạ lùng",
                 "help": "This setting allows you to view suggestive/triggering content, this is stored locally on your device.",
                 "button": "Change View Suggestive Content",
                 "success": "Successfully changed view suggestive content",
@@ -413,19 +413,19 @@
             "title": "Feedback",
             "help": "If you have any feedback or suggestions for the site, please let us know here.",
             "placeholder": "Enter feedback",
-            "button": "Send Feedback",
-            "success": "Successfully sent feedback",
-            "error": "Error sending feedback"
+            "button": "Gửi feedback",
+            "success": "Gửi feedback được rồi",
+            "error": "Không gửi được feedback"
         }
     },
     "errors": {
         "404": "Không tìm thấy trang",
         "500": "Lỗi máy chủ",
-        "401": "Unauthorized",
-        "403": "Forbidden",
+        "401": "Không được vào",
+        "403": "Không được vào",
         "back": "Quay lại",
         "refresh": "Thử làm mới trang hoặc quay lại trang chủ",
-        "api": "Error connecting to the API. Please try again later"
+        "api": "Lỗi khi kết nối với API. Bạn thử lại sau"
     },
     "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
