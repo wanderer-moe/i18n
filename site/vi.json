@@ -1,7 +1,7 @@
 {
     "collection": {
         "name": "Tên bộ sưu tập",
-        "description": "",
+        "description": "Sự tả của bộ sưu tập",
         "visibility": {
             "title": "Hiển thị",
             "public": "Công khai",
@@ -9,16 +9,16 @@
         },
         "create": {
             "title": "Tạo bộ sưu tập",
-            "help": "Nhập tên và sự tả của bộ sưu tập bạn muốn tạo",
+            "help": "Ghi tên và sự tả của bộ sưu tập bạn muốn tạo",
             "placeholder": "Ghi tên vào",
             "button": "Tạo bộ sưu tập",
-            "success": "Successfully created collection",
-            "error": "Error creating collection"
+            "success": "Bộ sưu tập đã tạo được rồi",
+            "error": "Bộ sưu tập không tạo được"
         },
         "modify": {
-            "title": "Modify Collection",
-            "help": "Enter the name and description of the collection you want to modify",
-            "placeholder": "Enter name",
+            "title": "Biến cải bộ sưu tập",
+            "help": "Ghi tên và sự tả của bộ sưu tập bạn muốn chỉnh sửa",
+            "placeholder": "Ghi tên vào",
             "button": "Modify Collection",
             "success": "Successfully modified collection",
             "error": "Error modifying collection"
@@ -423,7 +423,7 @@
         "500": "Lỗi máy chủ",
         "401": "Unauthorized",
         "403": "Forbidden",
-        "back": "Go Back",
+        "back": "Quay lại",
         "refresh": "Thử làm mới trang hoặc quay lại trang chủ",
         "api": "Error connecting to the API. Please try again later"
     },
