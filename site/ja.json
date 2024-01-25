@@ -222,12 +222,12 @@
     "search": {
         "assets": {
             "noResults": "そんなにアセットが見つかりません",
-            "noResultsDesc": "Try changing your search query or filters",
+            "noResultsDesc": "検索語かフィルターを変わりようとして良いかご覧にください",
             "sideBar": {
-                "filters": "Filters",
+                "filters": "フィルター",
                 "sort": {
-                    "sort": "Sort",
-                    "newest": "Newest",
+                    "sort": "ソート",
+                    "newest": "最新",
                     "oldest": "古い順",
                     "views": "視聴回数高さ順",
                     "downloads": "ダウンロード回数高さ順"
@@ -309,7 +309,7 @@
                 "pronouns": "代名詞",
                 "set": {
                     "title": "代名詞を設定する",
-                    "help": "Enter the pronouns you want to set, your current pronouns are {subject}/{object}/{possessive}",
+                    "help": "設定したいプローノンを入力してください。現在のは {subject}/{object}/{possessive}",
                     "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
                     "placeholder": "Enter pronouns",
                     "button": "Set Pronouns",
@@ -317,31 +317,31 @@
                     "error": "Error setting pronouns"
                 },
                 "poweredBy": {
-                    "title": "Powered by",
-                    "desc": "Our pronouns list is powered by pronouns.page, who were kind enough to give us permission to use their API. Please check them out at {link}!"
+                    "title": "提供",
+                    "desc": "この代名詞リストはpronouns.pageのAPIお陰で提供させています。{link} で彼らをご覧ください！"
                 }
             },
             "providers": {
                 "discord": {
                     "title": "Discord",
-                    "help": "Your Discord account is used to authenticate you on the site."
+                    "help": "自分のDiscordアカウントはサイトで認証ために使用されます。"
                 },
                 "google": {
                     "title": "Google",
-                    "help": "Your Google account is used to authenticate you on the site."
+                    "help": "自分のGoogleアカウントはサイトで認証ために使用されます。"
                 },
                 "github": {
                     "title": "GitHub",
-                    "help": "Your GitHub account is used to authenticate you on the site."
+                    "help": "自分のGitHubアカウントはサイトで認証ために使用されます。"
                 },
                 "twitter": {
-                    "title": "Twitter/X",
-                    "help": "Your Twitter/X account is used to authenticate you on the site."
+                    "title": "Twitter・X",
+                    "help": "自分のTwitter・Xアカウントはサイトで認証ために使用されます。"
                 },
                 "visibility": {
-                    "title": "Visibility",
-                    "public": "Public",
-                    "private": "Private"
+                    "title": "可視性",
+                    "public": "公開",
+                    "private": "非公開"
                 }
             },
             "viewSuggestiveContent": {
@@ -393,39 +393,39 @@
                 },
                 "asset": {
                     "title": "Report Asset",
-                    "help": "If you find any assets breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report Asset",
-                    "success": "Successfully reported asset",
-                    "error": "Error reporting asset"
+                    "help": "規則を破るアセットを見つければここでリポートしてください。",
+                    "placeholder": "リポートを入力",
+                    "button": "アセットをリポートする",
+                    "success": "アセットのリポートして完了",
+                    "error": "アセットのリポートしてエラー"
                 },
                 "collection": {
-                    "title": "Report Collection",
-                    "help": "If you find any collections breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report Collection",
-                    "success": "Successfully reported collection",
-                    "error": "Error reporting collection"
+                    "title": "収集をリポートする",
+                    "help": "規則を破る収集を見つければここでリポートしてください。",
+                    "placeholder": "リポートを入力",
+                    "button": "収集をリポートする",
+                    "success": "お収集リポート完了",
+                    "error": "お収集リポートエラー"
                 }
             }
         },
         "feedback": {
-            "title": "Feedback",
-            "help": "If you have any feedback or suggestions for the site, please let us know here.",
-            "placeholder": "Enter feedback",
-            "button": "Send Feedback",
-            "success": "Successfully sent feedback",
-            "error": "Error sending feedback"
+            "title": "フィードバック",
+            "help": "サイトのご意見やご提案がございましたら、こちらからお知らせください。",
+            "placeholder": "フィードバックを入力",
+            "button": "フィードバックを送る",
+            "success": "フィードバックを送信しました",
+            "error": "フィードバックの送信エラー"
         }
     },
     "errors": {
         "404": "ページがありませんだ．",
         "500": "中にサーバエラー",
-        "401": "Unauthorized",
-        "403": "Forbidden",
-        "back": "Go Back",
+        "401": "無許可",
+        "403": "禁止",
+        "back": "戻る",
         "refresh": "ページを更新しようにか､ホームに戻ってください．",
-        "api": "Error connecting to the API. Please try again later"
+        "api": "APIへの接続中にエラ。後でもう一度やり直してください"
     },
     "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
