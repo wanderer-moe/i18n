@@ -253,7 +253,7 @@
                 "following": "Подписан(а)",
                 "notFollowing": "Не подписан(а)",
                 "followsYou": "Подписан(а) на вас",
-                "mutual": "Mutual"
+                "mutual": "Общие подписчики"
             },
             "count": {
                 "following": "{count} Following",
