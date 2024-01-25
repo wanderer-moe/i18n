@@ -276,39 +276,39 @@
             "settings": "設定",
             "username": {
                 "title": "ユーザーネーム",
-                "help": "Your username is used to identify you on the site and is unique to you.",
-                "placeholder": "Enter username",
-                "button": "Change Username",
-                "success": "Successfully changed username",
-                "error": "Error changing username"
+                "help": "ユーザー名はサイトで識別するために使用され、自分固有のものです。",
+                "placeholder": "ユーザー名を入力",
+                "button": "ユーザー名を変わる",
+                "success": "ユーザー名変わり完了",
+                "error": "ユーザー名変わりエラー"
             },
             "email": {
-                "title": "Email",
-                "help": "Your email is used to identify you on the site and is unique to you. It must be a valid email address.",
-                "placeholder": "Enter email",
-                "button": "Change Email",
-                "success": "Successfully changed email",
-                "error": "Error changing email"
+                "title": "メールアドレス",
+                "help": "メールアドレスはサイトで識別するために使用され、自分固有のものです。有効なメールを入力してください。",
+                "placeholder": "メールを入力",
+                "button": "メールを変わる",
+                "success": "メール変わり完了",
+                "error": "メール変わりエラー"
             },
             "usernameColour": {
-                "title": "Username Colour",
-                "help": "Have a unique username colour on the site. This is visible to everyone.",
-                "placeholder": "Enter username colour",
-                "button": "Change Username Colour",
-                "success": "Successfully changed username colour",
-                "error": "Error changing username colour"
+                "title": "ユーザー名の色",
+                "help": "サイトに一意のユーザー名色を設定します。それは誰にでも表示されます。",
+                "placeholder": "ユーザー名色を入力",
+                "button": "ユーザー名色を変わる",
+                "success": "ユーザー名色変わり完了",
+                "error": "ユーザー名色変わりエラー"
             },
             "profilePicture": {
-                "title": "Profile Picture",
-                "help": "Your profile picture is visible to everyone. All images are ran through multiple AI moderation filters to prevent misuse.",
-                "button": "Change Profile Picture",
-                "success": "Successfully changed profile picture",
-                "error": "Error changing profile picture"
+                "title": "プロフィール画像",
+                "help": "プロフィール画像は誰にでも表示されます。イメージは誤用を防ぐために複数のAIモデレーション・チェックを介して実行されます。",
+                "button": "プロフィール画像を変わる",
+                "success": "プロフィール画像変わり完了",
+                "error": "プロフィール画像変わりエラー"
             },
             "pronouns": {
-                "pronouns": "Pronouns",
+                "pronouns": "代名詞",
                 "set": {
-                    "title": "Set Pronouns",
+                    "title": "代名詞を設定する",
                     "help": "Enter the pronouns you want to set, your current pronouns are {subject}/{object}/{possessive}",
                     "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
                     "placeholder": "Enter pronouns",
