@@ -361,7 +361,7 @@
             },
             "delete": {
                 "title": "Delete Account",
-                "help": "Deleting your account will delete everything, including assets. You will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
+                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
                 "button": "Delete Account",
                 "confirm": "Are you sure you want to delete your account?",
                 "success": "Successfully disabled account, redirecting to home page...",
