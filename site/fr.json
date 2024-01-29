@@ -361,7 +361,7 @@
             },
             "delete": {
                 "title": "Supprimer le compte",
-                "help": "La suppression de votre compte supprimera tout, y compris les fichiers. Votre compte sera désactivé et vous serez redirigé vers la page d'accueil. Après 14 jours, votre compte sera définitivement supprimé. Récupérez-en l'accès à tout moment en nous envoyant un e-mail à {email}.",
+                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
                 "button": "Supprimer le compte",
                 "confirm": "Êtes-vous sûr(e) de vouloir supprimer votre compte ?",
                 "success": "Compte désactivé, redirection vers la page d'accueil...",
