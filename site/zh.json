@@ -1,18 +1,18 @@
 {
     "collection": {
-        "name": "专题名",
-        "description": "收藏描述",
+        "name": "Collection Name",
+        "description": "Collection Description",
         "visibility": {
-            "title": "可见性",
-            "public": "公开",
-            "private": "私用"
+            "title": "Visibility",
+            "public": "Public",
+            "private": "Private"
         },
         "create": {
-            "title": "创建集合",
-            "help": "输入您想要创建的收藏的名称和描述",
-            "placeholder": "输入名称",
-            "button": "创建集合",
-            "success": "成功创建收藏",
+            "title": "Create Collection",
+            "help": "Enter the name and description of the collection you want to create",
+            "placeholder": "Enter name",
+            "button": "Create Collection",
+            "success": "Successfully created collection",
             "error": "Error creating collection"
         },
         "modify": {
