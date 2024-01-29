@@ -361,7 +361,7 @@
             },
             "delete": {
                 "title": "Ștergere contul",
-                "help": "Ștergerea contului va șterge tot, incluzând asset-urile. Vei fi imediat dezactivat și redirecționat la pagina principală. După 14 zile, contul tău va fi șters de a binelea. Reia acces oricând, scriindu-ne un {email}.",
+                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
                 "button": "Șterge contul",
                 "confirm": "Sigur dorești să-ți ștergi contul?",
                 "success": "Cont dezactivat cu succes, redirecționare către pagina principală...",
