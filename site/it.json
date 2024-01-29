@@ -361,7 +361,7 @@
             },
             "delete": {
                 "title": "Elimina account",
-                "help": "L'eliminazione del tuo account eliminerà tutto, inclusi gli asset. Sarai immediatamente disabilitato e sarai reindirizzato alla home page. Dopo 14 giorni, il tuo account verrà eliminato definitivamente. Riprendi l'accesso in qualsiasi momento inviandoci un'email su {email}.",
+                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
                 "button": "Elimina account",
                 "confirm": "Sei sicuro di voler eliminare il tuo account?",
                 "success": "Account disabilitato con successo, reindirizzamento alla home page...",
