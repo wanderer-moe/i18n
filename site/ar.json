@@ -1,154 +1,154 @@
 {
     "collection": {
-        "name": "Collection Name",
-        "description": "Collection Description",
+        "name": "اسم المجموعة",
+        "description": "وصف المجموعة",
         "visibility": {
-            "title": "Visibility",
-            "public": "Public",
-            "private": "Private"
+            "title": "الرؤية",
+            "public": "عام",
+            "private": "خاص"
         },
         "create": {
-            "title": "Create Collection",
-            "help": "Enter the name and description of the collection you want to create",
-            "placeholder": "Enter name",
-            "button": "Create Collection",
-            "success": "Successfully created collection",
-            "error": "Error creating collection"
+            "title": "إنشاء مجموعة",
+            "help": "أدخل اسم ووصف المجموعة التي تريد إنشاءها",
+            "placeholder": "أدخل الاسم",
+            "button": "إنشاء مجموعة",
+            "success": "تم إنشاء المجموعة بنجاح",
+            "error": "حدث خطأ أثناء إنشاء المجموعة"
         },
         "modify": {
-            "title": "Modify Collection",
-            "help": "Enter the name and description of the collection you want to modify",
-            "placeholder": "Enter name",
-            "button": "Modify Collection",
-            "success": "Successfully modified collection",
-            "error": "Error modifying collection"
+            "title": "تعديل المجموعة",
+            "help": "أدخل اسم ووصف المجموعة التي تريد تعديلها",
+            "placeholder": "أدخل الاسم",
+            "button": "تعديل المجموعة",
+            "success": "تم تعديل المجموعة بنجاح",
+            "error": "حدث خطأ أثناء تعديل المجموعة"
         },
         "delete": {
-            "title": "Delete Collection",
-            "button": "Delete Collection",
-            "confirm": "Are you sure you want to delete {collectionName}?",
-            "success": "Successfully deleted collection",
-            "error": "Error deleting collection"
+            "title": "حذف المجموعة",
+            "button": "حذف المجموعة",
+            "confirm": "هل أنت متأكد أنك تريد حذف {collectionName}؟",
+            "success": "تم حذف المجموعة بنجاح",
+            "error": "حدث خطأ أثناء حذف المجموعة"
         },
         "details": {
-            "title": "Collection Details",
-            "name": "Name",
-            "description": "Description",
-            "visibility": "Visibility",
-            "createdAt": "Created at {date} by {username}",
-            "updatedAt": "Last updated at {date} by {username}"
+            "title": "تفاصيل المجموعة",
+            "name": "الاسم",
+            "description": "وصف",
+            "visibility": "الرؤية",
+            "createdAt": "تم إنشاؤها في {date} بواسطة {username}",
+            "updatedAt": "آخر تحديث في {date} بواسطة {username}"
         },
         "assets": {
-            "assets": "Assets",
+            "assets": "الأصول",
             "add": {
-                "title": "Add Asset",
-                "button": "Add Asset",
-                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
-                "success": "Successfully added asset",
-                "error": "Error adding asset"
+                "title": "إضافة الأصول",
+                "button": "إضافة أصل",
+                "confirm": "هل أنت متأكد من أنك تريد إضافة {assetName} إلى مجموعة {collectionName}؟",
+                "success": "تمت إضافة الأصل بنجاح",
+                "error": "خطأ في إضافة الأصل"
             },
             "remove": {
-                "title": "Remove Asset",
-                "button": "Remove Asset",
-                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
-                "success": "Successfully removed asset",
-                "error": "Error removing asset"
+                "title": "إزالة الأصول",
+                "button": "إزالة الأصول",
+                "confirm": "هل أنت متأكد من أنك تريد إزالة {assetName} من مجموعة {collectionName}؟",
+                "success": "تمت إزالة الأصل بنجاح",
+                "error": "خطأ في إزالة الأصل"
             }
         },
         "collaborators": {
-            "collaborators": "Collaborators",
+            "collaborators": "عدد المتعاونين",
             "add": {
-                "title": "Add Collaborator",
-                "help": "Enter the username of the user you want to add as a collaborator",
-                "placeholder": "Enter username",
-                "confirm": "Are you sure you want to add {username} as a collection {role}?",
-                "button": "Add Collaborator",
-                "success": "Successfully added collaborator",
-                "error": "Error adding collaborator"
+                "title": "إضافة متعاون",
+                "help": "أدخل اسم المستخدم للمستخدم الذي تريد إضافته كمتعاون",
+                "placeholder": "أدخِل إسم مسخدم",
+                "confirm": "هل أنت متأكد من أنك تريد إضافة {username} كمجموعة {role}؟",
+                "button": "إضافة متعاون",
+                "success": "تمت إضافة المتعاون بنجاح",
+                "error": "خطأ في إضافة متعاون"
             },
             "remove": {
-                "title": "Remove Collaborator",
-                "button": "Remove Collaborator",
-                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
-                "success": "Successfully removed collaborator",
-                "error": "Error removing collaborator"
+                "title": "إزالة المتعاون",
+                "button": "إزالة المتعاون",
+                "confirm": "هل أنت متأكد من أنك تريد إزالة {username} كمجموعة {role}؟",
+                "success": "تمت إزالة المتعاون بنجاح",
+                "error": "خطأ في إزالة المتعاون"
             },
             "permissions": {
-                "permissions": "Permissions",
+                "permissions": "تراخيص",
                 "editor": {
-                    "title": "Editor",
-                    "desc": "Can add and remove assets from the collection and change collection details"
+                    "title": "المحرر",
+                    "desc": "يمكن إضافة الأصول وإزالتها من المجموعة وتغيير تفاصيل المجموعة"
                 },
                 "collaborator": {
-                    "title": "Collaborator",
-                    "desc": "Can add and remove assets from the collection"
+                    "title": "متعاون",
+                    "desc": "يمكن إضافة الأصول وإزالتها من المجموعة"
                 },
                 "viewer": {
-                    "title": "Viewer",
-                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                    "title": "العارض",
+                    "desc": "يمكن عرض المجموعة بغض النظر عن وضوحها، ولكن ليس إجراء تغييرات"
                 },
                 "owner": {
-                    "title": "Owner",
-                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                    "title": "المالك",
+                    "desc": "يمكن إضافة الأصول وإزالتها من المجموعة، وتغيير تفاصيل المجموعة وحذف المجموعة"
                 }
             }
         }
     },
     "asset": {
-        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "suggestiveContent": "قد يحتوي هذا الأصل على محتوى مقترح أو منشئ.",
         "upload": {
-            "confirm": "Are you sure you want to upload {assetName}?",
-            "success": "Successfully uploaded {assetName} for review",
-            "error": "Error uploading {assetName}",
-            "dropzone": "Drag or click here to upload asset",
-            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "هل أنت متأكد من أنك تريد رفع {assetName}؟",
+            "success": "تم رفع {assetName} بنجاح للمراجعة",
+            "error": "خطأ في رفع {assetName}",
+            "dropzone": "اسحب أو اضغط هنا لتحميل الأصل",
+            "conflict": "يوجد بالفعل أصل بنفس الاسم، ربما تريد تعديل الأصل الحالي؟",
+            "uploading": "جاري تحميل {assetName}..."
         },
         "modify": {
-            "confirm": "Are you sure you want to modify {assetName}?",
-            "success": "Successfully modified {assetName}",
-            "error": "Error modifying {assetName}",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "هل أنت متأكد من أنك تريد تعديل {assetName}؟",
+            "success": "تم تعديل {assetName} بنجاح",
+            "error": "خطأ في تعديل {assetName}",
+            "uploading": "جاري تحميل {assetName}..."
         },
         "delete": {
-            "confirm": "Are you sure you want to delete {assetName}?",
-            "success": "Successfully deleted {assetName}",
-            "error": "Error deleting {assetName}"
+            "confirm": "هل أنت متأكد من أنك تريد حذف {assetName}؟",
+            "success": "تم حذف {assetName} بنجاح",
+            "error": "خطأ في حذف {assetName}"
         },
         "details": {
-            "uploadedBy": "Uploaded by {username}",
-            "extension": "File Type",
-            "uploadedOn": "Uploaded on {date}",
+            "uploadedBy": "تم الرفع بواسطة {username}",
+            "extension": "نوع الملف",
+            "uploadedOn": "تم الرفع على {date}",
             "status": {
-                "pending": "Pending",
-                "approved": "Approved",
-                "rejected": "Rejected"
+                "pending": "قيد الانتظار",
+                "approved": "تم التحقق",
+                "rejected": "تم رفضه"
             },
-            "viewCount": "{count} views",
-            "downloadCount": "{count} downloads",
-            "download": "Download",
-            "width": "Width",
-            "height": "Height"
+            "viewCount": "{count} مشاهدات",
+            "downloadCount": "تحميلات {count}",
+            "download": "تحميل",
+            "width": "العرض",
+            "height": "الطول"
         },
         "like": {
             "like": {
-                "like": "Like",
-                "liked": "Liked",
-                "likes": "{count} likes",
-                "error": "Error liking asset",
-                "alreadyLiked": "You already liked this asset"
+                "like": "اعجاب",
+                "liked": "أعجب",
+                "likes": "{count} إعجابات",
+                "error": "خطأ في إعجاب الأصل",
+                "alreadyLiked": "لقد أعجبك هذا الأصل"
             },
             "unlike": {
-                "unlike": "Unlike",
-                "unliked": "Unliked",
-                "likes": "{count} likes",
-                "error": "Error unliking asset",
-                "notLiked": "You haven't liked this asset"
+                "unlike": "أزل الإعجاب",
+                "unliked": "أزل الإعجاب",
+                "likes": "{count} إعجابات",
+                "error": "خطأ في إعجاب الأصل",
+                "notLiked": "أنت لم تحب هذا الأصل"
             }
         },
         "favourite": {
             "favourite": {
-                "favourite": "Favourite",
+                "favourite": "مفضل",
                 "favourited": "Favourited",
                 "favourites": "{count} favourites",
                 "error": "Error favouriting asset",
