@@ -237,13 +237,13 @@
     },
     "account": {
         "roles": {
-            "contributor": "Contributor",
-            "collaborator": "Collaborator",
+            "contributor": "Contributore",
+            "collaborator": "Collaboratore",
             "partner": "Partner",
             "contentCreator": "Content Creator",
-            "moderator": "Moderator",
-            "developer": "Developer",
-            "creator": "Creator"
+            "moderator": "Moderatore",
+            "developer": "Sviluppatore",
+            "creator": "Autore"
         },
         "account": {
             "account": ""
@@ -291,9 +291,9 @@
                 "error": "Errore nel cambio email"
             },
             "usernameColour": {
-                "title": "Username Colour",
-                "help": "Have a unique username colour on the site. This is visible to everyone.",
-                "placeholder": "Enter username colour",
+                "title": "Colore del Nome Utente",
+                "help": "Avere un unico colore del nome utente sul sito. Questo è visibile per tutti.",
+                "placeholder": "Inserisci colore del nome utente",
                 "button": "Change Username Colour",
                 "success": "Successfully changed username colour",
                 "error": "Error changing username colour"
