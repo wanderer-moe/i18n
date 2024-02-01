@@ -256,18 +256,18 @@
                 "mutual": "Общие подписчики"
             },
             "count": {
-                "following": "{count} Following",
-                "followers": "{count} Followers"
+                "following": "{count} подписано",
+                "followers": "{count} подписчиков"
             },
             "follow": {
-                "follow": "Follow",
-                "followed": "Followed",
-                "error": "Error following user",
-                "alreadyFollowed": "You already follow this user"
+                "follow": "Подписаться",
+                "followed": "Вы подписаны",
+                "error": "Ошибка при подписке",
+                "alreadyFollowed": "Вы уже подписаны на этого пользователя"
             },
             "unfollow": {
-                "unfollow": "Unfollow",
-                "unfollowed": "Unfollowed",
+                "unfollow": "Отписаться",
+                "unfollowed": "Вы отписались",
                 "error": "Error unfollowing user",
                 "notFollowed": "You don't follow this user"
             }
