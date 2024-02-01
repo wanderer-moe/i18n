@@ -294,31 +294,31 @@
                 "title": "Colore del Nome Utente",
                 "help": "Avere un unico colore del nome utente sul sito. Questo è visibile per tutti.",
                 "placeholder": "Inserisci colore del nome utente",
-                "button": "Change Username Colour",
-                "success": "Successfully changed username colour",
-                "error": "Error changing username colour"
+                "button": "Cambia Colore del Nome Utente",
+                "success": "Colore del nome utente cambiato con successo",
+                "error": "Errore nel cambiare il colore del nome utente"
             },
             "profilePicture": {
-                "title": "Profile Picture",
-                "help": "Your profile picture is visible to everyone. All images are ran through multiple AI moderation filters to prevent misuse.",
-                "button": "Change Profile Picture",
-                "success": "Successfully changed profile picture",
-                "error": "Error changing profile picture"
+                "title": "Foto Profilo",
+                "help": "L'immagine del tuo profilo è visibile a tutti. Tutte le immagini sono gestite attraverso più filtri di moderazione IA per prevenire un uso improprio.",
+                "button": "Cambia la foto del profilo",
+                "success": "Foto profilo cambiata con successo",
+                "error": "Errore nel cambiare la foto profilo"
             },
             "pronouns": {
-                "pronouns": "Pronouns",
+                "pronouns": "Pronomi",
                 "set": {
-                    "title": "Set Pronouns",
-                    "help": "Enter the pronouns you want to set, your current pronouns are {subject}/{object}/{possessive}",
-                    "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
-                    "placeholder": "Enter pronouns",
-                    "button": "Set Pronouns",
-                    "success": "Successfully set pronouns",
-                    "error": "Error setting pronouns"
+                    "title": "Imposta Pronomi",
+                    "help": "Inserisci i pronomi che vuoi mettere, i tuoi pronomi attuali sono {subject}/{object}/{possessive}",
+                    "disclaimer": "Forniamo solo una lista di pronomi specifici, per prevenirne l'abuso.",
+                    "placeholder": "Inserisci i pronomi",
+                    "button": "Imposta Pronomi",
+                    "success": "Pronomi impostati con successo",
+                    "error": "Errore nell'impostare i pronomi"
                 },
                 "poweredBy": {
-                    "title": "Powered by",
-                    "desc": "Our pronouns list is powered by pronouns.page, who were kind enough to give us permission to use their API. Please check them out at {link}!"
+                    "title": "Supportato da",
+                    "desc": "La nostra lista di nomi è supportata da pronouns.page che sono stati abbastanza gentili da darci il permesso di usare il loro API. Si prega di visitarli su {link}!"
                 }
             },
             "providers": {
@@ -361,7 +361,7 @@
             },
             "delete": {
                 "title": "Elimina account",
-                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
+                "help": "L'eliminazione del tuo account eliminerà tutto, inclusi gli asset. Sarai immediatamente disabilitato e sarai reindirizzato alla home page. Dopo 14 giorni, il tuo account verrà eliminato definitivamente. Riprendi l'accesso in qualsiasi momento inviandoci un'email su {email}.",
                 "button": "Elimina account",
                 "confirm": "Sei sicuro di voler eliminare il tuo account?",
                 "success": "Account disabilitato con successo, reindirizzamento alla home page...",
