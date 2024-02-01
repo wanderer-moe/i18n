@@ -268,85 +268,85 @@
             "unfollow": {
                 "unfollow": "Отписаться",
                 "unfollowed": "Вы отписались",
-                "error": "Error unfollowing user",
-                "notFollowed": "You don't follow this user"
+                "error": "Ошибка при отписке",
+                "notFollowed": "Вы не подписаны на этого пользователя"
             }
         },
         "settings": {
-            "settings": "Settings",
+            "settings": "Настройки",
             "username": {
-                "title": "Username",
-                "help": "Your username is used to identify you on the site and is unique to you.",
-                "placeholder": "Enter username",
-                "button": "Change Username",
-                "success": "Successfully changed username",
-                "error": "Error changing username"
+                "title": "Имя пользователя",
+                "help": "Ваше имя пользователя используется для идентификации вас на сайте и является уникальным для вас.",
+                "placeholder": "Введите имя пользователя",
+                "button": "Изменить имя пользователя",
+                "success": "Имя пользователя успешно изменено",
+                "error": "Ошибка при изменении имени пользователя"
             },
             "email": {
-                "title": "Email",
-                "help": "Your email is used to identify you on the site and is unique to you. It must be a valid email address.",
-                "placeholder": "Enter email",
-                "button": "Change Email",
-                "success": "Successfully changed email",
-                "error": "Error changing email"
+                "title": "Адрес электронной почты",
+                "help": "Ваш адрес электронной почты используется для идентификации вас на сайте и является уникальным для вас. Он должен быть действительным адресом электронной почты.",
+                "placeholder": "Введите адрес электронной почты",
+                "button": "Изменить адрес электронной почты",
+                "success": "Адрес электронной почты успешно изменен",
+                "error": "Ошибка при изменении адреса электронной почты"
             },
             "usernameColour": {
-                "title": "Username Colour",
-                "help": "Have a unique username colour on the site. This is visible to everyone.",
-                "placeholder": "Enter username colour",
-                "button": "Change Username Colour",
-                "success": "Successfully changed username colour",
-                "error": "Error changing username colour"
+                "title": "Цвет имени пользователя",
+                "help": "Имейте уникальный цвет имени пользователя на сайте. Это видно всем.",
+                "placeholder": "Введите цвет имени пользователя",
+                "button": "Изменить цвет имени пользователя",
+                "success": "Цвет имени пользователя успешно изменен",
+                "error": "Ошибка при изменении цвета имени пользователя"
             },
             "profilePicture": {
-                "title": "Profile Picture",
-                "help": "Your profile picture is visible to everyone. All images are ran through multiple AI moderation filters to prevent misuse.",
-                "button": "Change Profile Picture",
-                "success": "Successfully changed profile picture",
-                "error": "Error changing profile picture"
+                "title": "Аватар",
+                "help": "Ваш аватар виден всем. Все изображения сканируются с помощью нескольких фильтров ИИ для предотвращения злоупотреблений.",
+                "button": "Изменить аватар",
+                "success": "Аватар успешно изменен",
+                "error": "Ошибка при изменении аватара"
             },
             "pronouns": {
-                "pronouns": "Pronouns",
+                "pronouns": "Местоимения",
                 "set": {
-                    "title": "Set Pronouns",
-                    "help": "Enter the pronouns you want to set, your current pronouns are {subject}/{object}/{possessive}",
-                    "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
-                    "placeholder": "Enter pronouns",
-                    "button": "Set Pronouns",
-                    "success": "Successfully set pronouns",
-                    "error": "Error setting pronouns"
+                    "title": "Установить местоимения",
+                    "help": "Введите местоимения, которые вы хотите установить, ваши текущие местоимения:{subject}/{object}/{possessive}",
+                    "disclaimer": "Мы лишь предоставляем список местоимений в целях предотвращения злоупотребления.",
+                    "placeholder": "Введите местоимения",
+                    "button": "Установить местоимения",
+                    "success": "Местоимения успешно установлены",
+                    "error": "Ошибка при установке местоимений"
                 },
                 "poweredBy": {
-                    "title": "Powered by",
-                    "desc": "Our pronouns list is powered by pronouns.page, who were kind enough to give us permission to use their API. Please check them out at {link}!"
+                    "title": "При поддержке",
+                    "desc": "Наш список местоимений работает при поддержке сайта pronouns.page, который любезно предоставил нам разрешения на использование их API. Пожалуйста, загляните к ним по ссылке: {link}!"
                 }
             },
             "providers": {
                 "discord": {
                     "title": "Discord",
-                    "help": "Your Discord account is used to authenticate you on the site."
+                    "help": "Ваша учётная запись Discord используется для аутентификации на сайте."
                 },
                 "google": {
                     "title": "Google",
-                    "help": "Your Google account is used to authenticate you on the site."
+                    "help": "Ваша учётная запись Google используется для аутентификации на сайте."
                 },
                 "github": {
                     "title": "GitHub",
-                    "help": "Your GitHub account is used to authenticate you on the site."
+                    "help": "Ваша учётная запись GitHub используется для аутентификации на сайте."
                 },
                 "twitter": {
-                    "title": "Twitter/X",
-                    "help": "Your Twitter/X account is used to authenticate you on the site."
+                    "title": "Твиттер/X",
+                    "help": "Ваша учётная запись Твиттер/X используется для аутентификации на сайте."
                 },
                 "visibility": {
-                    "title": "Visibility",
-                    "public": "Public",
-                    "private": "Private"
+                    "title": "Доступность",
+                    "public": "Публично",
+                    "private": "Приватно"
                 }
             },
             "viewSuggestiveContent": {
-                "title": "View Suggestive Content",
-                "help": "This setting allows you to view suggestive/triggering content, this is stored locally on your device.",
+                "title": "Просматривать контент сексуального характера",
+                "help": "Этот параметр позволяет просматривать контент сексуального/оскорбительного характера, это хранится локально на вашем устройстве.",
                 "button": "Change View Suggestive Content",
                 "success": "Successfully changed view suggestive content",
                 "error": "Error changing view suggestive content"
@@ -413,19 +413,19 @@
             "title": "Feedback",
             "help": "If you have any feedback or suggestions for the site, please let us know here.",
             "placeholder": "Enter feedback",
-            "button": "Send Feedback",
-            "success": "Successfully sent feedback",
-            "error": "Error sending feedback"
+            "button": "Отправить отзыв",
+            "success": "Отзыв успешно отправлен",
+            "error": "Ошибка при отправке отзыва"
         }
     },
     "errors": {
-        "404": "Page Not Found",
-        "500": "Internal Server Error",
-        "401": "Unauthorized",
-        "403": "Forbidden",
-        "back": "Go Back",
-        "refresh": "Try refreshing the page or go back to the home page",
-        "api": "Error connecting to the API. Please try again later"
+        "404": "Страница не найдена",
+        "500": "Ошибка на стороне сервера",
+        "401": "Неавторизован",
+        "403": "Доступ запрещен",
+        "back": "Вернуться назад",
+        "refresh": "Попробуйте обновить страницу или вернуться на домашнюю страницу",
+        "api": "Ошибка соединения с API. Пожалуйста, повторите попытку позже"
     },
     "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
