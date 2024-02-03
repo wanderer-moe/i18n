@@ -26,17 +26,17 @@
         "delete": {
             "title": "Hapus Koleksi",
             "button": "Hapus Koleksi",
-            "confirm": "Are you sure you want to delete {collectionName}?",
-            "success": "Successfully deleted collection",
-            "error": "Error deleting collection"
+            "confirm": "Apa kamu yakin ingin menghapus {collectionName}?",
+            "success": "Koleksi berhasil dihapus",
+            "error": "Terjadi kesalahan saat menghapus koleksi"
         },
         "details": {
-            "title": "Collection Details",
-            "name": "Name",
-            "description": "Description",
-            "visibility": "Visibility",
-            "createdAt": "Created at {date} by {username}",
-            "updatedAt": "Last updated at {date} by {username}"
+            "title": "Detail Koleksi",
+            "name": "Nama",
+            "description": "Deskripsi",
+            "visibility": "Visibilitas",
+            "createdAt": "Dibuat pada {date} oleh {username}",
+            "updatedAt": "Terakhir diperbarui pada {date} oleh {username}"
         },
         "assets": {
             "assets": "Assets",
