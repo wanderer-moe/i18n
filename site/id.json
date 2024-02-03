@@ -41,84 +41,84 @@
         "assets": {
             "assets": "Assets",
             "add": {
-                "title": "Add Asset",
-                "button": "Add Asset",
-                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
-                "success": "Successfully added asset",
-                "error": "Error adding asset"
+                "title": "Tambahkan Aset",
+                "button": "Tambahkan Aset",
+                "confirm": "Apa kamu yakin ingin menambahkan {assetName} ke koleksi {collectionName}?",
+                "success": "Aset berhasil ditambahkan",
+                "error": "Terjadi kesalahan saat menambahkan aset"
             },
             "remove": {
-                "title": "Remove Asset",
-                "button": "Remove Asset",
-                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
-                "success": "Successfully removed asset",
-                "error": "Error removing asset"
+                "title": "Hapus aset",
+                "button": "Hapus aset",
+                "confirm": "Apa kamu yakin ingin menghapus {assetName} dari koleksi {collectionName}?",
+                "success": "Aset berhasil dihapus",
+                "error": "Terjadi kesalahan saat menghapus aset"
             }
         },
         "collaborators": {
-            "collaborators": "Collaborators",
+            "collaborators": "Kolaborator",
             "add": {
-                "title": "Add Collaborator",
-                "help": "Enter the username of the user you want to add as a collaborator",
-                "placeholder": "Enter username",
-                "confirm": "Are you sure you want to add {username} as a collection {role}?",
-                "button": "Add Collaborator",
-                "success": "Successfully added collaborator",
-                "error": "Error adding collaborator"
+                "title": "Tambahkan Kolaborator",
+                "help": "Masukkan username dari pengguna yang ingin kamu tambahkan sebagai kolaborator",
+                "placeholder": "Masukkan nama pengguna",
+                "confirm": "Apa kamu yakin ingin menambahkan {username} sebagai koleksi {role}?",
+                "button": "Tambahkan Kolaborator",
+                "success": "Kolaborator berhasil ditambahkan",
+                "error": "Terjadi kesalahan saat menambahkan kolaborator"
             },
             "remove": {
-                "title": "Remove Collaborator",
-                "button": "Remove Collaborator",
-                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
-                "success": "Successfully removed collaborator",
-                "error": "Error removing collaborator"
+                "title": "Hapus Kolaborator",
+                "button": "Hapus Kolaborator",
+                "confirm": "Apa kamu yakin ingin menghapus {username} sebagai koleksi {role}?",
+                "success": "Kolaborator berhasil dihapus",
+                "error": "Terjadi kesalahan saat menghapus kolaborator"
             },
             "permissions": {
-                "permissions": "Permissions",
+                "permissions": "Perizinan",
                 "editor": {
                     "title": "Editor",
-                    "desc": "Can add and remove assets from the collection and change collection details"
+                    "desc": "Dapat menambah dan menghapus aset dari koleksi dan mengubah detail koleksi"
                 },
                 "collaborator": {
-                    "title": "Collaborator",
-                    "desc": "Can add and remove assets from the collection"
+                    "title": "Kolaborator",
+                    "desc": "Dapat menambah dan menghapus aset dari koleksi"
                 },
                 "viewer": {
                     "title": "Viewer",
-                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                    "desc": "Dapat melihat koleksi apa pun visibilitasnya, tetapi tidak dapat membuat perubahan"
                 },
                 "owner": {
                     "title": "Owner",
-                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                    "desc": "Dapat menambah dan menghapus aset dari koleksi, mengubah detail koleksi dan menghapus koleksi"
                 }
             }
         }
     },
     "asset": {
-        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "suggestiveContent": "Aset ini mungkin berisi konten yang sugestif atau dapat memicu sesuatu.",
         "upload": {
-            "confirm": "Are you sure you want to upload {assetName}?",
-            "success": "Successfully uploaded {assetName} for review",
-            "error": "Error uploading {assetName}",
-            "dropzone": "Drag or click here to upload asset",
-            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "Apa kamu yakin ingin mengunggah {assetName}?",
+            "success": "Berhasil mengunggah {assetName} untuk ditinjau",
+            "error": "Terjadi kesalahan saat mengunggah {assetName}",
+            "dropzone": "Tarik atau klik di sini untuk mengunggah aset",
+            "conflict": "Aset dengan nama yang sama sudah ada, mungkin kamu ingin memodifikasi aset yang sudah ada?",
+            "uploading": "Mengunggah {assetName}..."
         },
         "modify": {
-            "confirm": "Are you sure you want to modify {assetName}?",
-            "success": "Successfully modified {assetName}",
-            "error": "Error modifying {assetName}",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "Apa kamu yakin ingin mengubah {assetName}?",
+            "success": "Berhasil mengubah {assetName}",
+            "error": "Terjadi kesalahan saat mengubah {assetName}",
+            "uploading": "Mengunggah {assetName}..."
         },
         "delete": {
-            "confirm": "Are you sure you want to delete {assetName}?",
-            "success": "Successfully deleted {assetName}",
-            "error": "Error deleting {assetName}"
+            "confirm": "Apa kamu yakin ingin menghapus {assetName}?",
+            "success": "Berhasil menghapus {assetName}",
+            "error": "Terjadi kesalahan saat menghapus {assetName}"
         },
         "details": {
-            "uploadedBy": "Uploaded by {username}",
-            "extension": "File Type",
-            "uploadedOn": "Uploaded on {date}",
+            "uploadedBy": "Diunggah oleh {username}",
+            "extension": "Tipe File",
+            "uploadedOn": "Diunggah pada {date}",
             "status": {
                 "pending": "Pending",
                 "approved": "Approved",
@@ -189,81 +189,81 @@
         "like": {
             "like": "Like",
             "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking asset category",
-            "alreadyLiked": "You already liked this asset category"
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat menyukai kategori aset",
+            "alreadyLiked": "Kamu sudah menyukai kategori aset ini"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking asset category",
-            "notLiked": "You haven't liked this asset category"
+            "unlike": "Batal suka",
+            "unliked": "Suka dibatalkan",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat batal menyukai kategori aset",
+            "notLiked": "Kamu belum menyukai kategori aset ini"
         }
     },
     "tags": {
-        "tags": "Tags",
-        "noTags": "No tags",
+        "tags": "Tag",
+        "noTags": "Tidak ada tag",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking tag",
-            "alreadyLiked": "You already liked this tag"
+            "like": "Suka",
+            "liked": "Disukai",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat menyukai tag",
+            "alreadyLiked": "Kamu sudah menyukai tag ini"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking tag",
-            "notLiked": "You haven't liked this tag"
+            "unlike": "Batal suka",
+            "unliked": "Suka dibatalkan",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat batal menyukai tag",
+            "notLiked": "Kamu belum menyukai tag ini"
         }
     },
     "search": {
         "assets": {
-            "noResults": "No assets found",
-            "noResultsDesc": "Try changing your search query or filters",
+            "noResults": "Tidak ada aset yang ditemukan",
+            "noResultsDesc": "Coba ubah kueri penelusuran atau filter kamu",
             "sideBar": {
-                "filters": "Filters",
+                "filters": "Filter",
                 "sort": {
-                    "sort": "Sort",
-                    "newest": "Newest",
-                    "oldest": "Oldest",
-                    "views": "Most Views",
-                    "downloads": "Most Downloads"
+                    "sort": "Urutkan",
+                    "newest": "Terbaru",
+                    "oldest": "Terlama",
+                    "views": "Paling Banyak Dilihat",
+                    "downloads": "Unduhan Terbanyak"
                 }
             }
         }
     },
     "account": {
         "roles": {
-            "contributor": "Contributor",
-            "collaborator": "Collaborator",
-            "partner": "Partner",
-            "contentCreator": "Content Creator",
+            "contributor": "Kontributor",
+            "collaborator": "Kolaborator",
+            "partner": "Mitra",
+            "contentCreator": "Konten Kreator",
             "moderator": "Moderator",
-            "developer": "Developer",
-            "creator": "Creator"
+            "developer": "Pengembang",
+            "creator": "Kreator"
         },
         "account": {
-            "account": "Account"
+            "account": "Akun"
         },
         "follow": {
             "status": {
-                "following": "Following",
-                "notFollowing": "Not Following",
-                "followsYou": "Follows You",
+                "following": "Mengikuti",
+                "notFollowing": "Tidak Mengikuti",
+                "followsYou": "Mengikuti Kamu",
                 "mutual": "Mutual"
             },
             "count": {
-                "following": "{count} Following",
-                "followers": "{count} Followers"
+                "following": "{count} Mengikuti",
+                "followers": "{count} Pengikut"
             },
             "follow": {
-                "follow": "Follow",
-                "followed": "Followed",
-                "error": "Error following user",
-                "alreadyFollowed": "You already follow this user"
+                "follow": "Ikuti",
+                "followed": "Diikuti",
+                "error": "Terjadi kesalahan saat mengikuti pengguna",
+                "alreadyFollowed": "Kamu sudah mengikuti pengguna ini"
             },
             "unfollow": {
                 "unfollow": "Unfollow",
