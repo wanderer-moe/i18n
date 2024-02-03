@@ -1,31 +1,31 @@
 {
     "collection": {
-        "name": "Collection Name",
-        "description": "Collection Description",
+        "name": "Nama Koleksi",
+        "description": "Deskripsi Koleksi",
         "visibility": {
-            "title": "Visibility",
-            "public": "Public",
-            "private": "Private"
+            "title": "Visibilitas",
+            "public": "Publik",
+            "private": "Privat"
         },
         "create": {
-            "title": "Create Collection",
-            "help": "Enter the name and description of the collection you want to create",
-            "placeholder": "Enter name",
-            "button": "Create Collection",
-            "success": "Successfully created collection",
-            "error": "Error creating collection"
+            "title": "Buat Koleksi",
+            "help": "Masukkan nama dan deskripsi koleksi yang ingin kamu buat",
+            "placeholder": "Masukkan nama",
+            "button": "Buat Koleksi",
+            "success": "Koleksi berhasil dibuat",
+            "error": "Terjadi kesalahan saat membuat koleksi"
         },
         "modify": {
-            "title": "Modify Collection",
-            "help": "Enter the name and description of the collection you want to modify",
-            "placeholder": "Enter name",
-            "button": "Modify Collection",
-            "success": "Successfully modified collection",
-            "error": "Error modifying collection"
+            "title": "Ubah Koleksi",
+            "help": "Masukkan nama dan deskripsi koleksi yang ingin kamu modifikasi",
+            "placeholder": "Masukkan nama",
+            "button": "Ubah Koleksi",
+            "success": "Koleksi berhasil diubah",
+            "error": "Terjadi kesalahan saat mengubah koleksi"
         },
         "delete": {
-            "title": "Delete Collection",
-            "button": "Delete Collection",
+            "title": "Hapus Koleksi",
+            "button": "Hapus Koleksi",
             "confirm": "Are you sure you want to delete {collectionName}?",
             "success": "Successfully deleted collection",
             "error": "Error deleting collection"
