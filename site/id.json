@@ -291,19 +291,19 @@
                 "error": "Terjadi kesalahan saat mengubah email"
             },
             "usernameColour": {
-                "title": "Username Colour",
-                "help": "Have a unique username colour on the site. This is visible to everyone.",
-                "placeholder": "Enter username colour",
-                "button": "Change Username Colour",
-                "success": "Successfully changed username colour",
-                "error": "Error changing username colour"
+                "title": "Warna Nama Pengguna",
+                "help": "Miliki warna nama pengguna yang unik di situs. Ini terlihat oleh semua orang.",
+                "placeholder": "Masukkan warna nama pengguna",
+                "button": "Ubah Warna Nama Pengguna",
+                "success": "Berhasil mengubah warna nama pengguna",
+                "error": "Terjadi kesalahan saat mengubah warna nama pengguna"
             },
             "profilePicture": {
-                "title": "Profile Picture",
-                "help": "Your profile picture is visible to everyone. All images are ran through multiple AI moderation filters to prevent misuse.",
-                "button": "Change Profile Picture",
-                "success": "Successfully changed profile picture",
-                "error": "Error changing profile picture"
+                "title": "Foto Profil",
+                "help": "Gambar profil kamu dapat dilihat oleh semua orang. Semua gambar dijalankan melalui beberapa filter moderasi AI untuk mencegah penyalahgunaan.",
+                "button": "Ubah Foto Profil",
+                "success": "Berhasil mengubah foto profil",
+                "error": "Terjadi kesalahan saat mengubah foto profil"
             },
             "pronouns": {
                 "pronouns": "Pronouns",
