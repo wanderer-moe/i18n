@@ -127,45 +127,45 @@
             "viewCount": "{count} views",
             "downloadCount": "{count} downloads",
             "download": "Download",
-            "width": "Width",
-            "height": "Height"
+            "width": "Lebar",
+            "height": "Tinggi"
         },
         "like": {
             "like": {
-                "like": "Like",
-                "liked": "Liked",
-                "likes": "{count} likes",
-                "error": "Error liking asset",
-                "alreadyLiked": "You already liked this asset"
+                "like": "Suka",
+                "liked": "Disukai",
+                "likes": "{count} suka",
+                "error": "Terjadi kesalahan saat menyukai aset",
+                "alreadyLiked": "Kamu sudah menyukai aset ini"
             },
             "unlike": {
-                "unlike": "Unlike",
-                "unliked": "Unliked",
-                "likes": "{count} likes",
-                "error": "Error unliking asset",
-                "notLiked": "You haven't liked this asset"
+                "unlike": "Batal suka",
+                "unliked": "Suka dibatalkan",
+                "likes": "{count} suka",
+                "error": "Terjadi kesalahan saat batal menyukai aset",
+                "notLiked": "Kamu belum menyukai aset ini"
             }
         },
         "favourite": {
             "favourite": {
-                "favourite": "Favourite",
-                "favourited": "Favourited",
-                "favourites": "{count} favourites",
-                "error": "Error favouriting asset",
-                "alreadyFavourited": "You already favourited this asset"
+                "favourite": "Favorit",
+                "favourited": "Telah Difavorit",
+                "favourites": "{count} favorit",
+                "error": "Terjadi kesalahan saat memfavoritkan aset",
+                "alreadyFavourited": "Kamu sudah memfavoritkan aset ini"
             },
             "unfavourite": {
-                "unfavourite": "Unfavourite",
+                "unfavourite": "Batal favorit",
                 "unfavourited": "Unfavourited",
-                "favourites": "{count} favourites",
-                "error": "Error unfavouriting asset",
-                "notFavourited": "You haven't favourited this asset"
+                "favourites": "{count} favorit",
+                "error": "Terjadi kesalahan saat batal memfavoritkan aset",
+                "notFavourited": "Kamu belum memfavoritkan aset ini"
             }
         }
     },
     "game": {
         "game": "Game",
-        "lastUpdated": "Last updated {date}",
+        "lastUpdated": "Terakhir diperbarui {date}",
         "possibleSuggestiveContent": "This game has assets that may contain suggestive or triggering content.",
         "like": {
             "like": "Like",
