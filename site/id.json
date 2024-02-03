@@ -39,7 +39,7 @@
             "updatedAt": "Terakhir diperbarui pada {date} oleh {username}"
         },
         "assets": {
-            "assets": "Assets",
+            "assets": "Aset",
             "add": {
                 "title": "Tambahkan Aset",
                 "button": "Tambahkan Aset",
@@ -120,13 +120,13 @@
             "extension": "Tipe File",
             "uploadedOn": "Diunggah pada {date}",
             "status": {
-                "pending": "Pending",
-                "approved": "Approved",
-                "rejected": "Rejected"
+                "pending": "Tertunda",
+                "approved": "Disetujui",
+                "rejected": "Ditolak"
             },
-            "viewCount": "{count} views",
-            "downloadCount": "{count} downloads",
-            "download": "Download",
+            "viewCount": "{count} kali dilihat",
+            "downloadCount": "{count} kali diunduh",
+            "download": "Unduh",
             "width": "Lebar",
             "height": "Tinggi"
         },
@@ -156,7 +156,7 @@
             },
             "unfavourite": {
                 "unfavourite": "Batal favorit",
-                "unfavourited": "Unfavourited",
+                "unfavourited": "Favorit telah dibatalkan",
                 "favourites": "{count} favorit",
                 "error": "Terjadi kesalahan saat batal memfavoritkan aset",
                 "notFavourited": "Kamu belum memfavoritkan aset ini"
@@ -166,29 +166,29 @@
     "game": {
         "game": "Game",
         "lastUpdated": "Terakhir diperbarui {date}",
-        "possibleSuggestiveContent": "This game has assets that may contain suggestive or triggering content.",
+        "possibleSuggestiveContent": "Game ini memiliki aset yang mungkin berisi konten yang sugestif atau dapat memicu sesuatu.",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
-            "likes": "{count} likes",
-            "error": "Error liking game",
-            "alreadyLiked": "You already liked this game"
+            "like": "Suka",
+            "liked": "Disukai",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat menyukai game",
+            "alreadyLiked": "Kamu sudah menyukai game ini"
         },
         "unlike": {
-            "unlike": "Unlike",
-            "unliked": "Unliked",
-            "likes": "{count} likes",
-            "error": "Error unliking game",
-            "notLiked": "You haven't liked this game"
+            "unlike": "Batal suka",
+            "unliked": "Suka telah dibatalkan",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat batal menyukai game",
+            "notLiked": "Kamu belum menyukai game ini"
         }
     },
     "assetCategory": {
-        "assetCategory": "Asset Category",
-        "lastUpdated": "Last updated {date}",
-        "possibleSuggestiveContent": "This asset category has assets that may contain suggestive or triggering content.",
+        "assetCategory": "Kategori Aset",
+        "lastUpdated": "Terakhir diperbarui {date}",
+        "possibleSuggestiveContent": "Kategori aset ini memiliki aset yang mungkin berisi konten yang sugestif atau dapat memicu sesuatu.",
         "like": {
-            "like": "Like",
-            "liked": "Liked",
+            "like": "Suka",
+            "liked": "Disukai",
             "likes": "{count} suka",
             "error": "Terjadi kesalahan saat menyukai kategori aset",
             "alreadyLiked": "Kamu sudah menyukai kategori aset ini"
@@ -266,29 +266,29 @@
                 "alreadyFollowed": "Kamu sudah mengikuti pengguna ini"
             },
             "unfollow": {
-                "unfollow": "Unfollow",
-                "unfollowed": "Unfollowed",
-                "error": "Error unfollowing user",
-                "notFollowed": "You don't follow this user"
+                "unfollow": "Berhenti mengikuti",
+                "unfollowed": "Telah berhenti mengikuti",
+                "error": "Terjadi kesalahan saat berhenti mengikuti pengguna",
+                "notFollowed": "Kamu belum mengikuti pengguna ini"
             }
         },
         "settings": {
-            "settings": "Settings",
+            "settings": "Pengaturan",
             "username": {
-                "title": "Username",
-                "help": "Your username is used to identify you on the site and is unique to you.",
-                "placeholder": "Enter username",
-                "button": "Change Username",
-                "success": "Successfully changed username",
-                "error": "Error changing username"
+                "title": "Nama Pengguna",
+                "help": "Nama pengguna kamu digunakan untuk mengidentifikasi kamu di situs dan unik untuk kamu.",
+                "placeholder": "Masukkan nama pengguna",
+                "button": "Ubah Nama Pengguna",
+                "success": "Nama pengguna berhasil diubah",
+                "error": "Terjadi kesalahan saat mengubah nama pengguna"
             },
             "email": {
                 "title": "Email",
-                "help": "Your email is used to identify you on the site and is unique to you. It must be a valid email address.",
-                "placeholder": "Enter email",
-                "button": "Change Email",
-                "success": "Successfully changed email",
-                "error": "Error changing email"
+                "help": "Email kamu digunakan untuk mengidentifikasi kamu di situs dan bersifat unik untuk kamu. Itu harus alamat email yang valid.",
+                "placeholder": "Masukkan email",
+                "button": "Ubah Email",
+                "success": "Email berhasil diubah",
+                "error": "Terjadi kesalahan saat mengubah email"
             },
             "usernameColour": {
                 "title": "Username Colour",
@@ -324,108 +324,108 @@
             "providers": {
                 "discord": {
                     "title": "Discord",
-                    "help": "Your Discord account is used to authenticate you on the site."
+                    "help": "Akun Discord kamu digunakan untuk mengautentikasi kamu di situs."
                 },
                 "google": {
                     "title": "Google",
-                    "help": "Your Google account is used to authenticate you on the site."
+                    "help": "Akun Google kamu digunakan untuk mengautentikasi kamu di situs."
                 },
                 "github": {
                     "title": "GitHub",
-                    "help": "Your GitHub account is used to authenticate you on the site."
+                    "help": "Akun GitHub kamu digunakan untuk mengautentikasi kamu di situs."
                 },
                 "twitter": {
                     "title": "Twitter/X",
-                    "help": "Your Twitter/X account is used to authenticate you on the site."
+                    "help": "Akun Twitter/X kamu digunakan untuk mengautentikasi kamu di situs."
                 },
                 "visibility": {
-                    "title": "Visibility",
-                    "public": "Public",
-                    "private": "Private"
+                    "title": "Visibilitas",
+                    "public": "Publik",
+                    "private": "Privat"
                 }
             },
             "viewSuggestiveContent": {
-                "title": "View Suggestive Content",
-                "help": "This setting allows you to view suggestive/triggering content, this is stored locally on your device.",
-                "button": "Change View Suggestive Content",
-                "success": "Successfully changed view suggestive content",
-                "error": "Error changing view suggestive content"
+                "title": "Tampilkan Konten Sugestif",
+                "help": "Pengaturan ini memungkinkan kamu melihat konten yang sugestif/memicu, ini disimpan secara lokal di perangkat kamu.",
+                "button": "Ubah Tampilan Konten Sugestif",
+                "success": "Berhasil mengubah tampilan konten sugestif",
+                "error": "Terjadi kesalahan saat mengubah tampilan konten sugestif"
             },
             "password": {
-                "title": "Password",
-                "help": "Your password is used to authenticate you on the site.",
-                "placeholder": "Enter password",
-                "button": "Change Password",
-                "success": "Successfully changed password",
-                "error": "Error changing password"
+                "title": "Kata sandi",
+                "help": "Kata sandi kamu digunakan untuk mengautentikasi kamu di situs.",
+                "placeholder": "Masukkan kata sandi",
+                "button": "Ubah Kata Sandi",
+                "success": "Kata sandi berhasil diubah",
+                "error": "Terjadi kesalahan saat mengubah kata sandi"
             },
             "delete": {
-                "title": "Delete Account",
-                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
-                "button": "Delete Account",
-                "confirm": "Are you sure you want to delete your account?",
-                "success": "Successfully disabled account, redirecting to home page...",
-                "error": "Error deleting account. Contact us at {email} for help."
+                "title": "Hapus Akun",
+                "help": "Menghapus akun kamu akan menghapus semuanya, termasuk aset. Akun kamu akan segera dinonaktifkan & kamu akan diarahkan ke halaman beranda. Setelah 14 hari, akun kamu akan dihapus secara permanen. Dapatkan kembali akses kapan saja dengan mengirim email kepada kami di {email}.",
+                "button": "Hapus Akun",
+                "confirm": "Apa kamu yakin ingin menghapus akun kamu?",
+                "success": "Akun berhasil dinonaktifkan, mengalihkan ke halaman beranda...",
+                "error": "Terjadi kesalahan saat menghapus akun. Hubungi kami di {email} untuk bantuan."
             }
         }
     },
     "support": {
         "support": {
-            "support": "Support"
+            "support": "Bantuan"
         },
         "report": {
             "general": {
-                "title": "Report",
-                "help": "If you find any bugs or issues with the site, please report them here.",
-                "placeholder": "Enter report",
-                "button": "Report",
-                "success": "Successfully reported issue",
-                "error": "Error reporting issue"
+                "title": "Lapor",
+                "help": "Jika kamu menemukan bug atau masalah pada situs ini, silakan laporkan di sini.",
+                "placeholder": "Masukkan laporan",
+                "button": "Laporkan",
+                "success": "Masalah berhasil dilaporkan",
+                "error": "Terjadi kesalahan saat melaporkan masalah"
             },
             "ugc": {
                 "user": {
-                    "title": "Report User",
-                    "help": "If you find any users breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report User",
-                    "success": "Successfully reported user",
-                    "error": "Error reporting user"
+                    "title": "Laporkan Pengguna",
+                    "help": "Jika kamu menemukan pengguna yang melanggar aturan, harap laporkan di sini.",
+                    "placeholder": "Masukkan laporan",
+                    "button": "Laporkan Pengguna",
+                    "success": "Pengguna berhasil dilaporkan",
+                    "error": "Terjadi kesalahan saat melaporkan pengguna"
                 },
                 "asset": {
-                    "title": "Report Asset",
-                    "help": "If you find any assets breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report Asset",
-                    "success": "Successfully reported asset",
-                    "error": "Error reporting asset"
+                    "title": "Laporkan Aset",
+                    "help": "Jika kamu menemukan aset yang melanggar aturan, harap laporkan di sini.",
+                    "placeholder": "Masukkan laporan",
+                    "button": "Laporkan Aset",
+                    "success": "Aset berhasil dilaporkan",
+                    "error": "Terjadi kesalahan saat melaporkan aset"
                 },
                 "collection": {
-                    "title": "Report Collection",
-                    "help": "If you find any collections breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report Collection",
-                    "success": "Successfully reported collection",
-                    "error": "Error reporting collection"
+                    "title": "Laporkan Koleksi",
+                    "help": "Jika kamu menemukan koleksi yang melanggar aturan, harap laporkan di sini.",
+                    "placeholder": "Masukkan laporan",
+                    "button": "Laporkan Koleksi",
+                    "success": "Koleksi berhasil dilaporkan",
+                    "error": "Terjadi kesalahan saat melaporkan koleksi"
                 }
             }
         },
         "feedback": {
-            "title": "Feedback",
-            "help": "If you have any feedback or suggestions for the site, please let us know here.",
-            "placeholder": "Enter feedback",
-            "button": "Send Feedback",
-            "success": "Successfully sent feedback",
-            "error": "Error sending feedback"
+            "title": "Umpan balik",
+            "help": "Jika kamu memiliki masukan atau saran untuk situs ini, silakan beri tahu kami di sini.",
+            "placeholder": "Masukkan umpan balik",
+            "button": "Kirim Umpan Balik",
+            "success": "Umpan balik berhasil dikirimkan",
+            "error": "Terjadi kesalahan saat mengirim umpan balik"
         }
     },
     "errors": {
-        "404": "Page Not Found",
-        "500": "Internal Server Error",
-        "401": "Unauthorized",
-        "403": "Forbidden",
-        "back": "Go Back",
-        "refresh": "Try refreshing the page or go back to the home page",
-        "api": "Error connecting to the API. Please try again later"
+        "404": "Halaman Tidak Ditemukan",
+        "500": "Kesalahan Server Internal",
+        "401": "Tidak Terotorisasi",
+        "403": "Terlarang",
+        "back": "Kembali",
+        "refresh": "Coba segarkan halaman atau kembali ke halaman beranda",
+        "api": "Terjadi kesalahan saat menyambung ke API. Silakan coba lagi nanti"
     },
     "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
