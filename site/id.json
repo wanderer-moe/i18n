@@ -76,7 +76,7 @@
             "permissions": {
                 "permissions": "Perizinan",
                 "editor": {
-                    "title": "Editor",
+                    "title": "Penyunting",
                     "desc": "Dapat menambah dan menghapus aset dari koleksi dan mengubah detail koleksi"
                 },
                 "collaborator": {
@@ -84,11 +84,11 @@
                     "desc": "Dapat menambah dan menghapus aset dari koleksi"
                 },
                 "viewer": {
-                    "title": "Viewer",
+                    "title": "Pemirsa",
                     "desc": "Dapat melihat koleksi apa pun visibilitasnya, tetapi tidak dapat membuat perubahan"
                 },
                 "owner": {
-                    "title": "Owner",
+                    "title": "Pemilik",
                     "desc": "Dapat menambah dan menghapus aset dari koleksi, mengubah detail koleksi dan menghapus koleksi"
                 }
             }
@@ -306,19 +306,19 @@
                 "error": "Terjadi kesalahan saat mengubah foto profil"
             },
             "pronouns": {
-                "pronouns": "Pronouns",
+                "pronouns": "Kata Ganti",
                 "set": {
-                    "title": "Set Pronouns",
-                    "help": "Enter the pronouns you want to set, your current pronouns are {subject}/{object}/{possessive}",
-                    "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
-                    "placeholder": "Enter pronouns",
-                    "button": "Set Pronouns",
-                    "success": "Successfully set pronouns",
-                    "error": "Error setting pronouns"
+                    "title": "Atur Kata Ganti",
+                    "help": "Masukkan kata ganti yang ingin kamu atur, kata ganti kamu saat ini adalah {subject}/{object}/{possessive}",
+                    "disclaimer": "Kami hanya menyediakan daftar kumpulan kata ganti, untuk mencegah penyalahgunaan.",
+                    "placeholder": "Masukkan kata ganti",
+                    "button": "Atur Kata Ganti",
+                    "success": "Berhasil mengatur kata ganti",
+                    "error": "Terjadi kesalahan saat mengatur kata ganti"
                 },
                 "poweredBy": {
-                    "title": "Powered by",
-                    "desc": "Our pronouns list is powered by pronouns.page, who were kind enough to give us permission to use their API. Please check them out at {link}!"
+                    "title": "Diberdayakan oleh",
+                    "desc": "Daftar kata ganti kami didukung oleh pronouns.page, yang berbaik hati memberi kami izin untuk menggunakan API mereka. Silakan periksa mereka di {link}!"
                 }
             },
             "providers": {
