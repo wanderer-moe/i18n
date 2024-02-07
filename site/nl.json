@@ -70,50 +70,50 @@
                 "title": "Verwijder Bijdrager",
                 "button": "Verwijder Bijdrager",
                 "confirm": "Weet u zeker dat u {username} wilt verwijderen als een collectie {role}?",
-                "success": "Successfully removed collaborator",
-                "error": "Error removing collaborator"
+                "success": "Bijdrager succesvol verwijderd",
+                "error": "Fout bij het verwijderen van bijdrager"
             },
             "permissions": {
-                "permissions": "Permissions",
+                "permissions": "Toestemmingen",
                 "editor": {
-                    "title": "Editor",
-                    "desc": "Can add and remove assets from the collection and change collection details"
+                    "title": "Bewerker",
+                    "desc": "Kan assets toevoegen en verwijderen uit de collectie en de verzamelgegevens wijzigen"
                 },
                 "collaborator": {
-                    "title": "Collaborator",
-                    "desc": "Can add and remove assets from the collection"
+                    "title": "Bijdrager",
+                    "desc": "Kan assets toevoegen en verwijderen uit de collectie"
                 },
                 "viewer": {
-                    "title": "Viewer",
-                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                    "title": "Bekijker",
+                    "desc": "Kan de collectie bekijken, ongeacht de zichtbaarheid, maar niet wijzigen"
                 },
                 "owner": {
-                    "title": "Owner",
-                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                    "title": "Eigenaar",
+                    "desc": "Kan assets toevoegen en verwijderen van de collectie, de verzamelgegevens wijzigen en de collectie verwijderen"
                 }
             }
         }
     },
     "asset": {
-        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "suggestiveContent": "Deze asset kan suggestieve of triggerende inhoud bevatten.",
         "upload": {
-            "confirm": "Are you sure you want to upload {assetName}?",
-            "success": "Successfully uploaded {assetName} for review",
-            "error": "Error uploading {assetName}",
-            "dropzone": "Drag or click here to upload asset",
-            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "Weet u zeker dat u {assetName} wilt uploaden?",
+            "success": "{assetName} Succesvol geüpload voor beoordeling",
+            "error": "Fout tijdens uploaden van {assetName}",
+            "dropzone": "Sleep of klik hier om een asset te uploaden",
+            "conflict": "Er bestaat al een asset met dezelfde naam, wilt u misschien de bestaande asset aanpassen?",
+            "uploading": "Uploaden {assetName}..."
         },
         "modify": {
-            "confirm": "Are you sure you want to modify {assetName}?",
-            "success": "Successfully modified {assetName}",
-            "error": "Error modifying {assetName}",
-            "uploading": "Uploading {assetName}..."
+            "confirm": "Weet u zeker dat u {assetName} wilt aanpassen?",
+            "success": "Succesvol {assetName} gewijzigd",
+            "error": "Fout tijdens het wijzigen van {assetName}",
+            "uploading": "Uploaden {assetName}..."
         },
         "delete": {
-            "confirm": "Are you sure you want to delete {assetName}?",
-            "success": "Successfully deleted {assetName}",
-            "error": "Error deleting {assetName}"
+            "confirm": "Weet u zeker dat u {assetName} wilt verwijderen?",
+            "success": "Succesvol {assetName} verwijderd",
+            "error": "Fout tijdens het verwijderen van {assetName}"
         },
         "details": {
             "uploadedBy": "Uploaded by {username}",
