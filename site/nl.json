@@ -116,42 +116,42 @@
             "error": "Fout tijdens het verwijderen van {assetName}"
         },
         "details": {
-            "uploadedBy": "Uploaded by {username}",
-            "extension": "File Type",
-            "uploadedOn": "Uploaded on {date}",
+            "uploadedBy": "Geüpload door {username}",
+            "extension": "Bestandstype",
+            "uploadedOn": "Geüpload op {date}",
             "status": {
-                "pending": "Pending",
-                "approved": "Approved",
-                "rejected": "Rejected"
+                "pending": "In behandeling",
+                "approved": "Goedgekeurd",
+                "rejected": "Geweigerd"
             },
-            "viewCount": "{count} views",
+            "viewCount": "{count} weergaves",
             "downloadCount": "{count} downloads",
-            "download": "Download",
-            "width": "Width",
-            "height": "Height"
+            "download": "Installeer",
+            "width": "Breedte",
+            "height": "Hoogte"
         },
         "like": {
             "like": {
                 "like": "Like",
                 "liked": "Liked",
-                "likes": "{count} likes",
-                "error": "Error liking asset",
-                "alreadyLiked": "You already liked this asset"
+                "likes": "{count} favorieten",
+                "error": "Fout tijdens gefavoriet van asset",
+                "alreadyLiked": "U heeft deze asset al als like staan"
             },
             "unlike": {
                 "unlike": "Unlike",
                 "unliked": "Unliked",
                 "likes": "{count} likes",
-                "error": "Error unliking asset",
-                "notLiked": "You haven't liked this asset"
+                "error": "Fout tijdens liken van asset",
+                "notLiked": "U heeft deze asset niet als like staan"
             }
         },
         "favourite": {
             "favourite": {
-                "favourite": "Favourite",
-                "favourited": "Favourited",
-                "favourites": "{count} favourites",
-                "error": "Error favouriting asset",
+                "favourite": "Favoriet",
+                "favourited": "Favoriet",
+                "favourites": "{count} favorieten",
+                "error": "Fout tijdens het favorieten van asset",
                 "alreadyFavourited": "U heeft deze asset al als favoriet gemarkeerd"
             },
             "unfavourite": {
@@ -241,27 +241,27 @@
             "collaborator": "Collaborator",
             "partner": "Partner",
             "contentCreator": "Content Creator",
-            "moderator": "Moderator",
-            "developer": "Developer",
-            "creator": "Creator"
+            "moderator": "Beheerder",
+            "developer": "Ontwikkelaar",
+            "creator": "Auteur"
         },
         "account": {
             "account": "Account"
         },
         "follow": {
             "status": {
-                "following": "Following",
-                "notFollowing": "Not Following",
-                "followsYou": "Follows You",
-                "mutual": "Mutual"
+                "following": "Volgen",
+                "notFollowing": "Niet Volgend",
+                "followsYou": "Volgt jou",
+                "mutual": "Wederzijds"
             },
             "count": {
-                "following": "{count} Following",
-                "followers": "{count} Followers"
+                "following": "{count} Volgend",
+                "followers": "{count} Volgers"
             },
             "follow": {
-                "follow": "Follow",
-                "followed": "Followed",
+                "follow": "Volgen",
+                "followed": "Volgend",
                 "error": "Error following user",
                 "alreadyFollowed": "You already follow this user"
             },
