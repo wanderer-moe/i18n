@@ -347,20 +347,20 @@
             "viewSuggestiveContent": {
                 "title": "Просматривать контент сексуального характера",
                 "help": "Этот параметр позволяет просматривать контент сексуального/оскорбительного характера, это хранится локально на вашем устройстве.",
-                "button": "Change View Suggestive Content",
-                "success": "Successfully changed view suggestive content",
-                "error": "Error changing view suggestive content"
+                "button": "Изменить параметр просмотра контента сексуального характера",
+                "success": "Параметр просмотра контента сексуального характера успешно изменен",
+                "error": "Ошибка при изменении параметра просмотра сексуального характера"
             },
             "password": {
-                "title": "Password",
-                "help": "Your password is used to authenticate you on the site.",
-                "placeholder": "Enter password",
-                "button": "Change Password",
-                "success": "Successfully changed password",
-                "error": "Error changing password"
+                "title": "Пароль",
+                "help": "Ваш пароль используется для аутентификации на сайте.",
+                "placeholder": "Введите пароль",
+                "button": "Изменить пароль",
+                "success": "Пароль успешно изменен",
+                "error": "Ошибка при изменении пароля"
             },
             "delete": {
-                "title": "Delete Account",
+                "title": "Удалить аккаунт",
                 "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
                 "button": "Delete Account",
                 "confirm": "Are you sure you want to delete your account?",
