@@ -361,58 +361,58 @@
             },
             "delete": {
                 "title": "Удалить аккаунт",
-                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
-                "button": "Delete Account",
-                "confirm": "Are you sure you want to delete your account?",
-                "success": "Successfully disabled account, redirecting to home page...",
-                "error": "Error deleting account. Contact us at {email} for help."
+                "help": "Удаление вашей учетной записи удалит все, включая ассеты. Ваша учетная запись будет немедленно отключена, и вы будете перенаправлены на главную страницу. Через 14 дней ваша учетная запись будет удалена навсегда. Восстановите доступ к аккаунту в любое время, написав нам по почте: {email}.",
+                "button": "Удалить аккаунт",
+                "confirm": "Вы уверены, что хотите удалить свой аккаунт?",
+                "success": "Аккаунт успешно отключен, перенаправляем на домашнюю страницу...",
+                "error": "Ошибка при удалении аккаунта. Свяжитесь с нами по почте: {email}."
             }
         }
     },
     "support": {
         "support": {
-            "support": "Support"
+            "support": "Поддержка"
         },
         "report": {
             "general": {
-                "title": "Report",
-                "help": "If you find any bugs or issues with the site, please report them here.",
-                "placeholder": "Enter report",
-                "button": "Report",
-                "success": "Successfully reported issue",
-                "error": "Error reporting issue"
+                "title": "Пожаловаться",
+                "help": "Если вы нашли какие-либо ошибки или проблемы с сайтом, пожалуйста, сообщите о них здесь.",
+                "placeholder": "Введите жалобу",
+                "button": "Пожаловаться",
+                "success": "Жалоба успешно отправлена",
+                "error": "Ошибка при отправке жалобы"
             },
             "ugc": {
                 "user": {
-                    "title": "Report User",
-                    "help": "If you find any users breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report User",
-                    "success": "Successfully reported user",
-                    "error": "Error reporting user"
+                    "title": "Пожаловаться на пользователя",
+                    "help": "Если вы нашли пользователей, нарушающих правила, пожалуйста, сообщите о них здесь.",
+                    "placeholder": "Введите жалобу",
+                    "button": "Пожаловаться на пользователя",
+                    "success": "Жалоба успешно отправлена",
+                    "error": "Ошибка при отправке жалобы"
                 },
                 "asset": {
-                    "title": "Report Asset",
-                    "help": "If you find any assets breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report Asset",
-                    "success": "Successfully reported asset",
-                    "error": "Error reporting asset"
+                    "title": "Пожаловаться на ассет",
+                    "help": "Если вы нашли ассеты, нарушающие правила, пожалуйста, сообщите о них здесь.",
+                    "placeholder": "Введите жалобу",
+                    "button": "Пожаловаться на ассет",
+                    "success": "Жалоба успешно отправлена",
+                    "error": "Ошибка при отправке жалобы"
                 },
                 "collection": {
-                    "title": "Report Collection",
-                    "help": "If you find any collections breaking the rules, please report them here.",
-                    "placeholder": "Enter report",
-                    "button": "Report Collection",
-                    "success": "Successfully reported collection",
-                    "error": "Error reporting collection"
+                    "title": "Пожаловаться на коллекцию",
+                    "help": "Если вы нашли какие-либо коллекции, нарушающие правила, пожалуйста, сообщите о них здесь.",
+                    "placeholder": "Введите жалобу",
+                    "button": "Пожаловаться на коллекцию",
+                    "success": "Жалоба успешно отправлена",
+                    "error": "Ошибка при отправке жалобы"
                 }
             }
         },
         "feedback": {
-            "title": "Feedback",
-            "help": "If you have any feedback or suggestions for the site, please let us know here.",
-            "placeholder": "Enter feedback",
+            "title": "Обратная связь",
+            "help": "Если у вас есть отзывы или предложения по сайту, пожалуйста, сообщите нам о них здесь.",
+            "placeholder": "Введите отзыв",
             "button": "Отправить отзыв",
             "success": "Отзыв успешно отправлен",
             "error": "Ошибка при отправке отзыва"
