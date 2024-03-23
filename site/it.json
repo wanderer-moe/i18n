@@ -1,98 +1,432 @@
 {
-    "home": {
-        "description": "A centralized database of various game assets",
-        "github": {
-            "desc": "For transparency, wanderer.moe is open source on GitHub. The code is available for anyone to view and contribute to!",
-            "shortDesc": "Website source code",
-            "webBtn": "Website Source Code",
-            "apiBtn": "API Source Code"
+    "collection": {
+        "name": "Nome Collezione",
+        "description": "Descrizione Collezioni",
+        "visibility": {
+            "title": "Visibilità",
+            "public": "Pubblico",
+            "private": "Privato"
         },
-        "donate": {
-            "title": "Donate",
-            "shortDesc": "Support the site",
-            "desc": "wanderer.moe is ad-free and will always be free to use. If you enjoy the site and want to help with server costs, maintenance, and development, consider donating!"
+        "create": {
+            "title": "Crea Collezione",
+            "help": "Inserisci il nome e la descrizione della collezione che vuoi creare",
+            "placeholder": "Inserisci nome",
+            "button": "Crea Collezione",
+            "success": "Collezione create con successo",
+            "error": "Errore trovato creando la collezione"
         },
-        "discord": {
-            "desc": "Join the Discord server for updates, assets outside the site, and more!",
-            "shortDesc": "{onlineCount} users currently online",
-            "btn": "Join Server"
+        "modify": {
+            "title": "Modifica la Collezione",
+            "help": "Entra il nome e la descrizione della collezione che vuoi modificare",
+            "placeholder": "Inserisci il nome",
+            "button": "Modifica la Collezione",
+            "success": "Collezione modificata con successo",
+            "error": "Errore trovato modificando la collezione"
         },
-        "ocGen": {
-            "title": "OC Generators",
-            "shortDesc": "Randomly generated OCs",
-            "desc": "Generate game-related information about your original characters (e.g. personality traits and appearance)!"
+        "delete": {
+            "title": "Elimina collezione",
+            "button": "Elimina collezione",
+            "confirm": "Sei sicuro di voler eliminare {collectionName}?",
+            "success": "Collezione eliminata con successo",
+            "error": "Errore nell'eliminare la collezione"
+        },
+        "details": {
+            "title": "Dettagli della collezione",
+            "name": "Nome",
+            "description": "Descrizione",
+            "visibility": "Visibilità",
+            "createdAt": "Creato in {date} da {username}",
+            "updatedAt": "Ultimo aggiornamento il {date} da {username}"
+        },
+        "assets": {
+            "assets": "Assets",
+            "add": {
+                "title": "Aggiungi asset",
+                "button": "Aggiungi asset",
+                "confirm": "Sei sicuro di voler aggiungere {assetName} alla collezione {collectionName}?",
+                "success": "Asset aggiunto con successo",
+                "error": "Errore nell'aggiungere asset"
+            },
+            "remove": {
+                "title": "Rimuovi asset",
+                "button": "Rimuovi asset",
+                "confirm": "Sei sicuro di voler rimuovere {assetName} dalla collezione {collectionName}?",
+                "success": "Asset rimosso con successo",
+                "error": "Errore nel rimuovere l'asset"
+            }
+        },
+        "collaborators": {
+            "collaborators": "Collaboratori",
+            "add": {
+                "title": "Aggiungi collaboratore",
+                "help": "Inserisci il nome utente dell'utente che vuoi aggiungere come collaboratore",
+                "placeholder": "Inserisci nome utente",
+                "confirm": "Sei sicuro di voler aggiungere {username} come collezione {role}?",
+                "button": "Aggiungi collaboratore",
+                "success": "Collaboratore aggiunto con successo",
+                "error": "Errore nell'aggiungere il collaboratore"
+            },
+            "remove": {
+                "title": "Rimuovi Collaboratore",
+                "button": "Rimuovi Collaboratore",
+                "confirm": "Sei sicuro di voler rimuovere {username} come collezione {role}?",
+                "success": "Collaboratore rimosso con successo",
+                "error": "Errore nel rimuovere il collaboratore"
+            },
+            "permissions": {
+                "permissions": "Permessi",
+                "editor": {
+                    "title": "Editore",
+                    "desc": "Puoi aggiungere e rimuovere gli asset dalla raccolta e cambiare i dettagli della raccolta"
+                },
+                "collaborator": {
+                    "title": "Collaboratore",
+                    "desc": "Puoi aggiungere e rimuovere asset dalla collezione"
+                },
+                "viewer": {
+                    "title": "Visualizzatore",
+                    "desc": "Può visualizzare la collezione indipendentemente dalla visibilità, ma non apportare modifiche"
+                },
+                "owner": {
+                    "title": "Proprietario",
+                    "desc": "Puoi aggiungere e rimuovere gli asset dalla raccolta, cambiare i dettagli della raccolta ed eliminare la collezione"
+                }
+            }
         }
     },
-    "nav": {
-        "discord": "Server Discord",
-        "giOCGen": "Generatore OC di Genshin",
-        "giFiles": "File di Genshin"
-    },
-    "footer": {
-        "fanmadeNotice": "wanderer.moe è un sito web fanmade. Tutti i file sono di proprietà dei loro creatori.",
-        "assetRequestForm": "Modulo per la richiesta di assetti"
-    },
-    "contributors": {
-        "title": "Contributori",
-        "desc": "A big thank you to all of the amazing people who have helped contribute to the site!"
+    "asset": {
+        "suggestiveContent": "Questo asset può contenere contenuti suggestivi o disturbanti.",
+        "upload": {
+            "confirm": "Sei sicuro di voler caricare {assetName}?",
+            "success": "{assetName} caricato per revisione con successo",
+            "error": "Errore nel caricamento di {assetName}",
+            "dropzone": "Trascina o clicca qui per caricare l'asset",
+            "conflict": "Esiste già un asset con lo stesso nome, forse vuoi modificare l'asset esistente?",
+            "uploading": "Caricamento {assetName}..."
+        },
+        "modify": {
+            "confirm": "Sei sicuro di voler modificare {assetName}?",
+            "success": "{assetName} modificato con successo",
+            "error": "Errore nella modifica di {assetName}",
+            "uploading": "Caricando {assetName}..."
+        },
+        "delete": {
+            "confirm": "Sei sicuro di voler eliminare {assetName}?",
+            "success": "{assetName} modificato con successo",
+            "error": "Errore nell'eliminare {assetName}"
+        },
+        "details": {
+            "uploadedBy": "Caricato da {username}",
+            "extension": "Tipo di file",
+            "uploadedOn": "Caricato il: {date}",
+            "status": {
+                "pending": "In attesa",
+                "approved": "Approvato",
+                "rejected": "Rifiutato"
+            },
+            "viewCount": "{count} visualizzazioni",
+            "downloadCount": "{count} Download",
+            "download": "",
+            "width": "Larghezza",
+            "height": "Altezza"
+        },
+        "like": {
+            "like": {
+                "like": "Mi piace",
+                "liked": "Piaciuto",
+                "likes": "{count} mi piace",
+                "error": "Errore nel mettere mi piace",
+                "alreadyLiked": "Hai già messo mi piace a questo asset"
+            },
+            "unlike": {
+                "unlike": "Togli Mi piace",
+                "unliked": "Mi piace tolto",
+                "likes": "{count} mi piace",
+                "error": "Errore nel togliere mi piace",
+                "notLiked": "Non hai messo mi piace a questo asset"
+            }
+        },
+        "favourite": {
+            "favourite": {
+                "favourite": "Preferito",
+                "favourited": "Preferito",
+                "favourites": "Preferiti {count}",
+                "error": "Errore favorendo l'asset",
+                "alreadyFavourited": "Hai già favorito questo asset"
+            },
+            "unfavourite": {
+                "unfavourite": "Rimuovi dai preferiti",
+                "unfavourited": "Rimosso dai preferiti",
+                "favourites": "Preferiti {count}",
+                "error": "Errore sfavorendo l'asset",
+                "notFavourited": "Non hai preferito questo asset"
+            }
+        }
     },
     "game": {
-        "main": "{availableCategories} categorie trovate per {game}",
-        "info": "Schiaccia su una sezione per vedere i suoi contenuti.",
-        "other": "{fileCount} file ({fileSize})"
+        "game": "Gioco",
+        "lastUpdated": "Ultimo aggiornamento: {date}",
+        "possibleSuggestiveContent": "Questo gioco contiene asset che possono contenere contenuto suggestivo o disturbante.",
+        "like": {
+            "like": "Mi piace",
+            "liked": "Piaciuto",
+            "likes": "{count} mi piace",
+            "error": "Errore nel mettere mi piace",
+            "alreadyLiked": "Hai già messo mi piace a questo gioco"
+        },
+        "unlike": {
+            "unlike": "Togli Mi piace",
+            "unliked": "Mi piace tolto",
+            "likes": "{count} mi piace",
+            "error": "Errore nel togliere mi piace",
+            "notLiked": "Non hai messo mi piace a questo gioco"
+        }
     },
-    "asset": {
-        "main": "{filteredImagesCount}/{imagesCount} asset mostrati, {selectedItemsCount} selezionato",
-        "info": "Tap on an asset to select it. Double tap an image to enlarge it.",
-        "downloadAll": "Download tutto",
-        "downloadAllSize": "Scarica Tutto ({size})",
-        "downloadSelected": "Scarica selezionati",
-        "downloadSelectedSize": "Scarica selezionati ({size})",
-        "download": "Scarica",
-        "downloadSize": "Scarica ({size})",
-        "officialAsset": "Asset ufficiale",
-        "fanmadeAsset": "Asset fanmade",
-        "searchBar": "Search for an asset...",
-        "nothingFound": "Nulla trovato per {query}",
-        "nothingFoundSuggestions": "If there's an asset you're looking for that you want added, fill out the asset request form!",
-        "onMobile": "Se stai avendo difficoltà con i download, leggi il FAQ premendo il simbolo delle informazioni di fianco al nome del gioco."
+    "assetCategory": {
+        "assetCategory": "Categoria degli Assets",
+        "lastUpdated": "Ultimo aggiornamento: {date}",
+        "possibleSuggestiveContent": "Questa categoria di asset contiene asset che possono contenere contenuto suggestivo o disturbante.",
+        "like": {
+            "like": "Mi piace",
+            "liked": "Piaciuto",
+            "likes": "{count} mi piace",
+            "error": "Errore nel mettere mi piace alla categoria",
+            "alreadyLiked": "Hai già messo mi piace a questa categoria"
+        },
+        "unlike": {
+            "unlike": "Togli Mi piace",
+            "unliked": "Mi piace tolto",
+            "likes": "{count} mi piace",
+            "error": "Errore nel togliere mi piace alla categoria",
+            "notLiked": "Non hai messo mi piace a questa categoria di asset"
+        }
     },
-    "details": {
-        "lastUpdated": "Ultimi Aggiornati: {date}",
-        "sortBy": "Ordina Per",
-        "dateUploaded": "Updated: {date}",
-        "sortByAlphabetical": "Alfabetico (A-Z)",
-        "sortByAlphabeticalReverse": "Alfabetico (Z-A)",
-        "sortByUploaded": "Updated (Newest)",
-        "sortByUploadedReverse": "Updated (Oldest)",
-        "sortBySize": "Grandezza Del File (Più Piccolo)",
-        "sortBySizeReverse": "Grandezza Del File (Più Grande)"
+    "tags": {
+        "tags": "Tag",
+        "noTags": "Nessun tag",
+        "like": {
+            "like": "Mi piace",
+            "liked": "Piaciuto",
+            "likes": "{count} mi piace",
+            "error": "Errore nel mettere mi piace al tag",
+            "alreadyLiked": "Hai già messo mi piace a questo tag"
+        },
+        "unlike": {
+            "unlike": "Togli Mi piace",
+            "unliked": "Mi piace tolto",
+            "likes": "{count} mi piace",
+            "error": "Errore nel togliere mi piace al tag",
+            "notLiked": "Non hai messo mi piace a questo tag"
+        }
     },
-    "globalSearch": {
-        "searchBar": "Search for a game or asset..."
+    "search": {
+        "assets": {
+            "noResults": "Nessun asset trovato",
+            "noResultsDesc": "Prova a cambiare la tua richiesta di ricerca o i tuoi filtri",
+            "sideBar": {
+                "filters": "Filtri",
+                "sort": {
+                    "sort": "Ordina",
+                    "newest": "Più recenti",
+                    "oldest": "Più vecchi",
+                    "views": "Più visualizzati",
+                    "downloads": "I più scaricati"
+                }
+            }
+        }
     },
-    "viewImage": {
-        "closeText": "Clicca in qualsiasi punto per chiudere",
-        "resolution": "Resolution: {resolution}"
+    "account": {
+        "roles": {
+            "contributor": "Contributore",
+            "collaborator": "Collaboratore",
+            "partner": "Partner",
+            "contentCreator": "Content Creator",
+            "moderator": "Moderatore",
+            "developer": "Sviluppatore",
+            "creator": "Autore"
+        },
+        "account": {
+            "account": ""
+        },
+        "follow": {
+            "status": {
+                "following": "Seguendo",
+                "notFollowing": "Non segui",
+                "followsYou": "Ti segue",
+                "mutual": ""
+            },
+            "count": {
+                "following": "{count} seguiti",
+                "followers": "{count} Seguaci"
+            },
+            "follow": {
+                "follow": "Segui",
+                "followed": "Seguito",
+                "error": "Errore nel seguire l'utente",
+                "alreadyFollowed": "Stai già seguendo questo utente"
+            },
+            "unfollow": {
+                "unfollow": "Smetti di seguire",
+                "unfollowed": "Smesso di seguire",
+                "error": "Errore nello smettere di seguire l'utente",
+                "notFollowed": "Non segui questo utente"
+            }
+        },
+        "settings": {
+            "settings": "Impostazioni",
+            "username": {
+                "title": "Username",
+                "help": "Il tuo nome utente viene utilizzato per identificarti sul sito ed è unico per te.",
+                "placeholder": "Inserisci username",
+                "button": "Cambia Username",
+                "success": "Username modificato con successo",
+                "error": "Errore modificando nome utente"
+            },
+            "email": {
+                "title": "Email",
+                "help": "La tua email viene utilizzata per identificarti sul sito ed è unica per te. Deve essere un indirizzo email valido.",
+                "placeholder": "Inserisci email",
+                "button": "Cambia email",
+                "success": "Email cambiata con successo",
+                "error": "Errore nel cambio email"
+            },
+            "usernameColour": {
+                "title": "Colore del Nome Utente",
+                "help": "Avere un unico colore del nome utente sul sito. Questo è visibile per tutti.",
+                "placeholder": "Inserisci colore del nome utente",
+                "button": "Cambia Colore del Nome Utente",
+                "success": "Colore del nome utente cambiato con successo",
+                "error": "Errore nel cambiare il colore del nome utente"
+            },
+            "profilePicture": {
+                "title": "Foto Profilo",
+                "help": "L'immagine del tuo profilo è visibile a tutti. Tutte le immagini sono gestite attraverso più filtri di moderazione IA per prevenire un uso improprio.",
+                "button": "Cambia la foto del profilo",
+                "success": "Foto profilo cambiata con successo",
+                "error": "Errore nel cambiare la foto profilo"
+            },
+            "pronouns": {
+                "pronouns": "Pronomi",
+                "set": {
+                    "title": "Imposta Pronomi",
+                    "help": "Inserisci i pronomi che vuoi mettere, i tuoi pronomi attuali sono {subject}/{object}/{possessive}",
+                    "disclaimer": "Forniamo solo una lista di pronomi specifici, per prevenirne l'abuso.",
+                    "placeholder": "Inserisci i pronomi",
+                    "button": "Imposta Pronomi",
+                    "success": "Pronomi impostati con successo",
+                    "error": "Errore nell'impostare i pronomi"
+                },
+                "poweredBy": {
+                    "title": "Supportato da",
+                    "desc": "La nostra lista di nomi è supportata da pronouns.page che sono stati abbastanza gentili da darci il permesso di usare il loro API. Si prega di visitarli su {link}!"
+                }
+            },
+            "providers": {
+                "discord": {
+                    "title": "Discord",
+                    "help": "Il tuo account Discord è utilizzato per autenticarti sul sito."
+                },
+                "google": {
+                    "title": "Google",
+                    "help": "Il tuo account Google viene utilizzato per autenticarti sul sito."
+                },
+                "github": {
+                    "title": "GitHub",
+                    "help": "Il tuo account GitHub viene utilizzato per autenticarti sul sito."
+                },
+                "twitter": {
+                    "title": "Twitter/X",
+                    "help": "Il tuo account Twitter/X viene utilizzato per autenticarti sul sito."
+                },
+                "visibility": {
+                    "title": "Visibilità",
+                    "public": "Pubblico",
+                    "private": "Privato"
+                }
+            },
+            "viewSuggestiveContent": {
+                "title": "Visualizza Contenuto Suggestivo",
+                "help": "Questa impostazione consente di visualizzare contenuti suggestivi/disturbanti, questo viene memorizzato localmente sul tuo dispositivo.",
+                "button": "Cambia Impostazioni di Visualizzazione di Contenuto Suggestivo",
+                "success": "Modificato con successo impostazioni sulla visualizzazione di contenuto suggestivo",
+                "error": "Errore nel cambiare le impostazione della visualizzazione di contenuto suggestivo"
+            },
+            "password": {
+                "title": "Password",
+                "help": "La tua password viene utilizzata per autenticarti sul sito.",
+                "placeholder": "Inserisci la password",
+                "button": "Cambia Password",
+                "success": "Password modificata con successo",
+                "error": "Errore modificando la password"
+            },
+            "delete": {
+                "title": "Elimina account",
+                "help": "L'eliminazione del tuo account eliminerà tutto, inclusi gli asset. Sarai immediatamente disabilitato e sarai reindirizzato alla home page. Dopo 14 giorni, il tuo account verrà eliminato definitivamente. Riprendi l'accesso in qualsiasi momento inviandoci un'email su {email}.",
+                "button": "Elimina account",
+                "confirm": "Sei sicuro di voler eliminare il tuo account?",
+                "success": "Account disabilitato con successo, reindirizzamento alla home page...",
+                "error": "Errore nell'eliminazione dell'account. Contattaci su {email} per aiuto."
+            }
+        }
     },
-    "faq": {
-        "title": "Domande Chieste Spesso",
-        "purpose": "Qual è lo scopo di questo sito?",
-        "purposeAnswer": "wanderer.moe is a website that hosts a collection of assets from various games. The assets are organized by game and asset type. The sake of this website is to provide a centralized location for people to download assets from.",
-        "downloadMultipleOrAll": "Come scarico più o molti asset?",
-        "downloadMultipleOrAllAnswer": "To download multiple assets, select the assets you want to download by clicking/tapping on them. Then click the 'Download Selected' button. To download all assets, click the 'Download All' button. This will save as a ZIP file in your Downloads folder.",
-        "downloadOnMobile": "Come scarico gli asset su mobile?",
-        "downloadOnMobileAnswer": "Make sure that you are not viewing the website through social media applications and that you're using a dedicated browser. If you are on an iPhone, I recommend using Safari.",
-        "howToExtract": "How do I extract a ZIP file after downloading?",
-        "howToExtractAnswer": " If you are on Windows, you can use 7zip to extract the files. If you are on Mac, you can use the built in Archive Utility. If you are on iPhone, tap on the ZIP file, open the folder it creates, select the images and then tap 'Save to Photos'. If you are on Android, you can use a file manager app to extract the files.",
-        "issueNotFound": "I have an issue that isn't listed here!",
-        "issueNotFoundAnswer": "If you have an issue that isn't listed here, you can join the Discord server and ask for help there!"
+    "support": {
+        "support": {
+            "support": "Supporto"
+        },
+        "report": {
+            "general": {
+                "title": "Segnala",
+                "help": "Se trovi eventuali bug o problemi con il sito, segnalali qui.",
+                "placeholder": "Inserisci segnalazione",
+                "button": "Segnala",
+                "success": "Problema segnalato con successo",
+                "error": "Errore segnalando il problema"
+            },
+            "ugc": {
+                "user": {
+                    "title": "Segnala Utente",
+                    "help": "Se trovi degli utenti che infrangono le regole, per favore segnalale qui.",
+                    "placeholder": "Inserisci segnalazione",
+                    "button": "Segnala Utente",
+                    "success": "Utente segnalato con successo",
+                    "error": "Errore segnalando l'utente"
+                },
+                "asset": {
+                    "title": "Segnala Asset",
+                    "help": "Se trovi degli asset che infrangono le regole, per favore segnalali qui.",
+                    "placeholder": "Inserisci segnalazione",
+                    "button": "Segnala Asset",
+                    "success": "Asset segnalato con successo",
+                    "error": "Errore nel segnalare l'asset"
+                },
+                "collection": {
+                    "title": "Segnala Collezione",
+                    "help": "Se trovi delle collezioni che infrangono le regole, per favore segnalale qui.",
+                    "placeholder": "Inserisci segnalazione",
+                    "button": "Segnala Collezione",
+                    "success": "Collezione segnalata con successo",
+                    "error": "Errore segnalando la collezione"
+                }
+            }
+        },
+        "feedback": {
+            "title": "Feedback",
+            "help": "Se avete qualsiasi feedback o suggerimenti per il sito, fatecelo sapere qui.",
+            "placeholder": "Inserisci il tuo feedback",
+            "button": "Invia Feedback",
+            "success": "Feedback inviato con successo",
+            "error": "Errore nell'invio del feedback"
+        }
     },
     "errors": {
         "404": "Pagina Non Trovata",
         "500": "Errore Server Interno",
+        "401": "Non Autorizzato",
+        "403": "Proibito",
+        "back": "Torna indietro",
         "refresh": "Prova a ripristinare la pagina o ritorna alla pagina home",
-        "apiError": "È avvenuto un errore durante la richiesta all'API, prova di nuovo o ricarica la pagina."
+        "api": "Errore nella connessione all'API. Riprova più tardi"
     },
+    "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
 }

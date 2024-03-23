@@ -1,98 +1,432 @@
 {
-    "home": {
-        "description": "A centralized database of various game assets",
-        "github": {
-            "desc": "For transparency, wanderer.moe is open source on GitHub. The code is available for anyone to view and contribute to!",
-            "shortDesc": "Website source code",
-            "webBtn": "Website Source Code",
-            "apiBtn": "API Source Code"
+    "collection": {
+        "name": "Nama Koleksi",
+        "description": "Deskripsi Koleksi",
+        "visibility": {
+            "title": "Visibilitas",
+            "public": "Publik",
+            "private": "Privat"
         },
-        "donate": {
-            "title": "Donate",
-            "shortDesc": "Support the site",
-            "desc": "wanderer.moe is ad-free and will always be free to use. If you enjoy the site and want to help with server costs, maintenance, and development, consider donating!"
+        "create": {
+            "title": "Buat Koleksi",
+            "help": "Masukkan nama dan deskripsi koleksi yang ingin kamu buat",
+            "placeholder": "Masukkan nama",
+            "button": "Buat Koleksi",
+            "success": "Koleksi berhasil dibuat",
+            "error": "Terjadi kesalahan saat membuat koleksi"
         },
-        "discord": {
-            "desc": "Join the Discord server for updates, assets outside the site, and more!",
-            "shortDesc": "{onlineCount} users currently online",
-            "btn": "Join Server"
+        "modify": {
+            "title": "Ubah Koleksi",
+            "help": "Masukkan nama dan deskripsi koleksi yang ingin kamu modifikasi",
+            "placeholder": "Masukkan nama",
+            "button": "Ubah Koleksi",
+            "success": "Koleksi berhasil diubah",
+            "error": "Terjadi kesalahan saat mengubah koleksi"
         },
-        "ocGen": {
-            "title": "OC Generators",
-            "shortDesc": "Randomly generated OCs",
-            "desc": "Generate game-related information about your original characters (e.g. personality traits and appearance)!"
+        "delete": {
+            "title": "Hapus Koleksi",
+            "button": "Hapus Koleksi",
+            "confirm": "Apa kamu yakin ingin menghapus {collectionName}?",
+            "success": "Koleksi berhasil dihapus",
+            "error": "Terjadi kesalahan saat menghapus koleksi"
+        },
+        "details": {
+            "title": "Detail Koleksi",
+            "name": "Nama",
+            "description": "Deskripsi",
+            "visibility": "Visibilitas",
+            "createdAt": "Dibuat pada {date} oleh {username}",
+            "updatedAt": "Terakhir diperbarui pada {date} oleh {username}"
+        },
+        "assets": {
+            "assets": "Aset",
+            "add": {
+                "title": "Tambahkan Aset",
+                "button": "Tambahkan Aset",
+                "confirm": "Apa kamu yakin ingin menambahkan {assetName} ke koleksi {collectionName}?",
+                "success": "Aset berhasil ditambahkan",
+                "error": "Terjadi kesalahan saat menambahkan aset"
+            },
+            "remove": {
+                "title": "Hapus aset",
+                "button": "Hapus aset",
+                "confirm": "Apa kamu yakin ingin menghapus {assetName} dari koleksi {collectionName}?",
+                "success": "Aset berhasil dihapus",
+                "error": "Terjadi kesalahan saat menghapus aset"
+            }
+        },
+        "collaborators": {
+            "collaborators": "Kolaborator",
+            "add": {
+                "title": "Tambahkan Kolaborator",
+                "help": "Masukkan username dari pengguna yang ingin kamu tambahkan sebagai kolaborator",
+                "placeholder": "Masukkan nama pengguna",
+                "confirm": "Apa kamu yakin ingin menambahkan {username} sebagai koleksi {role}?",
+                "button": "Tambahkan Kolaborator",
+                "success": "Kolaborator berhasil ditambahkan",
+                "error": "Terjadi kesalahan saat menambahkan kolaborator"
+            },
+            "remove": {
+                "title": "Hapus Kolaborator",
+                "button": "Hapus Kolaborator",
+                "confirm": "Apa kamu yakin ingin menghapus {username} sebagai koleksi {role}?",
+                "success": "Kolaborator berhasil dihapus",
+                "error": "Terjadi kesalahan saat menghapus kolaborator"
+            },
+            "permissions": {
+                "permissions": "Perizinan",
+                "editor": {
+                    "title": "Penyunting",
+                    "desc": "Dapat menambah dan menghapus aset dari koleksi dan mengubah detail koleksi"
+                },
+                "collaborator": {
+                    "title": "Kolaborator",
+                    "desc": "Dapat menambah dan menghapus aset dari koleksi"
+                },
+                "viewer": {
+                    "title": "Pemirsa",
+                    "desc": "Dapat melihat koleksi apa pun visibilitasnya, tetapi tidak dapat membuat perubahan"
+                },
+                "owner": {
+                    "title": "Pemilik",
+                    "desc": "Dapat menambah dan menghapus aset dari koleksi, mengubah detail koleksi dan menghapus koleksi"
+                }
+            }
         }
     },
-    "nav": {
-        "discord": "Discord Server",
-        "giOCGen": "Genshin OC Generator",
-        "giFiles": "Genshin Files"
-    },
-    "footer": {
-        "fanmadeNotice": "wanderer.moe is a fanmade website. All files are properties of their owners.",
-        "assetRequestForm": "Asset Request Form"
-    },
-    "contributors": {
-        "title": "Contributors",
-        "desc": "A big thank you to all of the amazing people who have helped contribute to the site!"
+    "asset": {
+        "suggestiveContent": "Aset ini mungkin berisi konten yang sugestif atau dapat memicu sesuatu.",
+        "upload": {
+            "confirm": "Apa kamu yakin ingin mengunggah {assetName}?",
+            "success": "Berhasil mengunggah {assetName} untuk ditinjau",
+            "error": "Terjadi kesalahan saat mengunggah {assetName}",
+            "dropzone": "Tarik atau klik di sini untuk mengunggah aset",
+            "conflict": "Aset dengan nama yang sama sudah ada, mungkin kamu ingin memodifikasi aset yang sudah ada?",
+            "uploading": "Mengunggah {assetName}..."
+        },
+        "modify": {
+            "confirm": "Apa kamu yakin ingin mengubah {assetName}?",
+            "success": "Berhasil mengubah {assetName}",
+            "error": "Terjadi kesalahan saat mengubah {assetName}",
+            "uploading": "Mengunggah {assetName}..."
+        },
+        "delete": {
+            "confirm": "Apa kamu yakin ingin menghapus {assetName}?",
+            "success": "Berhasil menghapus {assetName}",
+            "error": "Terjadi kesalahan saat menghapus {assetName}"
+        },
+        "details": {
+            "uploadedBy": "Diunggah oleh {username}",
+            "extension": "Tipe File",
+            "uploadedOn": "Diunggah pada {date}",
+            "status": {
+                "pending": "Tertunda",
+                "approved": "Disetujui",
+                "rejected": "Ditolak"
+            },
+            "viewCount": "{count} kali dilihat",
+            "downloadCount": "{count} kali diunduh",
+            "download": "Unduh",
+            "width": "Lebar",
+            "height": "Tinggi"
+        },
+        "like": {
+            "like": {
+                "like": "Suka",
+                "liked": "Disukai",
+                "likes": "{count} suka",
+                "error": "Terjadi kesalahan saat menyukai aset",
+                "alreadyLiked": "Kamu sudah menyukai aset ini"
+            },
+            "unlike": {
+                "unlike": "Batal suka",
+                "unliked": "Suka dibatalkan",
+                "likes": "{count} suka",
+                "error": "Terjadi kesalahan saat batal menyukai aset",
+                "notLiked": "Kamu belum menyukai aset ini"
+            }
+        },
+        "favourite": {
+            "favourite": {
+                "favourite": "Favorit",
+                "favourited": "Telah Difavorit",
+                "favourites": "{count} favorit",
+                "error": "Terjadi kesalahan saat memfavoritkan aset",
+                "alreadyFavourited": "Kamu sudah memfavoritkan aset ini"
+            },
+            "unfavourite": {
+                "unfavourite": "Batal favorit",
+                "unfavourited": "Favorit telah dibatalkan",
+                "favourites": "{count} favorit",
+                "error": "Terjadi kesalahan saat batal memfavoritkan aset",
+                "notFavourited": "Kamu belum memfavoritkan aset ini"
+            }
+        }
     },
     "game": {
-        "main": "{availableCategories} categories found for {game}",
-        "info": "Click on a section to view its contents.",
-        "other": "{fileCount} files ({fileSize})"
+        "game": "Game",
+        "lastUpdated": "Terakhir diperbarui {date}",
+        "possibleSuggestiveContent": "Game ini memiliki aset yang mungkin berisi konten yang sugestif atau dapat memicu sesuatu.",
+        "like": {
+            "like": "Suka",
+            "liked": "Disukai",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat menyukai game",
+            "alreadyLiked": "Kamu sudah menyukai game ini"
+        },
+        "unlike": {
+            "unlike": "Batal suka",
+            "unliked": "Suka telah dibatalkan",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat batal menyukai game",
+            "notLiked": "Kamu belum menyukai game ini"
+        }
     },
-    "asset": {
-        "main": "{filteredImagesCount}/{imagesCount} assets shown, {selectedItemsCount} selected",
-        "info": "Tap on an asset to select it. Double tap an image to enlarge it.",
-        "downloadAll": "Download All",
-        "downloadAllSize": "Download All ({size})",
-        "downloadSelected": "Download Selected",
-        "downloadSelectedSize": "Download Selected ({size})",
-        "download": "Download",
-        "downloadSize": "Download ({size})",
-        "officialAsset": "Official Asset",
-        "fanmadeAsset": "Fanmade Asset",
-        "searchBar": "Search for an asset...",
-        "nothingFound": "Nothing found for {query}",
-        "nothingFoundSuggestions": "If there's an asset you're looking for that you want added, fill out the asset request form!",
-        "onMobile": "If you're having issues downloading, read the FAQ by pressing the info symbol next to the game's name."
+    "assetCategory": {
+        "assetCategory": "Kategori Aset",
+        "lastUpdated": "Terakhir diperbarui {date}",
+        "possibleSuggestiveContent": "Kategori aset ini memiliki aset yang mungkin berisi konten yang sugestif atau dapat memicu sesuatu.",
+        "like": {
+            "like": "Suka",
+            "liked": "Disukai",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat menyukai kategori aset",
+            "alreadyLiked": "Kamu sudah menyukai kategori aset ini"
+        },
+        "unlike": {
+            "unlike": "Batal suka",
+            "unliked": "Suka dibatalkan",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat batal menyukai kategori aset",
+            "notLiked": "Kamu belum menyukai kategori aset ini"
+        }
     },
-    "details": {
-        "lastUpdated": "Last Updated: {date}",
-        "sortBy": "Sort By",
-        "dateUploaded": "Updated: {date}",
-        "sortByAlphabetical": "Alphabetical (A-Z)",
-        "sortByAlphabeticalReverse": "Alphabetical (Z-A)",
-        "sortByUploaded": "Updated (Newest)",
-        "sortByUploadedReverse": "Updated (Oldest)",
-        "sortBySize": "File Size (Smallest)",
-        "sortBySizeReverse": "File Size (Largest)"
+    "tags": {
+        "tags": "Tag",
+        "noTags": "Tidak ada tag",
+        "like": {
+            "like": "Suka",
+            "liked": "Disukai",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat menyukai tag",
+            "alreadyLiked": "Kamu sudah menyukai tag ini"
+        },
+        "unlike": {
+            "unlike": "Batal suka",
+            "unliked": "Suka dibatalkan",
+            "likes": "{count} suka",
+            "error": "Terjadi kesalahan saat batal menyukai tag",
+            "notLiked": "Kamu belum menyukai tag ini"
+        }
     },
-    "globalSearch": {
-        "searchBar": "Search for a game or asset..."
+    "search": {
+        "assets": {
+            "noResults": "Tidak ada aset yang ditemukan",
+            "noResultsDesc": "Coba ubah kueri penelusuran atau filter kamu",
+            "sideBar": {
+                "filters": "Filter",
+                "sort": {
+                    "sort": "Urutkan",
+                    "newest": "Terbaru",
+                    "oldest": "Terlama",
+                    "views": "Paling Banyak Dilihat",
+                    "downloads": "Unduhan Terbanyak"
+                }
+            }
+        }
     },
-    "viewImage": {
-        "closeText": "Click anywhere to close",
-        "resolution": "Resolution: {resolution}"
+    "account": {
+        "roles": {
+            "contributor": "Kontributor",
+            "collaborator": "Kolaborator",
+            "partner": "Mitra",
+            "contentCreator": "Konten Kreator",
+            "moderator": "Moderator",
+            "developer": "Pengembang",
+            "creator": "Kreator"
+        },
+        "account": {
+            "account": "Akun"
+        },
+        "follow": {
+            "status": {
+                "following": "Mengikuti",
+                "notFollowing": "Tidak Mengikuti",
+                "followsYou": "Mengikuti Kamu",
+                "mutual": "Mutual"
+            },
+            "count": {
+                "following": "{count} Mengikuti",
+                "followers": "{count} Pengikut"
+            },
+            "follow": {
+                "follow": "Ikuti",
+                "followed": "Diikuti",
+                "error": "Terjadi kesalahan saat mengikuti pengguna",
+                "alreadyFollowed": "Kamu sudah mengikuti pengguna ini"
+            },
+            "unfollow": {
+                "unfollow": "Berhenti mengikuti",
+                "unfollowed": "Telah berhenti mengikuti",
+                "error": "Terjadi kesalahan saat berhenti mengikuti pengguna",
+                "notFollowed": "Kamu belum mengikuti pengguna ini"
+            }
+        },
+        "settings": {
+            "settings": "Pengaturan",
+            "username": {
+                "title": "Nama Pengguna",
+                "help": "Nama pengguna kamu digunakan untuk mengidentifikasi kamu di situs dan unik untuk kamu.",
+                "placeholder": "Masukkan nama pengguna",
+                "button": "Ubah Nama Pengguna",
+                "success": "Nama pengguna berhasil diubah",
+                "error": "Terjadi kesalahan saat mengubah nama pengguna"
+            },
+            "email": {
+                "title": "Email",
+                "help": "Email kamu digunakan untuk mengidentifikasi kamu di situs dan bersifat unik untuk kamu. Itu harus alamat email yang valid.",
+                "placeholder": "Masukkan email",
+                "button": "Ubah Email",
+                "success": "Email berhasil diubah",
+                "error": "Terjadi kesalahan saat mengubah email"
+            },
+            "usernameColour": {
+                "title": "Warna Nama Pengguna",
+                "help": "Miliki warna nama pengguna yang unik di situs. Ini terlihat oleh semua orang.",
+                "placeholder": "Masukkan warna nama pengguna",
+                "button": "Ubah Warna Nama Pengguna",
+                "success": "Berhasil mengubah warna nama pengguna",
+                "error": "Terjadi kesalahan saat mengubah warna nama pengguna"
+            },
+            "profilePicture": {
+                "title": "Foto Profil",
+                "help": "Gambar profil kamu dapat dilihat oleh semua orang. Semua gambar dijalankan melalui beberapa filter moderasi AI untuk mencegah penyalahgunaan.",
+                "button": "Ubah Foto Profil",
+                "success": "Berhasil mengubah foto profil",
+                "error": "Terjadi kesalahan saat mengubah foto profil"
+            },
+            "pronouns": {
+                "pronouns": "Kata Ganti",
+                "set": {
+                    "title": "Atur Kata Ganti",
+                    "help": "Masukkan kata ganti yang ingin kamu atur, kata ganti kamu saat ini adalah {subject}/{object}/{possessive}",
+                    "disclaimer": "Kami hanya menyediakan daftar kumpulan kata ganti, untuk mencegah penyalahgunaan.",
+                    "placeholder": "Masukkan kata ganti",
+                    "button": "Atur Kata Ganti",
+                    "success": "Berhasil mengatur kata ganti",
+                    "error": "Terjadi kesalahan saat mengatur kata ganti"
+                },
+                "poweredBy": {
+                    "title": "Diberdayakan oleh",
+                    "desc": "Daftar kata ganti kami didukung oleh pronouns.page, yang berbaik hati memberi kami izin untuk menggunakan API mereka. Silakan periksa mereka di {link}!"
+                }
+            },
+            "providers": {
+                "discord": {
+                    "title": "Discord",
+                    "help": "Akun Discord kamu digunakan untuk mengautentikasi kamu di situs."
+                },
+                "google": {
+                    "title": "Google",
+                    "help": "Akun Google kamu digunakan untuk mengautentikasi kamu di situs."
+                },
+                "github": {
+                    "title": "GitHub",
+                    "help": "Akun GitHub kamu digunakan untuk mengautentikasi kamu di situs."
+                },
+                "twitter": {
+                    "title": "Twitter/X",
+                    "help": "Akun Twitter/X kamu digunakan untuk mengautentikasi kamu di situs."
+                },
+                "visibility": {
+                    "title": "Visibilitas",
+                    "public": "Publik",
+                    "private": "Privat"
+                }
+            },
+            "viewSuggestiveContent": {
+                "title": "Tampilkan Konten Sugestif",
+                "help": "Pengaturan ini memungkinkan kamu melihat konten yang sugestif/memicu, ini disimpan secara lokal di perangkat kamu.",
+                "button": "Ubah Tampilan Konten Sugestif",
+                "success": "Berhasil mengubah tampilan konten sugestif",
+                "error": "Terjadi kesalahan saat mengubah tampilan konten sugestif"
+            },
+            "password": {
+                "title": "Kata sandi",
+                "help": "Kata sandi kamu digunakan untuk mengautentikasi kamu di situs.",
+                "placeholder": "Masukkan kata sandi",
+                "button": "Ubah Kata Sandi",
+                "success": "Kata sandi berhasil diubah",
+                "error": "Terjadi kesalahan saat mengubah kata sandi"
+            },
+            "delete": {
+                "title": "Hapus Akun",
+                "help": "Menghapus akun kamu akan menghapus semuanya, termasuk aset. Akun kamu akan segera dinonaktifkan & kamu akan diarahkan ke halaman beranda. Setelah 14 hari, akun kamu akan dihapus secara permanen. Dapatkan kembali akses kapan saja dengan mengirim email kepada kami di {email}.",
+                "button": "Hapus Akun",
+                "confirm": "Apa kamu yakin ingin menghapus akun kamu?",
+                "success": "Akun berhasil dinonaktifkan, mengalihkan ke halaman beranda...",
+                "error": "Terjadi kesalahan saat menghapus akun. Hubungi kami di {email} untuk bantuan."
+            }
+        }
     },
-    "faq": {
-        "title": "Frequently Asked Questions",
-        "purpose": "What is the purpose of this site?",
-        "purposeAnswer": "wanderer.moe is a website that hosts a collection of assets from various games. The assets are organized by game and asset type. The sake of this website is to provide a centralized location for people to download assets from.",
-        "downloadMultipleOrAll": "How do I download multiple or all assets?",
-        "downloadMultipleOrAllAnswer": "To download multiple assets, select the assets you want to download by clicking/tapping on them. Then click the 'Download Selected' button. To download all assets, click the 'Download All' button. This will save as a ZIP file in your Downloads folder.",
-        "downloadOnMobile": "How do I download assets on mobile?",
-        "downloadOnMobileAnswer": "Make sure that you are not viewing the website through social media applications and that you're using a dedicated browser. If you are on an iPhone, I recommend using Safari.",
-        "howToExtract": "How do I extract a ZIP file after downloading?",
-        "howToExtractAnswer": " If you are on Windows, you can use 7zip to extract the files. If you are on Mac, you can use the built in Archive Utility. If you are on iPhone, tap on the ZIP file, open the folder it creates, select the images and then tap 'Save to Photos'. If you are on Android, you can use a file manager app to extract the files.",
-        "issueNotFound": "I have an issue that isn't listed here!",
-        "issueNotFoundAnswer": "If you have an issue that isn't listed here, you can join the Discord server and ask for help there!"
+    "support": {
+        "support": {
+            "support": "Bantuan"
+        },
+        "report": {
+            "general": {
+                "title": "Lapor",
+                "help": "Jika kamu menemukan bug atau masalah pada situs ini, silakan laporkan di sini.",
+                "placeholder": "Masukkan laporan",
+                "button": "Laporkan",
+                "success": "Masalah berhasil dilaporkan",
+                "error": "Terjadi kesalahan saat melaporkan masalah"
+            },
+            "ugc": {
+                "user": {
+                    "title": "Laporkan Pengguna",
+                    "help": "Jika kamu menemukan pengguna yang melanggar aturan, harap laporkan di sini.",
+                    "placeholder": "Masukkan laporan",
+                    "button": "Laporkan Pengguna",
+                    "success": "Pengguna berhasil dilaporkan",
+                    "error": "Terjadi kesalahan saat melaporkan pengguna"
+                },
+                "asset": {
+                    "title": "Laporkan Aset",
+                    "help": "Jika kamu menemukan aset yang melanggar aturan, harap laporkan di sini.",
+                    "placeholder": "Masukkan laporan",
+                    "button": "Laporkan Aset",
+                    "success": "Aset berhasil dilaporkan",
+                    "error": "Terjadi kesalahan saat melaporkan aset"
+                },
+                "collection": {
+                    "title": "Laporkan Koleksi",
+                    "help": "Jika kamu menemukan koleksi yang melanggar aturan, harap laporkan di sini.",
+                    "placeholder": "Masukkan laporan",
+                    "button": "Laporkan Koleksi",
+                    "success": "Koleksi berhasil dilaporkan",
+                    "error": "Terjadi kesalahan saat melaporkan koleksi"
+                }
+            }
+        },
+        "feedback": {
+            "title": "Umpan balik",
+            "help": "Jika kamu memiliki masukan atau saran untuk situs ini, silakan beri tahu kami di sini.",
+            "placeholder": "Masukkan umpan balik",
+            "button": "Kirim Umpan Balik",
+            "success": "Umpan balik berhasil dikirimkan",
+            "error": "Terjadi kesalahan saat mengirim umpan balik"
+        }
     },
     "errors": {
-        "404": "Page Not Found",
-        "500": "Internal Server Error",
-        "refresh": "Try refreshing the page or go back to the home page",
-        "apiError": "An error occurred while making a request to the API, try again or refresh the page."
+        "404": "Halaman Tidak Ditemukan",
+        "500": "Kesalahan Server Internal",
+        "401": "Tidak Terotorisasi",
+        "403": "Terlarang",
+        "back": "Kembali",
+        "refresh": "Coba segarkan halaman atau kembali ke halaman beranda",
+        "api": "Terjadi kesalahan saat menyambung ke API. Silakan coba lagi nanti"
     },
+    "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
 }

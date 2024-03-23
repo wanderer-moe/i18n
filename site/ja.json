@@ -1,98 +1,432 @@
 {
-    "home": {
-        "description": "様々のゲームアセットのデータベース",
-        "github": {
-            "desc": "透明度のために､wanderer.moeがGitHubでオーペンソースです. コードが誰でも見えると資するんだ．",
-            "shortDesc": "サイトのソースコード",
-            "webBtn": "サイトのソースコード",
-            "apiBtn": "APIのソースコード"
+    "collection": {
+        "name": "収集名",
+        "description": "収集記述",
+        "visibility": {
+            "title": "可視性",
+            "public": "公開",
+            "private": "プライベート"
         },
-        "donate": {
-            "title": "恵めて",
-            "shortDesc": "サイトを裏づけて",
-            "desc": "wanderer.moeがアドフリーと常に使用料不要. サイトを楽しむからサーバコスト､保守､制作などに裏づけたいすれば、サイトに寄付を考えてください．"
+        "create": {
+            "title": "収集を作る",
+            "help": "作りたい収集の名前と記述を入る",
+            "placeholder": "名前を入る",
+            "button": "収集を作る",
+            "success": "お収集作り完了",
+            "error": "お収集作りエラー"
         },
-        "discord": {
-            "desc": "ニュース､サイトにあれないのアセットなどのため、Discordサーバーに参加してください！",
-            "shortDesc": "今､{onlineCount}がオンラインです．",
-            "btn": "Discordサーバに参加して"
+        "modify": {
+            "title": "お収集を変わる",
+            "help": "変わりたい収集の名前と記述を入る",
+            "placeholder": "名前を入る",
+            "button": "お収集を変わる",
+            "success": "お収集変わり完了",
+            "error": "お収集変わりエラー"
         },
-        "ocGen": {
-            "title": "オリキャラメーカー",
-            "shortDesc": "ランダム生成なオリキャラ",
-            "desc": "オリキャラのゲーム関連なインフォをジェネレートする！(例えば人物下知とか人相風体など)"
+        "delete": {
+            "title": "お収集を削除する",
+            "button": "お収集を削除する",
+            "confirm": "本当に「{collectionName}」を削除しますか？",
+            "success": "お収集削除完了",
+            "error": "お収集削除エラー"
+        },
+        "details": {
+            "title": "収集詳細",
+            "name": "名",
+            "description": "記述",
+            "visibility": "可視性",
+            "createdAt": "{username} によって{date} に作り出した",
+            "updatedAt": "{username} によって{date} は最終の更新"
+        },
+        "assets": {
+            "assets": "アセット",
+            "add": {
+                "title": "アセットを追加",
+                "button": "アセットを追加",
+                "confirm": "{assetName} を{collectionName} に追加しますよろしいですか？",
+                "success": "アセット追加完了",
+                "error": "アセット追加エラー"
+            },
+            "remove": {
+                "title": "アセットを外して",
+                "button": "アセットを外して",
+                "confirm": "本当に「{assetName}」を{collectionName} から削除しますか？",
+                "success": "アセット削除完了",
+                "error": "アセット削除エラー"
+            }
+        },
+        "collaborators": {
+            "collaborators": "コラボレーター",
+            "add": {
+                "title": "コラボレーターを追加",
+                "help": "コラボレーターになって追加したいユーザーのユーザーネームを入力してください",
+                "placeholder": "ユーザーネームを入力して",
+                "confirm": "{username} を {role} に追加しますよろしいですか？",
+                "button": "コラボレーターを追加",
+                "success": "コラボレーター追加完了",
+                "error": "コラボレーター追加エラー"
+            },
+            "remove": {
+                "title": "コラボレーターを削除",
+                "button": "コラボレーターを削除",
+                "confirm": "本当に{username} を {role} から削除しますか？",
+                "success": "コラボレーター削除完了",
+                "error": "コラボレーター削除エラー"
+            },
+            "permissions": {
+                "permissions": "お許可",
+                "editor": {
+                    "title": "編集者",
+                    "desc": "お収集からアセットを追加削除するも収集記述を変わるができます"
+                },
+                "collaborator": {
+                    "title": "コラボレーター",
+                    "desc": "お収集からアセットを追加削除ができます"
+                },
+                "viewer": {
+                    "title": "観客",
+                    "desc": "どんな視認性でも収集を見るできますですが変わりはできません"
+                },
+                "owner": {
+                    "title": "所有者",
+                    "desc": "お収集からアセットを追加削除するも収集記述を変わるができるも収集削除ができます"
+                }
+            }
         }
     },
-    "nav": {
-        "discord": "Discordサーバ",
-        "giOCGen": "原神OCジェネレータ",
-        "giFiles": "原神ファイル"
-    },
-    "footer": {
-        "fanmadeNotice": "wanderer.moeはファンサイトです. 全てのファイルはそれぞれの著作権者を所有したんです．",
-        "assetRequestForm": "アセットリクエストフォーム"
-    },
-    "contributors": {
-        "title": "支持者",
-        "desc": "サイトを助っ人にありがとうございました！"
+    "asset": {
+        "suggestiveContent": "このアセット、示唆的か不愉快な内容を含む場合があります。",
+        "upload": {
+            "confirm": "{assetName} をアップロードしてよろしいですか？",
+            "success": "{assetName} は審査へアップロードしました",
+            "error": "{assetName} アップロードにエラー",
+            "dropzone": "ここにドラグかクリックしてアセットをアップロードする",
+            "conflict": "同じ名前のアセットはもうありますみたい。あの既成アセットを変わりいかがですか？",
+            "uploading": "{assetName} をアップロードしています…"
+        },
+        "modify": {
+            "confirm": "{assetName} を変わってよろしいですか？",
+            "success": "{assetName} 変わり完了",
+            "error": "{assetName} 変わりエラー",
+            "uploading": "{assetName} をアップロードしています…"
+        },
+        "delete": {
+            "confirm": "本当に「{assetName}」を削除しますか？",
+            "success": "{assetName} 削除完了",
+            "error": "{assetName} 削除エラー"
+        },
+        "details": {
+            "uploadedBy": "アップロード者は{username}",
+            "extension": "ファイル形式",
+            "uploadedOn": "アップロード日は{date}",
+            "status": {
+                "pending": "審査中",
+                "approved": "受理しました",
+                "rejected": "却下しました"
+            },
+            "viewCount": "{count} 視聴回数",
+            "downloadCount": "{count} ダウンロード回数",
+            "download": "ダウンロードして",
+            "width": "幅",
+            "height": "高さ"
+        },
+        "like": {
+            "like": {
+                "like": "いいね！",
+                "liked": "「いいね！」しまった",
+                "likes": "{count} いいね！",
+                "error": "「いいね!」してエラー",
+                "alreadyLiked": "もう「いいね！」がしまった。"
+            },
+            "unlike": {
+                "unlike": "嫌い",
+                "unliked": "「嫌い」しまった",
+                "likes": "{count} いいね！",
+                "error": "「嫌い」にエラー",
+                "notLiked": "このアセットに「いいね!」がありません。"
+            }
+        },
+        "favourite": {
+            "favourite": {
+                "favourite": "お気に入り",
+                "favourited": "お気に入りに登録した",
+                "favourites": "{count} お気に入り",
+                "error": "お気に入りのエラー",
+                "alreadyFavourited": "このアセットはもうお気に入りがあります"
+            },
+            "unfavourite": {
+                "unfavourite": "お気に入りから削除",
+                "unfavourited": "お気に入りから削除した",
+                "favourites": "{count} お気に入り",
+                "error": "お気に入りから削除エラー",
+                "notFavourited": "このアセットはお気に入りしませんでした"
+            }
+        }
     },
     "game": {
-        "main": "「{game} 」は{availableCategories} 件見つかりました",
-        "info": "セクションをクリックと中身を見たになる.",
-        "other": "{fileCount} 個ファイル ({fileSize})"
+        "game": "ゲーム",
+        "lastUpdated": "最終更新日 {date}",
+        "possibleSuggestiveContent": "このゲームは、示唆的か不愉快な内容を含むアセットがあります。",
+        "like": {
+            "like": "いいね！",
+            "liked": "「いいね」しました",
+            "likes": "{count} いいね！",
+            "error": "「いいね!」してエラー",
+            "alreadyLiked": "もう「いいね！」がしまった。"
+        },
+        "unlike": {
+            "unlike": "嫌い",
+            "unliked": "「嫌い」しまった",
+            "likes": "{count} いいね！",
+            "error": "「嫌い」にエラー",
+            "notLiked": "このゲームに「いいね!」がありません。"
+        }
     },
-    "asset": {
-        "main": "{filteredImagesCount}/{imagesCount} 個アセットは見えるんです． {selectedItemsCount} 個はセレクトしたんです.",
-        "info": "アセットをタップして選択します。イメジをダブルタップして拡大します．",
-        "downloadAll": "全てダウンロード",
-        "downloadAllSize": "全てダウンロード ({size})",
-        "downloadSelected": "セレクトダウンロード",
-        "downloadSelectedSize": "セレクトダウンロード ({size})",
-        "download": "ダウンロード",
-        "downloadSize": "ダウンロード ({size})",
-        "officialAsset": "公式ゲームアセット",
-        "fanmadeAsset": "ファンメイドゲームアセット",
-        "searchBar": "アセットを検索...",
-        "nothingFound": "{query} に一致する情報は見つかりませんだった．",
-        "nothingFoundSuggestions": "何かお探しのアセットがあれば､アセットリクエストフォームをしてきください．",
-        "onMobile": "ダウンロードしてのができないから､ゲームの名と隣にインフォアイコンをタップしてでFAQを見てください．"
+    "assetCategory": {
+        "assetCategory": "アセットカテゴリ",
+        "lastUpdated": "最終更新日 {date}",
+        "possibleSuggestiveContent": "このカテゴリは、示唆的か不愉快な内容を含むアセットがあります。",
+        "like": {
+            "like": "いいね！",
+            "liked": "「いいね」しました",
+            "likes": "{count} いいね！",
+            "error": "アセットカテゴリのいいね！エラー",
+            "alreadyLiked": "もう「いいね！」がしまった。"
+        },
+        "unlike": {
+            "unlike": "嫌い",
+            "unliked": "「嫌い」しまった",
+            "likes": "{count} いいね！",
+            "error": "アセットカテゴリの嫌いエラー",
+            "notLiked": "このアセットに「いいね!」がありません。"
+        }
     },
-    "details": {
-        "lastUpdated": "最新のアップデートは{date}",
-        "sortBy": "順にソート",
-        "dateUploaded": "直近アップデート: {date}",
-        "sortByAlphabetical": "欧字で順 (A-Z)",
-        "sortByAlphabeticalReverse": "逆欧字で順 (Z-A)",
-        "sortByUploaded": "直近アップデート順",
-        "sortByUploadedReverse": "最古アップデート順",
-        "sortBySize": "ファイルサイズ（最小が上）",
-        "sortBySizeReverse": "ファイルサイズ（最大が上）"
+    "tags": {
+        "tags": "タグ",
+        "noTags": "タグなし",
+        "like": {
+            "like": "いいね！",
+            "liked": "「いいね」しました",
+            "likes": "{count} いいね！",
+            "error": "「いいね!」してエラー",
+            "alreadyLiked": "もう「いいね！」がしまった。"
+        },
+        "unlike": {
+            "unlike": "嫌い",
+            "unliked": "「嫌い」しまった",
+            "likes": "{count} いいね！",
+            "error": "「嫌い」にエラー",
+            "notLiked": "このタグに「いいね!」がありません。"
+        }
     },
-    "globalSearch": {
-        "searchBar": "アセットやゲームを検索..."
+    "search": {
+        "assets": {
+            "noResults": "そんなにアセットが見つかりません",
+            "noResultsDesc": "検索語かフィルターを変わりようとして良いかご覧にください",
+            "sideBar": {
+                "filters": "フィルター",
+                "sort": {
+                    "sort": "ソート",
+                    "newest": "最新",
+                    "oldest": "古い順",
+                    "views": "視聴回数高さ順",
+                    "downloads": "ダウンロード回数高さ順"
+                }
+            }
+        }
     },
-    "viewImage": {
-        "closeText": "何こをクリックでクロースください.",
-        "resolution": "解像度: {resolution}"
+    "account": {
+        "roles": {
+            "contributor": "支持者",
+            "collaborator": "コラボレーター",
+            "partner": "提携者",
+            "contentCreator": "コンテンツ・クリエーター",
+            "moderator": "モデレーター",
+            "developer": "デベロッパー",
+            "creator": "作成者"
+        },
+        "account": {
+            "account": "アカウント"
+        },
+        "follow": {
+            "status": {
+                "following": "フォローしている",
+                "notFollowing": "フォローしていません",
+                "followsYou": "フォローされています",
+                "mutual": "相互フォロー"
+            },
+            "count": {
+                "following": "{count} フォローしている",
+                "followers": "{count} フォロワー"
+            },
+            "follow": {
+                "follow": "フォロー",
+                "followed": "フォローしている",
+                "error": "フォローしてエラー",
+                "alreadyFollowed": "すでにユーザーをフォローしています"
+            },
+            "unfollow": {
+                "unfollow": "フォロー解除",
+                "unfollowed": "フォロー解除しまった",
+                "error": "フォロー解除エラー",
+                "notFollowed": "このユーザーをフォローしてはない"
+            }
+        },
+        "settings": {
+            "settings": "設定",
+            "username": {
+                "title": "ユーザーネーム",
+                "help": "ユーザー名はサイトで識別するために使用され、自分固有のものです。",
+                "placeholder": "ユーザー名を入力",
+                "button": "ユーザー名を変わる",
+                "success": "ユーザー名変わり完了",
+                "error": "ユーザー名変わりエラー"
+            },
+            "email": {
+                "title": "メールアドレス",
+                "help": "メールアドレスはサイトで識別するために使用され、自分固有のものです。有効なメールを入力してください。",
+                "placeholder": "メールを入力",
+                "button": "メールを変わる",
+                "success": "メール変わり完了",
+                "error": "メール変わりエラー"
+            },
+            "usernameColour": {
+                "title": "ユーザー名の色",
+                "help": "サイトに一意のユーザー名色を設定します。それは誰にでも表示されます。",
+                "placeholder": "ユーザー名色を入力",
+                "button": "ユーザー名色を変わる",
+                "success": "ユーザー名色変わり完了",
+                "error": "ユーザー名色変わりエラー"
+            },
+            "profilePicture": {
+                "title": "プロフィール画像",
+                "help": "プロフィール画像は誰にでも表示されます。イメージは誤用を防ぐために複数のAIモデレーション・チェックを介して実行されます。",
+                "button": "プロフィール画像を変わる",
+                "success": "プロフィール画像変わり完了",
+                "error": "プロフィール画像変わりエラー"
+            },
+            "pronouns": {
+                "pronouns": "代名詞",
+                "set": {
+                    "title": "代名詞を設定する",
+                    "help": "設定したいプローノンを入力してください。現在のは {subject}/{object}/{possessive}",
+                    "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
+                    "placeholder": "Enter pronouns",
+                    "button": "Set Pronouns",
+                    "success": "Successfully set pronouns",
+                    "error": "Error setting pronouns"
+                },
+                "poweredBy": {
+                    "title": "提供",
+                    "desc": "この代名詞リストはpronouns.pageのAPIお陰で提供させています。{link} で彼らをご覧ください！"
+                }
+            },
+            "providers": {
+                "discord": {
+                    "title": "Discord",
+                    "help": "自分のDiscordアカウントはサイトで認証ために使用されます。"
+                },
+                "google": {
+                    "title": "Google",
+                    "help": "自分のGoogleアカウントはサイトで認証ために使用されます。"
+                },
+                "github": {
+                    "title": "GitHub",
+                    "help": "自分のGitHubアカウントはサイトで認証ために使用されます。"
+                },
+                "twitter": {
+                    "title": "Twitter・X",
+                    "help": "自分のTwitter・Xアカウントはサイトで認証ために使用されます。"
+                },
+                "visibility": {
+                    "title": "可視性",
+                    "public": "公開",
+                    "private": "非公開"
+                }
+            },
+            "viewSuggestiveContent": {
+                "title": "View Suggestive Content",
+                "help": "This setting allows you to view suggestive/triggering content, this is stored locally on your device.",
+                "button": "Change View Suggestive Content",
+                "success": "Successfully changed view suggestive content",
+                "error": "Error changing view suggestive content"
+            },
+            "password": {
+                "title": "Password",
+                "help": "Your password is used to authenticate you on the site.",
+                "placeholder": "Enter password",
+                "button": "Change Password",
+                "success": "Successfully changed password",
+                "error": "Error changing password"
+            },
+            "delete": {
+                "title": "Delete Account",
+                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
+                "button": "Delete Account",
+                "confirm": "Are you sure you want to delete your account?",
+                "success": "Successfully disabled account, redirecting to home page...",
+                "error": "Error deleting account. Contact us at {email} for help."
+            }
+        }
     },
-    "faq": {
-        "title": "FAQ",
-        "purpose": "サイトの目的は何？",
-        "purposeAnswer": "wanderer.moeはあの色々なビデオゲームアセットのコレクションがあるのサイトです。アセットがゲームとアセットタイプで分類します。このサイトの目的は､人々はアセットをダウンロードのように一元なの場所が与えれます。",
-        "downloadMultipleOrAll": "全てか多くのアセットダウンロードはどうやってか？",
-        "downloadMultipleOrAllAnswer": "多重のアセットをダウンロードしたいならば、クリックして/タップしてでダウンロードが欲しいのアセットをセレクトしてください｡今から､「セレクトダウンロード」ってのバッタンをタップしてください｡\n全てのアセットがダウンロードしたいならば､「全てダウンロード」ってのバッタンをタップしてください。その方でZIPファイルがあなたのダウンロードフォルダにセーブした｡",
-        "downloadOnMobile": "スマホでアセットダウンロードはどうやってか？",
-        "downloadOnMobileAnswer": "SNSアプリにサイトを見ているがないが確かめますください。ブラウザアプリだけでサイトを見ていますください｡ たとえば､iPhoneが使ているあれば､Safariを使ってはいい｡",
-        "howToExtract": "ダウンロードした後に､どうし方でZIPファイルを解凍するの？",
-        "howToExtractAnswer": "Windowsが使ってれば､7ZIPでZIPファイルを開きますがいいです｡Macパソコンが使ってれば､開くのよにファイルをダブルクリックしてください｡ iPhoneが使ってれば､ファイルアプリの中にZIPファイルをタップしてください｡そこから､作ったのフォルダを開く､ではイメジをセレクトしてとフォトにダウンロードしてください。Androidが使ってれば､ファイル開くのアプリを使ってがいい。",
-        "issueNotFound": "私の課題がここにありません！",
-        "issueNotFoundAnswer": "あなたの心配がここに見ませんでした､助けを求めるのよにサイトたちのDiscordサーバに来てください！"
+    "support": {
+        "support": {
+            "support": "Support"
+        },
+        "report": {
+            "general": {
+                "title": "Report",
+                "help": "If you find any bugs or issues with the site, please report them here.",
+                "placeholder": "Enter report",
+                "button": "Report",
+                "success": "Successfully reported issue",
+                "error": "Error reporting issue"
+            },
+            "ugc": {
+                "user": {
+                    "title": "Report User",
+                    "help": "If you find any users breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report User",
+                    "success": "Successfully reported user",
+                    "error": "Error reporting user"
+                },
+                "asset": {
+                    "title": "Report Asset",
+                    "help": "規則を破るアセットを見つければここでリポートしてください。",
+                    "placeholder": "リポートを入力",
+                    "button": "アセットをリポートする",
+                    "success": "アセットのリポートして完了",
+                    "error": "アセットのリポートしてエラー"
+                },
+                "collection": {
+                    "title": "収集をリポートする",
+                    "help": "規則を破る収集を見つければここでリポートしてください。",
+                    "placeholder": "リポートを入力",
+                    "button": "収集をリポートする",
+                    "success": "お収集リポート完了",
+                    "error": "お収集リポートエラー"
+                }
+            }
+        },
+        "feedback": {
+            "title": "フィードバック",
+            "help": "サイトのご意見やご提案がございましたら、こちらからお知らせください。",
+            "placeholder": "フィードバックを入力",
+            "button": "フィードバックを送る",
+            "success": "フィードバックを送信しました",
+            "error": "フィードバックの送信エラー"
+        }
     },
     "errors": {
         "404": "ページがありませんだ．",
         "500": "中にサーバエラー",
+        "401": "無許可",
+        "403": "禁止",
+        "back": "戻る",
         "refresh": "ページを更新しようにか､ホームに戻ってください．",
-        "apiError": "APIまでリクエストしてでエラーを出す．一回してでページを更新ください．"
+        "api": "APIへの接続中にエラ。後でもう一度やり直してください"
     },
+    "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
 }

@@ -1,98 +1,432 @@
 {
-    "home": {
-        "description": "A centralized database of various game assets",
-        "github": {
-            "desc": "For transparency, wanderer.moe is open source on GitHub. The code is available for anyone to view and contribute to!",
-            "shortDesc": "Website source code",
-            "webBtn": "Website Source Code",
-            "apiBtn": "API Source Code"
+    "collection": {
+        "name": "Colecție Nume",
+        "description": "Colecție Descriere",
+        "visibility": {
+            "title": "Vizibilitate",
+            "public": "Public",
+            "private": "Privat"
         },
-        "donate": {
-            "title": "Donate",
-            "shortDesc": "Support the site",
-            "desc": "wanderer.moe is ad-free and will always be free to use. If you enjoy the site and want to help with server costs, maintenance, and development, consider donating!"
+        "create": {
+            "title": "Crearea unei colecții",
+            "help": "Completează cu numele şi descrierea numelui pe care vrei s-o creezi.",
+            "placeholder": "Introdu numele",
+            "button": "Crearea unei colecții",
+            "success": "Cu succes s-a creat colecția",
+            "error": "Eroare la crearea colecției"
         },
-        "discord": {
-            "desc": "Join the Discord server for updates, assets outside the site, and more!",
-            "shortDesc": "{onlineCount} users currently online",
-            "btn": "Join Server"
+        "modify": {
+            "title": "Modifică colecția",
+            "help": "Introdu numele și descrierea colecției ce dorești s-o modifici",
+            "placeholder": "Introdu numele",
+            "button": "Modifică această colecție",
+            "success": "Colecția a fost modificată cu succes",
+            "error": "Eroare la crearea colecției"
         },
-        "ocGen": {
-            "title": "OC Generators",
-            "shortDesc": "Randomly generated OCs",
-            "desc": "Generate game-related information about your original characters (e.g. personality traits and appearance)!"
+        "delete": {
+            "title": "Șterge colecția",
+            "button": "Șterge colecția",
+            "confirm": "Ești sigur că vrei să ștergi {collectionName}?",
+            "success": "Colecția a fost ștearsă cu succes",
+            "error": "Eroare la ștergerea colecției"
+        },
+        "details": {
+            "title": "Detaliile colecției",
+            "name": "Nume",
+            "description": "Descriere",
+            "visibility": "Vizibilitate",
+            "createdAt": "Creată pe data {date} de către {username}",
+            "updatedAt": "Ultima dată actualizată pe {date} de către {username}"
+        },
+        "assets": {
+            "assets": "Asset-uri",
+            "add": {
+                "title": "Adaugă un asset",
+                "button": "Adaugă un asset",
+                "confirm": "Ești sigur că dorești să adaugi {assetName} la colecția {collectionName}?",
+                "success": "Adăugat cu succes asset-ul",
+                "error": "Eroare la adăugare asset-ului"
+            },
+            "remove": {
+                "title": "Șterge asset-ul",
+                "button": "Șterge asset-ul",
+                "confirm": "Ești sigur că dorești să ștergi {assetName} din colecția {collectionName}?",
+                "success": "Șters cu succes asset-ul",
+                "error": "Eroare la ștergerea asset-ului"
+            }
+        },
+        "collaborators": {
+            "collaborators": "Colaborator",
+            "add": {
+                "title": "Adaugă un colaborator",
+                "help": "Introdu numele utilizatorului ce dorești să-l adaugi ca utilizator",
+                "placeholder": "Introdu numele de utilizator",
+                "confirm": "Ești sigur că vrei să adaugi pe {username} la colecția {role}?",
+                "button": "Adaugă un colaborator",
+                "success": "Colaborator adăugat cu succes",
+                "error": "Eroare la adăugarea colaboratorului"
+            },
+            "remove": {
+                "title": "Elimină colaboratorul",
+                "button": "Elimină colaboratorul",
+                "confirm": "Ești sigur că vrei să ștergi pe {username} din colecția {role}?",
+                "success": "Colaborator adăugat cu succes",
+                "error": "Eroare la eliminarea colaboratorului"
+            },
+            "permissions": {
+                "permissions": "Permisiuni",
+                "editor": {
+                    "title": "Editor",
+                    "desc": "Poți adăuga și șterge asset-uri și schimba detaliile colecției"
+                },
+                "collaborator": {
+                    "title": "Colaborator",
+                    "desc": "Poți adăuga și șterge asset-uri din colecție"
+                },
+                "viewer": {
+                    "title": "Spectator",
+                    "desc": "Poate vedea colecția indiferent de vizibilitate, dar nu face modificări"
+                },
+                "owner": {
+                    "title": "Proprietar",
+                    "desc": "Poți adăuga și șterge asset-uri, schimba detaliile și șterge colecția"
+                }
+            }
         }
     },
-    "nav": {
-        "discord": "Server de Discord",
-        "giOCGen": "Generator Genshin OC",
-        "giFiles": "Fișiere Genshin"
-    },
-    "footer": {
-        "fanmadeNotice": "wanderer.moe este un website fanmade. Toate fișierele sunt proprietatea intelectuală ale proprietarilor respectivi.",
-        "assetRequestForm": "Formular de solicitare ale resurselor de jocuri"
-    },
-    "contributors": {
-        "title": "Contribuitori",
-        "desc": "A big thank you to all of the amazing people who have helped contribute to the site!"
+    "asset": {
+        "suggestiveContent": "Acest asset poate conține conținut sugestiv și provocator.",
+        "upload": {
+            "confirm": "Ești sigur că vrei să încarci {assetName}?",
+            "success": "S-a încărcat cu succes {assetName} pentru revizie",
+            "error": "Eroare la încărcarea {assetName}",
+            "dropzone": "Trageți sau apăsați aici pentru a încărca asset-urile",
+            "conflict": "Un asset cu același nume deja există, poate doriți să modificați asset-ul respectiv?",
+            "uploading": "Se încarcă {assetName}..."
+        },
+        "modify": {
+            "confirm": "Ești sigur că vrei să modifici {assetName}?",
+            "success": "Modificat cu succes {assetName}",
+            "error": "Eroare la modificarea {assetName}",
+            "uploading": "Se încarcă {assetName}..."
+        },
+        "delete": {
+            "confirm": "Ești sigur că vrei să ștergi {assetName}?",
+            "success": "Șters cu succes {assetName}",
+            "error": "Eroare la ștergerea {assetName}"
+        },
+        "details": {
+            "uploadedBy": "Încărcată de {userName}",
+            "extension": "Tip",
+            "uploadedOn": "Încărcat pe {date}",
+            "status": {
+                "pending": "În așteptare",
+                "approved": "Aprobat",
+                "rejected": "Respins"
+            },
+            "viewCount": "{count} vizualizări",
+            "downloadCount": "{count} Descărcări",
+            "download": "Descarcă",
+            "width": "Lățime",
+            "height": "Înălțime"
+        },
+        "like": {
+            "like": {
+                "like": "Apreciază",
+                "liked": "Apreciat",
+                "likes": "{count} favorite",
+                "error": "Eroare la favorizarea asset-ului",
+                "alreadyLiked": "Deja ai apreciat acest asset"
+            },
+            "unlike": {
+                "unlike": "Defavorizează",
+                "unliked": "Defavorizat",
+                "likes": "{count} favorite",
+                "error": "Eroare la defavorizarea asset-ului",
+                "notLiked": "Nu ai apreciat acest asset încă"
+            }
+        },
+        "favourite": {
+            "favourite": {
+                "favourite": "Preferate",
+                "favourited": "Preferat",
+                "favourites": "{count} preferate",
+                "error": "Eroare la preferarea activelor",
+                "alreadyFavourited": "Deja ai adăugat acest asset la favorite"
+            },
+            "unfavourite": {
+                "unfavourite": "Șterge din favorite",
+                "unfavourited": "Șterge din favorite",
+                "favourites": "{count} favorite",
+                "error": "Eroare la defavorizarea activelor",
+                "notFavourited": "Nu ai adăugat acest asset la favorite"
+            }
+        }
     },
     "game": {
-        "main": "{availableCategories} Categorii valabile pentru {game}",
-        "info": "Apasă pe una dintre secțiune pentru a vizualiza conținutul.",
-        "other": "{fileCount} fișiere ({fileSize})"
+        "game": "Joc",
+        "lastUpdated": "Ultima actualizare în data de {date}",
+        "possibleSuggestiveContent": "Acest joc poate conține conținut sugestiv și provocator.",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} favorite",
+            "error": "Eroare la aprecierea jocului",
+            "alreadyLiked": "Deja ai apreciat acest joc"
+        },
+        "unlike": {
+            "unlike": "Defavorizează",
+            "unliked": "Defavorizat",
+            "likes": "{count} favorite",
+            "error": "Eroare la defavorizarea jocului",
+            "notLiked": "Nu ai apreciat acest joc încă"
+        }
     },
-    "asset": {
-        "main": "{filteredImagesCount}/{imagesCount} resurse afișate, {selectedItemsCount} selectate",
-        "info": "Tap on an asset to select it. Double tap an image to enlarge it.",
-        "downloadAll": "Descarcă tot",
-        "downloadAllSize": "Download All ({size})",
-        "downloadSelected": "Descarcă selectate",
-        "downloadSelectedSize": "Download Selected ({size})",
-        "download": "Descarcă",
-        "downloadSize": "Download ({size})",
-        "officialAsset": "Resurse Oficiale",
-        "fanmadeAsset": "Resurse Fanmade",
-        "searchBar": "Search for an asset...",
-        "nothingFound": "Nici-un rezultat pentru {query}",
-        "nothingFoundSuggestions": "If there's an asset you're looking for that you want added, fill out the asset request form!",
-        "onMobile": "If you're having issues downloading, read the FAQ by pressing the info symbol next to the game's name."
+    "assetCategory": {
+        "assetCategory": "Categorie de asset-uri",
+        "lastUpdated": "Ultima actualizare în data de {date}",
+        "possibleSuggestiveContent": "Această categorie poate conține conținut sugestiv și provocator.",
+        "like": {
+            "like": "Apreciază",
+            "liked": "Apreciat",
+            "likes": "{count} favorite",
+            "error": "Eroare la aprecierea categoriei de asset-uri",
+            "alreadyLiked": "Deja ai apreciat acest categorie"
+        },
+        "unlike": {
+            "unlike": "Defavorizează",
+            "unliked": "Defavorizat",
+            "likes": "{count} favorite",
+            "error": "Eroare la aprecierea categorie",
+            "notLiked": "Nu ai apreciat această categorie încă"
+        }
     },
-    "details": {
-        "lastUpdated": "Last Updated: {date}",
-        "sortBy": "Sort By",
-        "dateUploaded": "Updated: {date}",
-        "sortByAlphabetical": "Alphabetical (A-Z)",
-        "sortByAlphabeticalReverse": "Alphabetical (Z-A)",
-        "sortByUploaded": "Updated (Newest)",
-        "sortByUploadedReverse": "Updated (Oldest)",
-        "sortBySize": "File Size (Smallest)",
-        "sortBySizeReverse": "File Size (Largest)"
+    "tags": {
+        "tags": "Taguri",
+        "noTags": "Fără taguri",
+        "like": {
+            "like": "Apreciază",
+            "liked": "Apreciat",
+            "likes": "{count} favorite",
+            "error": "Eroare la aprecierea tagului",
+            "alreadyLiked": "Deja ai apreciat acest tag"
+        },
+        "unlike": {
+            "unlike": "Defavorizează",
+            "unliked": "Defavorizat",
+            "likes": "{count} favorite",
+            "error": "Eroare la defavorizarea tagului",
+            "notLiked": "Nu ai apreciat acest tag încă"
+        }
     },
-    "globalSearch": {
-        "searchBar": "Search for a game or asset..."
+    "search": {
+        "assets": {
+            "noResults": "Niciun asset găsit",
+            "noResultsDesc": "Încercați să schimbați metoda de input sau filtrele de căutare",
+            "sideBar": {
+                "filters": "Filtre",
+                "sort": {
+                    "sort": "Sortare",
+                    "newest": "Cele mai noi",
+                    "oldest": "Cele mai vechi",
+                    "views": "Cele mai vizualizate",
+                    "downloads": "Cele mai descărcate"
+                }
+            }
+        }
     },
-    "viewImage": {
-        "closeText": "Apasă oriunde pentru a închide",
-        "resolution": "Resolution: {resolution}"
+    "account": {
+        "roles": {
+            "contributor": "Contribuitor",
+            "collaborator": "Colaborator",
+            "partner": "Partener",
+            "contentCreator": "Creator de conținut",
+            "moderator": "Moderator",
+            "developer": "Dezvoltator",
+            "creator": "Creator"
+        },
+        "account": {
+            "account": "Cont"
+        },
+        "follow": {
+            "status": {
+                "following": "Urmărești",
+                "notFollowing": "Nu urmărești",
+                "followsYou": "Te urmărește",
+                "mutual": "Mutuali"
+            },
+            "count": {
+                "following": "{count} Urmărind",
+                "followers": "{count} Urmăritori"
+            },
+            "follow": {
+                "follow": "Urmărește",
+                "followed": "Urmărit",
+                "error": "Eroare la urmărirea utilizatorului",
+                "alreadyFollowed": "Urmăriți deja acest utilizator"
+            },
+            "unfollow": {
+                "unfollow": "Nu mai urmări",
+                "unfollowed": "Neurmărit",
+                "error": "Eroare la urmărirea utilizatorului",
+                "notFollowed": "Nu urmărești acest utilizator"
+            }
+        },
+        "settings": {
+            "settings": "Setări",
+            "username": {
+                "title": "Nume de utilizator",
+                "help": "Numele de utilizator este folosit pentru a te identifica pe site și este unicat.",
+                "placeholder": "Introdu numele de utilizator",
+                "button": "Schimbă-ți numele de utilizator",
+                "success": "Nume utilizator schimbat cu succes",
+                "error": "Eroare la schimbarea numelui utilizator"
+            },
+            "email": {
+                "title": "Email",
+                "help": "Email-ul tău este folosit pentru a te identifica pe site și este unicat. Ea trebuie să fie o adresă de e-mail validă.",
+                "placeholder": "Introduceți adresa de email",
+                "button": "Schimbați e-mailul",
+                "success": "E-mail schimbat cu succes",
+                "error": "Eroare în schimbarea email-ului"
+            },
+            "usernameColour": {
+                "title": "Culoarea numelui de utilizator",
+                "help": "Aveți o culoare unică a numelui de utilizator pe site. Acesta este vizibil pentru toată lumea.",
+                "placeholder": "Introdu culoarea utilizatorului",
+                "button": "Schimbă culoarea numelui de utilizator",
+                "success": "Culoarea numelui de utilizator schimbat cu succes",
+                "error": "Eroare la schimbarea numelui de utilizator"
+            },
+            "profilePicture": {
+                "title": "Poză de profil",
+                "help": "Poza ta de profil este vizibilă tuturor. Toate imaginile sunt trecute prin multiple filtre de moderare AI pentru a preveni utilizarea greșită.",
+                "button": "Schimbă poza de profil",
+                "success": "Poza de profil schimbată cu succes",
+                "error": "Eroare la modificarea pozei de profil"
+            },
+            "pronouns": {
+                "pronouns": "Pronume",
+                "set": {
+                    "title": "Setează pronume",
+                    "help": "Introduceți pronumele pe care doriți să le setați, pronumele dvs. sunt {subject}/{object}/{possessive}",
+                    "disclaimer": "Oferim doar o listă de pronume stabilite, pentru a preveni abuzurile.",
+                    "placeholder": "Introduceți pronumele",
+                    "button": "Setează pronumele",
+                    "success": "Setat cu succes pronumele",
+                    "error": "Eroare la setarea pronumelui"
+                },
+                "poweredBy": {
+                    "title": "Provine de la",
+                    "desc": "Lista nostră de pronume provine de la pronouns.page, care au fost amabili încât să ne permită să le folosim API. Vă rugăm să-i vizitați pe {link}!"
+                }
+            },
+            "providers": {
+                "discord": {
+                    "title": "Discord",
+                    "help": "Contul tău Discord este folosit pentru a te autentifica pe site."
+                },
+                "google": {
+                    "title": "Google",
+                    "help": "Contul tău Google este folosit pentru a te autentifica pe site."
+                },
+                "github": {
+                    "title": "GitHub",
+                    "help": "Contul tău Github este folosit pentru a te autentifica pe site."
+                },
+                "twitter": {
+                    "title": "Twitter/X",
+                    "help": "Contul tău Twitter/X este folosit pentru a te autentifica pe site."
+                },
+                "visibility": {
+                    "title": "Vizibilitate",
+                    "public": "Public",
+                    "private": "Privat"
+                }
+            },
+            "viewSuggestiveContent": {
+                "title": "Vezi conținutul sugerat",
+                "help": "Această setare îți va permite să vizualizezi conținutul provocator/sugestiv, stocat local pe device-ul tău.",
+                "button": "Schimbă vizibilitatea pentru conținutul sugestiv",
+                "success": "S-a modificat cu succes vizualizarea conținutului sugestiv",
+                "error": "Eroare la schimbarea vizualizării conținutului sugestiv"
+            },
+            "password": {
+                "title": "Parolă",
+                "help": "Parola este folosită pentru a te autentifica pe site.",
+                "placeholder": "Introdu parola",
+                "button": "Modificare parola",
+                "success": "Parolă schimbată cu succes",
+                "error": "Eroare la modificare parolei"
+            },
+            "delete": {
+                "title": "Ștergere contul",
+                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
+                "button": "Șterge contul",
+                "confirm": "Sigur dorești să-ți ștergi contul?",
+                "success": "Cont dezactivat cu succes, redirecționare către pagina principală...",
+                "error": "Eroare la ștergerea contului. Contactați-ne la {email} pentru ajutor."
+            }
+        }
     },
-    "faq": {
-        "title": "Întrebări frecvente",
-        "purpose": "Care este rostul acestui website?",
-        "purposeAnswer": "wanderer.moe is a website that hosts a collection of assets from various games. The assets are organized by game and asset type. The sake of this website is to provide a centralized location for people to download assets from.",
-        "downloadMultipleOrAll": "Cum descarc multiple resurse sau toate fișierele?",
-        "downloadMultipleOrAllAnswer": "To download multiple assets, select the assets you want to download by clicking/tapping on them. Then click the 'Download Selected' button. To download all assets, click the 'Download All' button. This will save as a ZIP file in your Downloads folder.",
-        "downloadOnMobile": "Cum descarc active/resurse pe mobil?",
-        "downloadOnMobileAnswer": "Make sure that you are not viewing the website through social media applications and that you're using a dedicated browser. If you are on an iPhone, I recommend using Safari.",
-        "howToExtract": "How do I extract a ZIP file after downloading?",
-        "howToExtractAnswer": " If you are on Windows, you can use 7zip to extract the files. If you are on Mac, you can use the built in Archive Utility. If you are on iPhone, tap on the ZIP file, open the folder it creates, select the images and then tap 'Save to Photos'. If you are on Android, you can use a file manager app to extract the files.",
-        "issueNotFound": "I have an issue that isn't listed here!",
-        "issueNotFoundAnswer": "If you have an issue that isn't listed here, you can join the Discord server and ask for help there!"
+    "support": {
+        "support": {
+            "support": "Suport"
+        },
+        "report": {
+            "general": {
+                "title": "Raportați",
+                "help": "Dacă găsiți probleme sau bug-uri, adresați-vă aici.",
+                "placeholder": "Introduceți raportul",
+                "button": "Raportați",
+                "success": "Raportat cu succes problema",
+                "error": "Eroare la raportarea problemei"
+            },
+            "ugc": {
+                "user": {
+                    "title": "Raportați utilizatorul",
+                    "help": "Dacă găsiți orice utilizator care încalcă regulile, vă rugăm să-i raportați aici.",
+                    "placeholder": "Introduceți raportul",
+                    "button": "Raportați utilizatorul",
+                    "success": "Raportat cu succes utilizatorul",
+                    "error": "Eroare la raportarea utilizatorului"
+                },
+                "asset": {
+                    "title": "Raportați asset-ul",
+                    "help": "Dacă găsiți orice asset care încalcă regulile, vă rugăm să vă adresați aici.",
+                    "placeholder": "Introduceți raportul",
+                    "button": "Raportați asset-ul",
+                    "success": "Raportat cu succes asset-ul",
+                    "error": "Eroare la raportarea asset-ului"
+                },
+                "collection": {
+                    "title": "Raportează Colecția",
+                    "help": "Dacă găsiți orice colecție care încalcă regulile, vă rugăm să vă adresați aici.",
+                    "placeholder": "Introduceți raportul",
+                    "button": "Raportează Colecția",
+                    "success": "Colecția a fost raportată cu succes",
+                    "error": "Eroare la raportarea colecției"
+                }
+            }
+        },
+        "feedback": {
+            "title": "Feedback",
+            "help": "Dacă aveți sugestii pentru site, vă rugăm să ne anunțați aici.",
+            "placeholder": "Introduceți feedback",
+            "button": "Trimieți feedback",
+            "success": "Feedback trimis cu succes",
+            "error": "Eroare la trimiterea feedback-ului"
+        }
     },
     "errors": {
         "404": "Pagină inexistentă",
         "500": "Eroare internă de server",
+        "401": "Neautorizat",
+        "403": "Interzis",
+        "back": "Înapoi",
         "refresh": "Încearcă reîncărcarea paginii sau revino la pagina principală",
-        "apiError": "An error occurred while making a request to the API, try again or refresh the page."
+        "api": "Eroare la conectate către API. Încercați mai târziu"
     },
-    "direction": "ltr"
+    "directionComment": "",
+    "direction": ""
 }

@@ -1,98 +1,432 @@
 {
-    "home": {
-        "description": "A centralized database of various game assets",
-        "github": {
-            "desc": "For transparency, wanderer.moe is open source on GitHub. The code is available for anyone to view and contribute to!",
-            "shortDesc": "Website source code",
-            "webBtn": "Website Source Code",
-            "apiBtn": "API Source Code"
+    "collection": {
+        "name": "Название коллекции",
+        "description": "Описание коллекции",
+        "visibility": {
+            "title": "Доступность",
+            "public": "Публично",
+            "private": "Приватно"
         },
-        "donate": {
-            "title": "Donate",
-            "shortDesc": "Support the site",
-            "desc": "wanderer.moe is ad-free and will always be free to use. If you enjoy the site and want to help with server costs, maintenance, and development, consider donating!"
+        "create": {
+            "title": "Создать коллекцию",
+            "help": "Введите название и описание создаваемой коллекции",
+            "placeholder": "Введите название",
+            "button": "Создать коллекцию",
+            "success": "Коллекция успешно создана",
+            "error": "Ошибка при создании коллекции"
         },
-        "discord": {
-            "desc": "Join the Discord server for updates, assets outside the site, and more!",
-            "shortDesc": "{onlineCount} users currently online",
-            "btn": "Join Server"
+        "modify": {
+            "title": "Изменить коллекцию",
+            "help": "Введите название и описание коллекции, которую вы хотите изменить",
+            "placeholder": "Введите название",
+            "button": "Изменить коллекцию",
+            "success": "Коллекция успешно изменена",
+            "error": "Ошибка при изменении коллекции"
         },
-        "ocGen": {
-            "title": "OC Generators",
-            "shortDesc": "Randomly generated OCs",
-            "desc": "Generate game-related information about your original characters (e.g. personality traits and appearance)!"
+        "delete": {
+            "title": "Удалить коллекцию",
+            "button": "Удалить коллекцию",
+            "confirm": "Вы уверены, что хотите удалить {collectionName}?",
+            "success": "Коллекция успешно удалена",
+            "error": "Ошибка при удалении коллекции"
+        },
+        "details": {
+            "title": "Сведения о коллекции",
+            "name": "Название",
+            "description": "Описание",
+            "visibility": "Доступность",
+            "createdAt": "Создано {date} {username}",
+            "updatedAt": "Последнее обновление от {date} от {username}"
+        },
+        "assets": {
+            "assets": "Ассеты",
+            "add": {
+                "title": "Добавить Ассет",
+                "button": "Добавить Ассет",
+                "confirm": "Вы уверены, что хотите добавить {assetName} в коллекцию {collectionName}?",
+                "success": "Ассет успешно добавлен",
+                "error": "Ошибка при добавлении ассета"
+            },
+            "remove": {
+                "title": "Удалить ассет",
+                "button": "Удалить ассет",
+                "confirm": "Вы уверены, что хотите удалить {assetName} из коллекции {collectionName}?",
+                "success": "Ассет успешно удалён",
+                "error": "Ошибка при удалении ассета"
+            }
+        },
+        "collaborators": {
+            "collaborators": "Соавторы",
+            "add": {
+                "title": "Добавить соавтора",
+                "help": "Введите имя пользователя, которого вы хотите добавить в качестве соавтора",
+                "placeholder": "Введите имя пользователя",
+                "confirm": "Вы уверены, что хотите добавить {username} как {role} коллекции?",
+                "button": "Добавить соавтора",
+                "success": "Соавторы успешно добавлены",
+                "error": "Ошибка при добавлении соавтора"
+            },
+            "remove": {
+                "title": "Удалить соавтора",
+                "button": "Удалить соавтора",
+                "confirm": "Вы уверены, что хотите удалить {username} как {role} коллекции?",
+                "success": "Соавторы успешно удалены",
+                "error": "Ошибка при удалении соавторов"
+            },
+            "permissions": {
+                "permissions": "Права доступа",
+                "editor": {
+                    "title": "Редактор",
+                    "desc": "Может добавлять и удалять ассеты из коллекции и изменять подробности коллекции"
+                },
+                "collaborator": {
+                    "title": "Соавтор",
+                    "desc": "Может добавлять и удалять ассеты из коллекции"
+                },
+                "viewer": {
+                    "title": "Наблюдатель",
+                    "desc": "Может просматривать коллекцию независимо от доступности, но не вносить изменений"
+                },
+                "owner": {
+                    "title": "Владелец",
+                    "desc": "Может добавлять и удалять ассеты из коллекции, изменять подробности коллекции и удалить коллекцию"
+                }
+            }
         }
     },
-    "nav": {
-        "discord": "Discord Server",
-        "giOCGen": "Genshin OC Generator",
-        "giFiles": "Genshin Files"
-    },
-    "footer": {
-        "fanmadeNotice": "wanderer.moe is a fanmade website. All files are properties of their owners.",
-        "assetRequestForm": "Asset Request Form"
-    },
-    "contributors": {
-        "title": "Contributors",
-        "desc": "A big thank you to all of the amazing people who have helped contribute to the site!"
+    "asset": {
+        "suggestiveContent": "Этот ассет может содержать контент сексуального или оскорбительного характера.",
+        "upload": {
+            "confirm": "Вы уверены, что хотите загрузить {assetName}?",
+            "success": "{assetName} Успешно загружено на проверку",
+            "error": "Ошибка при загрузке {assetName}",
+            "dropzone": "Перетащите ассет или нажмите здесь, чтобы загрузить его",
+            "conflict": "Ассет с таким именем уже существует, возможно вы хотите изменить существующий ассет?",
+            "uploading": "Загрузка {assetName}..."
+        },
+        "modify": {
+            "confirm": "Вы уверены, что хотите изменить {assetName}?",
+            "success": "{assetName} Успешно изменено",
+            "error": "Ошибка при изменении {assetName}",
+            "uploading": "Загрузка {assetName}..."
+        },
+        "delete": {
+            "confirm": "Вы уверены, что хотите удалить {assetName}?",
+            "success": "{assetName} успешно удалено",
+            "error": "Ошибка при удалении {assetName}"
+        },
+        "details": {
+            "uploadedBy": "Загружено {username}",
+            "extension": "Тип файла",
+            "uploadedOn": "Загружено {date}",
+            "status": {
+                "pending": "В обработке",
+                "approved": "Одобрено",
+                "rejected": "Отклонено"
+            },
+            "viewCount": "{count} просмотров",
+            "downloadCount": "{count} скачиваний",
+            "download": "Скачать",
+            "width": "Ширина",
+            "height": "Высота"
+        },
+        "like": {
+            "like": {
+                "like": "Поставить отметку \"Нравится\"",
+                "liked": "Нравится",
+                "likes": "{count} отметок \"Нравится\"",
+                "error": "Ошибка при установке отметки \"Нравится\"",
+                "alreadyLiked": "Вы уже поставили отметку \"Нравится\" этому ассету"
+            },
+            "unlike": {
+                "unlike": "Снять отметку \"Нравится",
+                "unliked": "Отметка \"Нравится\" снята",
+                "likes": "{count} отметок \"Нравится\"",
+                "error": "Ошибка при снятии отметки \"Нравится\"",
+                "notLiked": "Вы не ставили отметку \"Нравится\" этому ассету"
+            }
+        },
+        "favourite": {
+            "favourite": {
+                "favourite": "В фавориты",
+                "favourited": "Добавлено в фавориты",
+                "favourites": "{count} фаворитов",
+                "error": "Ошибка при добавлении ассета в фавориты",
+                "alreadyFavourited": "Вы уже добавили этот ассет в фавориты"
+            },
+            "unfavourite": {
+                "unfavourite": "Убрать из фаворитов",
+                "unfavourited": "Убрано из фаворитов",
+                "favourites": "{count} фаворитов",
+                "error": "Ошибка при убирании ассета из фаворитов",
+                "notFavourited": "Вы не добавляли этот ассет в фавориты"
+            }
+        }
     },
     "game": {
-        "main": "{availableCategories} categories found for {game}",
-        "info": "Click on a section to view its contents.",
-        "other": "{fileCount} files ({fileSize})"
+        "game": "Игра",
+        "lastUpdated": "Дата последнего обновления: {date}",
+        "possibleSuggestiveContent": "Эта игра имеет ассеты, которые могут содержать контент сексуального или оскорбительного характера.",
+        "like": {
+            "like": "Поставить отметку \"Нравится\"",
+            "liked": "Нравится",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при установке отметки \"Нравится\"",
+            "alreadyLiked": "Вы уже поставили отметку \"Нравится\" этой игре"
+        },
+        "unlike": {
+            "unlike": "Снять отметку \"Нравится\"",
+            "unliked": "Отметка \"Нравится\" снята",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при снятии отметки \"Нравится\"",
+            "notLiked": "Вы не ставили отметку \"Нравится\" этой игре"
+        }
     },
-    "asset": {
-        "main": "{filteredImagesCount}/{imagesCount} assets shown, {selectedItemsCount} selected",
-        "info": "Tap on an asset to select it. Double tap an image to enlarge it.",
-        "downloadAll": "Download All",
-        "downloadAllSize": "Download All ({size})",
-        "downloadSelected": "Download Selected",
-        "downloadSelectedSize": "Download Selected ({size})",
-        "download": "Download",
-        "downloadSize": "Download ({size})",
-        "officialAsset": "Official Asset",
-        "fanmadeAsset": "Fanmade Asset",
-        "searchBar": "Search for an asset...",
-        "nothingFound": "Nothing found for {query}",
-        "nothingFoundSuggestions": "If there's an asset you're looking for that you want added, fill out the asset request form!",
-        "onMobile": "If you're having issues downloading, read the FAQ by pressing the info symbol next to the game's name."
+    "assetCategory": {
+        "assetCategory": "Категория ассетов",
+        "lastUpdated": "Дата последнего обновления: {date}",
+        "possibleSuggestiveContent": "Эта категория имеет ассеты, которые могут содержать контент сексуального или оскорбительного характера.",
+        "like": {
+            "like": "Поставить отметку \"Нравится\"",
+            "liked": "Нравится",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при установке отметки \"Нравится\"",
+            "alreadyLiked": "Вы уже поставили отметку \"Нравится\" этой категории"
+        },
+        "unlike": {
+            "unlike": "Снять отметку \"Нравится\"",
+            "unliked": "Отметка \"Нравится\" снята",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при снятии отметки \"Нравится\"",
+            "notLiked": "Вы не ставили отметку \"Нравится\" этой категории"
+        }
     },
-    "details": {
-        "lastUpdated": "Last Updated: {date}",
-        "sortBy": "Sort By",
-        "dateUploaded": "Updated: {date}",
-        "sortByAlphabetical": "Alphabetical (A-Z)",
-        "sortByAlphabeticalReverse": "Alphabetical (Z-A)",
-        "sortByUploaded": "Updated (Newest)",
-        "sortByUploadedReverse": "Updated (Oldest)",
-        "sortBySize": "File Size (Smallest)",
-        "sortBySizeReverse": "File Size (Largest)"
+    "tags": {
+        "tags": "Метки",
+        "noTags": "Меток нет",
+        "like": {
+            "like": "Поставить отметку \"Нравится\"",
+            "liked": "Нравится",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при установке отметки \"Нравится\"",
+            "alreadyLiked": "Вы уже поставили отметку \"Нравится\" этой метке"
+        },
+        "unlike": {
+            "unlike": "Снять отметку \"Нравится\"",
+            "unliked": "Отметка \"Нравится\" снята",
+            "likes": "{count} отметок \"Нравится\"",
+            "error": "Ошибка при снятии отметки \"Нравится\"",
+            "notLiked": "Вы не ставили отметку \"Нравится\" этой метке"
+        }
     },
-    "globalSearch": {
-        "searchBar": "Search for a game or asset..."
+    "search": {
+        "assets": {
+            "noResults": "Ассеты не найдены",
+            "noResultsDesc": "Попробуйте изменить поисковый запрос или фильтры",
+            "sideBar": {
+                "filters": "Фильтры",
+                "sort": {
+                    "sort": "Сортировка",
+                    "newest": "Самое новое",
+                    "oldest": "Самое старое",
+                    "views": "Самое просматриваемое",
+                    "downloads": "Самое скачиваемое"
+                }
+            }
+        }
     },
-    "viewImage": {
-        "closeText": "Click anywhere to close",
-        "resolution": "Resolution: {resolution}"
+    "account": {
+        "roles": {
+            "contributor": "Помощник",
+            "collaborator": "Соавтор",
+            "partner": "Партнёр",
+            "contentCreator": "Контентмейкер",
+            "moderator": "Модератор",
+            "developer": "Разработчик",
+            "creator": "Создатель"
+        },
+        "account": {
+            "account": "Аккаунт"
+        },
+        "follow": {
+            "status": {
+                "following": "Подписан(а)",
+                "notFollowing": "Не подписан(а)",
+                "followsYou": "Подписан(а) на вас",
+                "mutual": "Общие подписчики"
+            },
+            "count": {
+                "following": "{count} подписано",
+                "followers": "{count} подписчиков"
+            },
+            "follow": {
+                "follow": "Подписаться",
+                "followed": "Вы подписаны",
+                "error": "Ошибка при подписке",
+                "alreadyFollowed": "Вы уже подписаны на этого пользователя"
+            },
+            "unfollow": {
+                "unfollow": "Отписаться",
+                "unfollowed": "Вы отписались",
+                "error": "Ошибка при отписке",
+                "notFollowed": "Вы не подписаны на этого пользователя"
+            }
+        },
+        "settings": {
+            "settings": "Настройки",
+            "username": {
+                "title": "Имя пользователя",
+                "help": "Ваше имя пользователя используется для идентификации вас на сайте и является уникальным для вас.",
+                "placeholder": "Введите имя пользователя",
+                "button": "Изменить имя пользователя",
+                "success": "Имя пользователя успешно изменено",
+                "error": "Ошибка при изменении имени пользователя"
+            },
+            "email": {
+                "title": "Адрес электронной почты",
+                "help": "Ваш адрес электронной почты используется для идентификации вас на сайте и является уникальным для вас. Он должен быть действительным адресом электронной почты.",
+                "placeholder": "Введите адрес электронной почты",
+                "button": "Изменить адрес электронной почты",
+                "success": "Адрес электронной почты успешно изменен",
+                "error": "Ошибка при изменении адреса электронной почты"
+            },
+            "usernameColour": {
+                "title": "Цвет имени пользователя",
+                "help": "Имейте уникальный цвет имени пользователя на сайте. Это видно всем.",
+                "placeholder": "Введите цвет имени пользователя",
+                "button": "Изменить цвет имени пользователя",
+                "success": "Цвет имени пользователя успешно изменен",
+                "error": "Ошибка при изменении цвета имени пользователя"
+            },
+            "profilePicture": {
+                "title": "Аватар",
+                "help": "Ваш аватар виден всем. Все изображения сканируются с помощью нескольких фильтров ИИ для предотвращения злоупотреблений.",
+                "button": "Изменить аватар",
+                "success": "Аватар успешно изменен",
+                "error": "Ошибка при изменении аватара"
+            },
+            "pronouns": {
+                "pronouns": "Местоимения",
+                "set": {
+                    "title": "Установить местоимения",
+                    "help": "Введите местоимения, которые вы хотите установить, ваши текущие местоимения:{subject}/{object}/{possessive}",
+                    "disclaimer": "Мы лишь предоставляем список местоимений в целях предотвращения злоупотребления.",
+                    "placeholder": "Введите местоимения",
+                    "button": "Установить местоимения",
+                    "success": "Местоимения успешно установлены",
+                    "error": "Ошибка при установке местоимений"
+                },
+                "poweredBy": {
+                    "title": "При поддержке",
+                    "desc": "Наш список местоимений работает при поддержке сайта pronouns.page, который любезно предоставил нам разрешения на использование их API. Пожалуйста, загляните к ним по ссылке: {link}!"
+                }
+            },
+            "providers": {
+                "discord": {
+                    "title": "Discord",
+                    "help": "Ваша учётная запись Discord используется для аутентификации на сайте."
+                },
+                "google": {
+                    "title": "Google",
+                    "help": "Ваша учётная запись Google используется для аутентификации на сайте."
+                },
+                "github": {
+                    "title": "GitHub",
+                    "help": "Ваша учётная запись GitHub используется для аутентификации на сайте."
+                },
+                "twitter": {
+                    "title": "Твиттер/X",
+                    "help": "Ваша учётная запись Твиттер/X используется для аутентификации на сайте."
+                },
+                "visibility": {
+                    "title": "Доступность",
+                    "public": "Публично",
+                    "private": "Приватно"
+                }
+            },
+            "viewSuggestiveContent": {
+                "title": "Просматривать контент сексуального характера",
+                "help": "Этот параметр позволяет просматривать контент сексуального/оскорбительного характера, это хранится локально на вашем устройстве.",
+                "button": "Изменить параметр просмотра контента сексуального характера",
+                "success": "Параметр просмотра контента сексуального характера успешно изменен",
+                "error": "Ошибка при изменении параметра просмотра сексуального характера"
+            },
+            "password": {
+                "title": "Пароль",
+                "help": "Ваш пароль используется для аутентификации на сайте.",
+                "placeholder": "Введите пароль",
+                "button": "Изменить пароль",
+                "success": "Пароль успешно изменен",
+                "error": "Ошибка при изменении пароля"
+            },
+            "delete": {
+                "title": "Удалить аккаунт",
+                "help": "Удаление вашей учетной записи удалит все, включая ассеты. Ваша учетная запись будет немедленно отключена, и вы будете перенаправлены на главную страницу. Через 14 дней ваша учетная запись будет удалена навсегда. Восстановите доступ к аккаунту в любое время, написав нам по почте: {email}.",
+                "button": "Удалить аккаунт",
+                "confirm": "Вы уверены, что хотите удалить свой аккаунт?",
+                "success": "Аккаунт успешно отключен, перенаправляем на домашнюю страницу...",
+                "error": "Ошибка при удалении аккаунта. Свяжитесь с нами по почте: {email}."
+            }
+        }
     },
-    "faq": {
-        "title": "Frequently Asked Questions",
-        "purpose": "What is the purpose of this site?",
-        "purposeAnswer": "wanderer.moe is a website that hosts a collection of assets from various games. The assets are organized by game and asset type. The sake of this website is to provide a centralized location for people to download assets from.",
-        "downloadMultipleOrAll": "How do I download multiple or all assets?",
-        "downloadMultipleOrAllAnswer": "To download multiple assets, select the assets you want to download by clicking/tapping on them. Then click the 'Download Selected' button. To download all assets, click the 'Download All' button. This will save as a ZIP file in your Downloads folder.",
-        "downloadOnMobile": "How do I download assets on mobile?",
-        "downloadOnMobileAnswer": "Make sure that you are not viewing the website through social media applications and that you're using a dedicated browser. If you are on an iPhone, I recommend using Safari.",
-        "howToExtract": "How do I extract a ZIP file after downloading?",
-        "howToExtractAnswer": " If you are on Windows, you can use 7zip to extract the files. If you are on Mac, you can use the built in Archive Utility. If you are on iPhone, tap on the ZIP file, open the folder it creates, select the images and then tap 'Save to Photos'. If you are on Android, you can use a file manager app to extract the files.",
-        "issueNotFound": "I have an issue that isn't listed here!",
-        "issueNotFoundAnswer": "If you have an issue that isn't listed here, you can join the Discord server and ask for help there!"
+    "support": {
+        "support": {
+            "support": "Поддержка"
+        },
+        "report": {
+            "general": {
+                "title": "Пожаловаться",
+                "help": "Если вы нашли какие-либо ошибки или проблемы с сайтом, пожалуйста, сообщите о них здесь.",
+                "placeholder": "Введите жалобу",
+                "button": "Пожаловаться",
+                "success": "Жалоба успешно отправлена",
+                "error": "Ошибка при отправке жалобы"
+            },
+            "ugc": {
+                "user": {
+                    "title": "Пожаловаться на пользователя",
+                    "help": "Если вы нашли пользователей, нарушающих правила, пожалуйста, сообщите о них здесь.",
+                    "placeholder": "Введите жалобу",
+                    "button": "Пожаловаться на пользователя",
+                    "success": "Жалоба успешно отправлена",
+                    "error": "Ошибка при отправке жалобы"
+                },
+                "asset": {
+                    "title": "Пожаловаться на ассет",
+                    "help": "Если вы нашли ассеты, нарушающие правила, пожалуйста, сообщите о них здесь.",
+                    "placeholder": "Введите жалобу",
+                    "button": "Пожаловаться на ассет",
+                    "success": "Жалоба успешно отправлена",
+                    "error": "Ошибка при отправке жалобы"
+                },
+                "collection": {
+                    "title": "Пожаловаться на коллекцию",
+                    "help": "Если вы нашли какие-либо коллекции, нарушающие правила, пожалуйста, сообщите о них здесь.",
+                    "placeholder": "Введите жалобу",
+                    "button": "Пожаловаться на коллекцию",
+                    "success": "Жалоба успешно отправлена",
+                    "error": "Ошибка при отправке жалобы"
+                }
+            }
+        },
+        "feedback": {
+            "title": "Обратная связь",
+            "help": "Если у вас есть отзывы или предложения по сайту, пожалуйста, сообщите нам о них здесь.",
+            "placeholder": "Введите отзыв",
+            "button": "Отправить отзыв",
+            "success": "Отзыв успешно отправлен",
+            "error": "Ошибка при отправке отзыва"
+        }
     },
     "errors": {
-        "404": "Page Not Found",
-        "500": "Internal Server Error",
-        "refresh": "Try refreshing the page or go back to the home page",
-        "apiError": "An error occurred while making a request to the API, try again or refresh the page."
+        "404": "Страница не найдена",
+        "500": "Ошибка на стороне сервера",
+        "401": "Неавторизован",
+        "403": "Доступ запрещен",
+        "back": "Вернуться назад",
+        "refresh": "Попробуйте обновить страницу или вернуться на домашнюю страницу",
+        "api": "Ошибка соединения с API. Пожалуйста, повторите попытку позже"
     },
+    "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
 }
