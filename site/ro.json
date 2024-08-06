@@ -361,7 +361,7 @@
             },
             "delete": {
                 "title": "Ștergere contul",
-                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
+                "help": "Ștergerea contului duce la pierdere totală, incluzând asset-urile. Imediat vei fi dezactivat și redirecționat la pagina principală. După 14 zile, contul tău va fi șters de a binelea. Preia accesul oricând, scriindu-ne un {email}.",
                 "button": "Șterge contul",
                 "confirm": "Sigur dorești să-ți ștergi contul?",
                 "success": "Cont dezactivat cu succes, redirecționare către pagina principală...",
@@ -424,7 +424,7 @@
         "401": "Neautorizat",
         "403": "Interzis",
         "back": "Înapoi",
-        "refresh": "Încearcă reîncărcarea paginii sau revino la pagina principală",
+        "refresh": "Încearcă reîncărcarea paginii sau revin-o la pagina principală",
         "api": "Eroare la conectate către API. Încercați mai târziu"
     },
     "directionComment": "",
