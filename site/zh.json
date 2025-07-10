@@ -1,41 +1,41 @@
 {
     "collection": {
-        "name": "专题名",
-        "description": "收藏描述",
+        "name": "Collection Name",
+        "description": "Collection Description",
         "visibility": {
-            "title": "可见性",
-            "public": "公开",
-            "private": "私用"
+            "title": "Visibility",
+            "public": "Public",
+            "private": "Private"
         },
         "create": {
-            "title": "创建集合",
-            "help": "输入您想要创建的收藏的名称和描述",
-            "placeholder": "输入名称",
-            "button": "创建集合",
-            "success": "成功创建收藏",
-            "error": "创建集合时出错"
+            "title": "Create Collection",
+            "help": "Enter the name and description of the collection you want to create",
+            "placeholder": "Enter name",
+            "button": "Create Collection",
+            "success": "Successfully created collection",
+            "error": "Error creating collection"
         },
         "modify": {
-            "title": "修改集合",
-            "help": "请输入您要修改的集合的名称和描述",
-            "placeholder": "输入名称",
-            "button": "修改文件夹",
-            "success": "成功修改文件夹",
-            "error": "修改文件夹时出错"
+            "title": "Modify Collection",
+            "help": "Enter the name and description of the collection you want to modify",
+            "placeholder": "Enter name",
+            "button": "Modify Collection",
+            "success": "Successfully modified collection",
+            "error": "Error modifying collection"
         },
         "delete": {
-            "title": "删除文件夹",
-            "button": "删除文件夹",
-            "confirm": "您确定要删除“{collectionName}”吗？",
-            "success": "成功删除文件夹",
-            "error": "删除文件夹时出错"
+            "title": "Delete Collection",
+            "button": "Delete Collection",
+            "confirm": "Are you sure you want to delete {collectionName}?",
+            "success": "Successfully deleted collection",
+            "error": "Error deleting collection"
         },
         "details": {
-            "title": "文件夹详情",
-            "name": "名称",
-            "description": "描述",
-            "visibility": "公開範囲",
-            "createdAt": "创建于 {date}，由 {username} 创建",
+            "title": "Collection Details",
+            "name": "Name",
+            "description": "Description",
+            "visibility": "Visibility",
+            "createdAt": "Created at {date} by {username}",
             "updatedAt": "Last updated at {date} by {username}"
         },
         "assets": {
