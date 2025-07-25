@@ -65,7 +65,7 @@
                 "button": "Add Collaborator",
                 "success": "Successfully added collaborator",
                 "error": "Error adding collaborator"
-            }, 
+            },
             "remove": {
                 "title": "Remove Collaborator",
                 "button": "Remove Collaborator",

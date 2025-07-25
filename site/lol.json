@@ -1,98 +1,432 @@
 {
-    "home": {
-        "description": "A centralized database of various game assets",
-        "github": {
-            "desc": "For transparency, wanderer.moe is open source on GitHub. The code is available for anyone to view and contribute to!",
-            "shortDesc": "Website source code",
-            "webBtn": "Website Source Code",
-            "apiBtn": "API Source Code"
+    "collection": {
+        "name": "Collection Name",
+        "description": "Collection Description",
+        "visibility": {
+            "title": "Visibility",
+            "public": "Public",
+            "private": "Private"
         },
-        "donate": {
-            "title": "Donate",
-            "shortDesc": "Support the site",
-            "desc": "wanderer.moe is ad-free and will always be free to use. If you enjoy the site and want to help with server costs, maintenance, and development, consider donating!"
+        "create": {
+            "title": "Create Collection",
+            "help": "Enter the name and description of the collection you want to create",
+            "placeholder": "Enter name",
+            "button": "Create Collection",
+            "success": "Successfully created collection",
+            "error": "Error creating collection"
         },
-        "discord": {
-            "desc": "Join the Discord server for updates, assets outside the site, and more!",
-            "shortDesc": "{onlineCount} users currently online",
-            "btn": "Join Server"
+        "modify": {
+            "title": "Modify Collection",
+            "help": "Enter the name and description of the collection you want to modify",
+            "placeholder": "Enter name",
+            "button": "Modify Collection",
+            "success": "Successfully modified collection",
+            "error": "Error modifying collection"
         },
-        "ocGen": {
-            "title": "OC Generators",
-            "shortDesc": "Randomly generated OCs",
-            "desc": "Generate game-related information about your original characters (e.g. personality traits and appearance)!"
+        "delete": {
+            "title": "Delete Collection",
+            "button": "Delete Collection",
+            "confirm": "Are you sure you want to delete {collectionName}?",
+            "success": "Successfully deleted collection",
+            "error": "Error deleting collection"
+        },
+        "details": {
+            "title": "Collection Details",
+            "name": "Name",
+            "description": "Description",
+            "visibility": "Visibility",
+            "createdAt": "Created at {date} by {username}",
+            "updatedAt": "Last updated at {date} by {username}"
+        },
+        "assets": {
+            "assets": "Assets",
+            "add": {
+                "title": "Add Asset",
+                "button": "Add Asset",
+                "confirm": "Are you sure you want to add {assetName} to the {collectionName} collection?",
+                "success": "Successfully added asset",
+                "error": "Error adding asset"
+            },
+            "remove": {
+                "title": "Remove Asset",
+                "button": "Remove Asset",
+                "confirm": "Are you sure you want to remove {assetName} from the {collectionName} collection?",
+                "success": "Successfully removed asset",
+                "error": "Error removing asset"
+            }
+        },
+        "collaborators": {
+            "collaborators": "Collaborators",
+            "add": {
+                "title": "Add Collaborator",
+                "help": "Enter the username of the user you want to add as a collaborator",
+                "placeholder": "Enter username",
+                "confirm": "Are you sure you want to add {username} as a collection {role}?",
+                "button": "Add Collaborator",
+                "success": "Successfully added collaborator",
+                "error": "Error adding collaborator"
+            },
+            "remove": {
+                "title": "Remove Collaborator",
+                "button": "Remove Collaborator",
+                "confirm": "Are you sure you want to remove {username} as a collection {role}?",
+                "success": "Successfully removed collaborator",
+                "error": "Error removing collaborator"
+            },
+            "permissions": {
+                "permissions": "Permissions",
+                "editor": {
+                    "title": "Editor",
+                    "desc": "Can add and remove assets from the collection and change collection details"
+                },
+                "collaborator": {
+                    "title": "Collaborator",
+                    "desc": "Can add and remove assets from the collection"
+                },
+                "viewer": {
+                    "title": "Viewer",
+                    "desc": "Can view the collection no matter the visibility, but not make changes"
+                },
+                "owner": {
+                    "title": "Owner",
+                    "desc": "Can add and remove assets from the collection, change collection details and delete the collection"
+                }
+            }
         }
     },
-    "nav": {
-        "discord": "Discord Server",
-        "giOCGen": "Genshin OC Generatur",
-        "giFiles": "Genshin Filez"
-    },
-    "footer": {
-        "fanmadeNotice": "wanderer.moe iz a fanmade website. All filez r propertiez of their ownerz.",
-        "assetRequestForm": "Asset Requezt Form"
-    },
-    "contributors": {
-        "title": "Contributoorz",
-        "desc": "A big thank you to all of the amazing people who have helped contribute to the site!"
+    "asset": {
+        "suggestiveContent": "This asset may contain suggestive or triggering content.",
+        "upload": {
+            "confirm": "Are you sure you want to upload {assetName}?",
+            "success": "Successfully uploaded {assetName} for review",
+            "error": "Error uploading {assetName}",
+            "dropzone": "Drag or click here to upload asset",
+            "conflict": "An asset with the same name already exists, maybe you want to modify the existing asset?",
+            "uploading": "Uploading {assetName}..."
+        },
+        "modify": {
+            "confirm": "Are you sure you want to modify {assetName}?",
+            "success": "Successfully modified {assetName}",
+            "error": "Error modifying {assetName}",
+            "uploading": "Uploading {assetName}..."
+        },
+        "delete": {
+            "confirm": "Are you sure you want to delete {assetName}?",
+            "success": "Successfully deleted {assetName}",
+            "error": "Error deleting {assetName}"
+        },
+        "details": {
+            "uploadedBy": "Uploaded by {username}",
+            "extension": "File Type",
+            "uploadedOn": "Uploaded on {date}",
+            "status": {
+                "pending": "Pending",
+                "approved": "Approved",
+                "rejected": "Rejected"
+            },
+            "viewCount": "{count} views",
+            "downloadCount": "{count} downloads",
+            "download": "Download",
+            "width": "Width",
+            "height": "Height"
+        },
+        "like": {
+            "like": {
+                "like": "Like",
+                "liked": "Liked",
+                "likes": "{count} likes",
+                "error": "Error liking asset",
+                "alreadyLiked": "You already liked this asset"
+            },
+            "unlike": {
+                "unlike": "Unlike",
+                "unliked": "Unliked",
+                "likes": "{count} likes",
+                "error": "Error unliking asset",
+                "notLiked": "You haven't liked this asset"
+            }
+        },
+        "favourite": {
+            "favourite": {
+                "favourite": "Favourite",
+                "favourited": "Favourited",
+                "favourites": "{count} favourites",
+                "error": "Error favouriting asset",
+                "alreadyFavourited": "You already favourited this asset"
+            },
+            "unfavourite": {
+                "unfavourite": "Unfavourite",
+                "unfavourited": "Unfavourited",
+                "favourites": "{count} favourites",
+                "error": "Error unfavouriting asset",
+                "notFavourited": "You haven't favourited this asset"
+            }
+        }
     },
     "game": {
-        "main": "{availableCategories} categoriez found fer {game}",
-        "info": "Click on a section 2 view its contentz.",
-        "other": "{fileCount} filez ({fileSize})"
+        "game": "Game",
+        "lastUpdated": "Last updated {date}",
+        "possibleSuggestiveContent": "This game has assets that may contain suggestive or triggering content.",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking game",
+            "alreadyLiked": "You already liked this game"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking game",
+            "notLiked": "You haven't liked this game"
+        }
     },
-    "asset": {
-        "main": "{filteredImagesCount}/{imagesCount} assetz shown, {selectedItemsCount} selected",
-        "info": "Tap on an asset to select it. Double tap an image to enlarge it.",
-        "downloadAll": "Downld All",
-        "downloadAllSize": "Downld All ({size})",
-        "downloadSelected": "Downld Selectd",
-        "downloadSelectedSize": "Downld Selectd ({size})",
-        "download": "Downld",
-        "downloadSize": "Downld ({size})",
-        "officialAsset": "Offishul Asset",
-        "fanmadeAsset": "Fanmade Asset",
-        "searchBar": "Search for an asset...",
-        "nothingFound": "Nothing findz 4 {query}",
-        "nothingFoundSuggestions": "If there's an asset you're looking for that you want added, fill out the asset request form!",
-        "onMobile": "If ure havin issuez downloadin, read teh FAQ by pressin teh info symbl nxt 2 teh gamez naym :3"
+    "assetCategory": {
+        "assetCategory": "Asset Category",
+        "lastUpdated": "Last updated {date}",
+        "possibleSuggestiveContent": "This asset category has assets that may contain suggestive or triggering content.",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking asset category",
+            "alreadyLiked": "You already liked this asset category"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking asset category",
+            "notLiked": "You haven't liked this asset category"
+        }
     },
-    "details": {
-        "lastUpdated": "Last Updatd: {date}",
-        "sortBy": "Sort By",
-        "dateUploaded": "Updated: {date}",
-        "sortByAlphabetical": "Alfabetical (A-Z)",
-        "sortByAlphabeticalReverse": "Alfabetical (Z-A)",
-        "sortByUploaded": "Updated (Newest)",
-        "sortByUploadedReverse": "Updated (Oldest)",
-        "sortBySize": "Fiel Size (Smallest)",
-        "sortBySizeReverse": "Fiel Size (Largest)"
+    "tags": {
+        "tags": "Tags",
+        "noTags": "No tags",
+        "like": {
+            "like": "Like",
+            "liked": "Liked",
+            "likes": "{count} likes",
+            "error": "Error liking tag",
+            "alreadyLiked": "You already liked this tag"
+        },
+        "unlike": {
+            "unlike": "Unlike",
+            "unliked": "Unliked",
+            "likes": "{count} likes",
+            "error": "Error unliking tag",
+            "notLiked": "You haven't liked this tag"
+        }
     },
-    "globalSearch": {
-        "searchBar": "Search for a game or asset..."
+    "search": {
+        "assets": {
+            "noResults": "No assets found",
+            "noResultsDesc": "Try changing your search query or filters",
+            "sideBar": {
+                "filters": "Filters",
+                "sort": {
+                    "sort": "Sort",
+                    "newest": "Newest",
+                    "oldest": "Oldest",
+                    "views": "Most Views",
+                    "downloads": "Most Downloads"
+                }
+            }
+        }
     },
-    "viewImage": {
-        "closeText": "Click anywhere 2 close",
-        "resolution": "Resolution: {resolution}"
+    "account": {
+        "roles": {
+            "contributor": "Contributor",
+            "collaborator": "Collaborator",
+            "partner": "Partner",
+            "contentCreator": "Content Creator",
+            "moderator": "Moderator",
+            "developer": "Developer",
+            "creator": "Creator"
+        },
+        "account": {
+            "account": "Account"
+        },
+        "follow": {
+            "status": {
+                "following": "Following",
+                "notFollowing": "Not Following",
+                "followsYou": "Follows You",
+                "mutual": "Mutual"
+            },
+            "count": {
+                "following": "{count} Following",
+                "followers": "{count} Followers"
+            },
+            "follow": {
+                "follow": "Follow",
+                "followed": "Followed",
+                "error": "Error following user",
+                "alreadyFollowed": "You already follow this user"
+            },
+            "unfollow": {
+                "unfollow": "Unfollow",
+                "unfollowed": "Unfollowed",
+                "error": "Error unfollowing user",
+                "notFollowed": "You don't follow this user"
+            }
+        },
+        "settings": {
+            "settings": "Settings",
+            "username": {
+                "title": "Username",
+                "help": "Your username is used to identify you on the site and is unique to you.",
+                "placeholder": "Enter username",
+                "button": "Change Username",
+                "success": "Successfully changed username",
+                "error": "Error changing username"
+            },
+            "email": {
+                "title": "Email",
+                "help": "Your email is used to identify you on the site and is unique to you. It must be a valid email address.",
+                "placeholder": "Enter email",
+                "button": "Change Email",
+                "success": "Successfully changed email",
+                "error": "Error changing email"
+            },
+            "usernameColour": {
+                "title": "Username Colour",
+                "help": "Have a unique username colour on the site. This is visible to everyone.",
+                "placeholder": "Enter username colour",
+                "button": "Change Username Colour",
+                "success": "Successfully changed username colour",
+                "error": "Error changing username colour"
+            },
+            "profilePicture": {
+                "title": "Profile Picture",
+                "help": "Your profile picture is visible to everyone. All images are ran through multiple AI moderation filters to prevent misuse.",
+                "button": "Change Profile Picture",
+                "success": "Successfully changed profile picture",
+                "error": "Error changing profile picture"
+            },
+            "pronouns": {
+                "pronouns": "Pronouns",
+                "set": {
+                    "title": "Set Pronouns",
+                    "help": "Enter the pronouns you want to set, your current pronouns are {subject}/{object}/{possessive}",
+                    "disclaimer": "We only provide a list of set pronouns, to prevent abuse.",
+                    "placeholder": "Enter pronouns",
+                    "button": "Set Pronouns",
+                    "success": "Successfully set pronouns",
+                    "error": "Error setting pronouns"
+                },
+                "poweredBy": {
+                    "title": "Powered by",
+                    "desc": "Our pronouns list is powered by pronouns.page, who were kind enough to give us permission to use their API. Please check them out at {link}!"
+                }
+            },
+            "providers": {
+                "discord": {
+                    "title": "Discord",
+                    "help": "Your Discord account is used to authenticate you on the site."
+                },
+                "google": {
+                    "title": "Google",
+                    "help": "Your Google account is used to authenticate you on the site."
+                },
+                "github": {
+                    "title": "GitHub",
+                    "help": "Your GitHub account is used to authenticate you on the site."
+                },
+                "twitter": {
+                    "title": "Twitter/X",
+                    "help": "Your Twitter/X account is used to authenticate you on the site."
+                },
+                "visibility": {
+                    "title": "Visibility",
+                    "public": "Public",
+                    "private": "Private"
+                }
+            },
+            "viewSuggestiveContent": {
+                "title": "View Suggestive Content",
+                "help": "This setting allows you to view suggestive/triggering content, this is stored locally on your device.",
+                "button": "Change View Suggestive Content",
+                "success": "Successfully changed view suggestive content",
+                "error": "Error changing view suggestive content"
+            },
+            "password": {
+                "title": "Password",
+                "help": "Your password is used to authenticate you on the site.",
+                "placeholder": "Enter password",
+                "button": "Change Password",
+                "success": "Successfully changed password",
+                "error": "Error changing password"
+            },
+            "delete": {
+                "title": "Delete Account",
+                "help": "Deleting your account will delete everything, including assets. Your account will be immediately disabled & you will be redirected to the home page. After 14 days, your account will be permanently deleted. Regain access at any time by emailing us at {email}.",
+                "button": "Delete Account",
+                "confirm": "Are you sure you want to delete your account?",
+                "success": "Successfully disabled account, redirecting to home page...",
+                "error": "Error deleting account. Contact us at {email} for help."
+            }
+        }
     },
-    "faq": {
-        "title": "Frequently Askd Queshuns",
-        "purpose": "Wut iz teh purpose ov dis siet?",
-        "purposeAnswer": "wanderer.moe is a website that hosts a collection of assets from various games. The assets are organized by game and asset type. The sake of this website is to provide a centralized location for people to download assets from.",
-        "downloadMultipleOrAll": "How do I downld multiple or all assets?",
-        "downloadMultipleOrAllAnswer": "To download multiple assets, select the assets you want to download by clicking/tapping on them. Then click the 'Download Selected' button. To download all assets, click the 'Download All' button. This will save as a ZIP file in your Downloads folder.",
-        "downloadOnMobile": "How 2 downld assets on mobile?",
-        "downloadOnMobileAnswer": "Make sure that you are not viewing the website through social media applications and that you're using a dedicated browser. If you are on an iPhone, I recommend using Safari.",
-        "howToExtract": "How do I extract a ZIP file after downloading?",
-        "howToExtractAnswer": " If you are on Windows, you can use 7zip to extract the files. If you are on Mac, you can use the built in Archive Utility. If you are on iPhone, tap on the ZIP file, open the folder it creates, select the images and then tap 'Save to Photos'. If you are on Android, you can use a file manager app to extract the files.",
-        "issueNotFound": "I have an issue that isn't listed here!",
-        "issueNotFoundAnswer": "If you have an issue that isn't listed here, you can join the Discord server and ask for help there!"
+    "support": {
+        "support": {
+            "support": "Support"
+        },
+        "report": {
+            "general": {
+                "title": "Report",
+                "help": "If you find any bugs or issues with the site, please report them here.",
+                "placeholder": "Enter report",
+                "button": "Report",
+                "success": "Successfully reported issue",
+                "error": "Error reporting issue"
+            },
+            "ugc": {
+                "user": {
+                    "title": "Report User",
+                    "help": "If you find any users breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report User",
+                    "success": "Successfully reported user",
+                    "error": "Error reporting user"
+                },
+                "asset": {
+                    "title": "Report Asset",
+                    "help": "If you find any assets breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report Asset",
+                    "success": "Successfully reported asset",
+                    "error": "Error reporting asset"
+                },
+                "collection": {
+                    "title": "Report Collection",
+                    "help": "If you find any collections breaking the rules, please report them here.",
+                    "placeholder": "Enter report",
+                    "button": "Report Collection",
+                    "success": "Successfully reported collection",
+                    "error": "Error reporting collection"
+                }
+            }
+        },
+        "feedback": {
+            "title": "Feedback",
+            "help": "If you have any feedback or suggestions for the site, please let us know here.",
+            "placeholder": "Enter feedback",
+            "button": "Send Feedback",
+            "success": "Successfully sent feedback",
+            "error": "Error sending feedback"
+        }
     },
     "errors": {
         "404": "Paeg Not Findz",
         "500": "Internal Servr Error",
+        "401": "Unauthorized",
+        "403": "Forbidden",
+        "back": "Go Back",
         "refresh": "Try refreshin teh paeg or go bak 2 th home paeg",
-        "apiError": "An error occurrd while makin request 2 teh api, try again or refresh th paeg."
+        "api": "Error connecting to the API. Please try again later"
     },
+    "directionComment": "Translators: Do NOT translate this string or the direction string. It's just to make sure the text direction is correct! :)",
     "direction": "ltr"
 }
